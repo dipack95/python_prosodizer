@@ -1,0 +1,1403 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"min",
+				"minDivFrames	statement"
+			],
+			[
+				"mean",
+				"mean	function"
+			],
+			[
+				"file",
+				"filename	forstmt"
+			],
+			[
+				"tot",
+				"totalCount"
+			],
+			[
+				"an",
+				"angry"
+			],
+			[
+				"powe",
+				"powerZScore"
+			],
+			[
+				"di",
+				"divFrames"
+			],
+			[
+				"power",
+				"powerFile	param"
+			],
+			[
+				"div",
+				"divFrames	statement"
+			],
+			[
+				"global",
+				"globalStandardDeviation"
+			],
+			[
+				"glob",
+				"globalVar"
+			],
+			[
+				"nam",
+				"name"
+			],
+			[
+				"emo",
+				"emotion"
+			],
+			[
+				"DI",
+				"Dicap_Django"
+			],
+			[
+				"save",
+				"savetxt	function"
+			],
+			[
+				"dv",
+				"divFrames	statement"
+			],
+			[
+				"avgPo",
+				"avgPower	statement"
+			],
+			[
+				"rang",
+				"rangeLen	statement"
+			],
+			[
+				"ran",
+				"rangeLen	statement"
+			],
+			[
+				"spl",
+				"splitSignal	function"
+			],
+			[
+				"nor",
+				"normalCount"
+			],
+			[
+				"angry",
+				"angryCount"
+			],
+			[
+				"norm",
+				"normalCount	statement"
+			],
+			[
+				"pwoer",
+				"powerFileMentions"
+			],
+			[
+				"startIn",
+				"startIndexForFiles"
+			],
+			[
+				"reu",
+				"return	keyword"
+			],
+			[
+				"avgPow",
+				"avgPowerAll"
+			],
+			[
+				"start",
+				"startIndex	statement"
+			],
+			[
+				"end",
+				"endIndex	statement"
+			],
+			[
+				"sta",
+				"startIndex	statement"
+			],
+			[
+				"angy",
+				"angryCount	statement"
+			],
+			[
+				"ang",
+				"angryCount	statement"
+			],
+			[
+				"nomr",
+				"normalCount	statement"
+			],
+			[
+				"el",
+				"else	keyword"
+			],
+			[
+				"targ",
+				"targetIndex	statement"
+			],
+			[
+				"sa",
+				"startIndexForFilesArray	statement"
+			],
+			[
+				"star",
+				"startIndexForFiles	statement"
+			],
+			[
+				"tar",
+				"targetIndex	statement"
+			],
+			[
+				"st",
+				"startIndexForFilesArray	statement"
+			],
+			[
+				"to",
+				"totalZS	statement"
+			],
+			[
+				"Star",
+				"startIndexForFiles"
+			],
+			[
+				"key",
+				"keys	statement"
+			],
+			[
+				"strt",
+				"startIndexForFiles	statement"
+			],
+			[
+				"ra",
+				"range	function"
+			],
+			[
+				"avg",
+				"avgPowerAll	statement"
+			],
+			[
+				"Avg",
+				"avgPowerAll"
+			],
+			[
+				"all",
+				"allAvgPower	statement"
+			],
+			[
+				"compu",
+				"computeGlobalValuesForPower	function"
+			],
+			[
+				"en",
+				"entropy	statement"
+			],
+			[
+				"comp",
+				"computeGlobalValuesForEntropy	function"
+			],
+			[
+				"glo",
+				"globalMean	statement"
+			],
+			[
+				"com",
+				"computeGlobalValues	function"
+			],
+			[
+				"target",
+				"targetFiles"
+			],
+			[
+				"Ar",
+				"Arun"
+			],
+			[
+				"res",
+				"result2	statement"
+			],
+			[
+				"resu",
+				"result2	statement"
+			],
+			[
+				"var",
+				"variance	statement"
+			],
+			[
+				"flo",
+				"floor	instance"
+			],
+			[
+				"num",
+				"numberOfPlots	statement"
+			],
+			[
+				"em",
+				"emotion	forstmt"
+			],
+			[
+				"in",
+				"index	function"
+			],
+			[
+				"entr",
+				"entropy	statement"
+			],
+			[
+				"na_",
+				"na_values	param"
+			],
+			[
+				"del",
+				"delimiter	param"
+			],
+			[
+				"fil",
+				"filename	forstmt"
+			],
+			[
+				"ac",
+				"actualPlot	statement"
+			],
+			[
+				"ent",
+				"entropy	statement"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"entrop",
+				"entropyFile	param"
+			],
+			[
+				"re",
+				"read_csv"
+			],
+			[
+				"fiel",
+				"filenames"
+			],
+			[
+				"mfc",
+				"mfccFiles	statement"
+			],
+			[
+				"input",
+				"inputFile	statement"
+			],
+			[
+				"node",
+				"nodes"
+			],
+			[
+				"add",
+				"addEdge"
+			],
+			[
+				"is",
+				"isInputValid"
+			],
+			[
+				"mod",
+				"modifierHandler"
+			],
+			[
+				"clear",
+				"clearAll"
+			],
+			[
+				"new",
+				"newoutput"
+			],
+			[
+				"lin",
+				"linkText"
+			],
+			[
+				"link",
+				"linkText"
+			],
+			[
+				"li",
+				"links"
+			],
+			[
+				"glin",
+				"glinks"
+			],
+			[
+				"gra",
+				"graphDetails"
+			],
+			[
+				"g",
+				"graph-canvas"
+			],
+			[
+				"gno",
+				"gnodes"
+			],
+			[
+				"pop",
+				"populateAndDrawGraph"
+			],
+			[
+				"grap",
+				"graph"
+			],
+			[
+				"no",
+				"nodes"
+			],
+			[
+				"edg",
+				"edges"
+			],
+			[
+				"gr",
+				"graph"
+			],
+			[
+				"R",
+				"Ratnagiri"
+			],
+			[
+				"de",
+				"delete"
+			],
+			[
+				"ga",
+				"graph-canvas"
+			],
+			[
+				"dra",
+				"draw"
+			],
+			[
+				"la",
+				"layouter"
+			],
+			[
+				"draw",
+				"drawDraculaGraph"
+			],
+			[
+				"fn",
+				"function"
+			],
+			[
+				"rna",
+				"randomIndex"
+			],
+			[
+				"we",
+				"weight"
+			],
+			[
+				"nde",
+				"nodes"
+			],
+			[
+				"ed",
+				"edges"
+			],
+			[
+				"n",
+				"nodes"
+			],
+			[
+				"t",
+				"tree"
+			],
+			[
+				"pr",
+				"print	function"
+			],
+			[
+				"numb",
+				"numberOfCols	statement"
+			],
+			[
+				"inp",
+				"inputLength"
+			],
+			[
+				"ot",
+				"output	statement"
+			],
+			[
+				"number",
+				"numberOfCols"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"filter",
+				"filterBankEnergies	param"
+			],
+			[
+				"ndoe",
+				"nodes"
+			],
+			[
+				"ad",
+				"adjacencyMatrix"
+			],
+			[
+				"c",
+				"console.	console.log()"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"e",
+				"edges"
+			],
+			[
+				"noe",
+				"nodes"
+			],
+			[
+				"ca",
+				"Calculator"
+			],
+			[
+				"yy",
+				"yytext"
+			],
+			[
+				"delta",
+				"deltaTwo	statement"
+			],
+			[
+				"pla",
+				"plainTextDiv4"
+			],
+			[
+				"sI",
+				"sIdeaRunner"
+			],
+			[
+				"pl",
+				"plainTextDiv3"
+			],
+			[
+				"bin",
+				"binaryToDecimal"
+			],
+			[
+				"rank",
+				"rank1"
+			],
+			[
+				"prin",
+				"printf	printf …"
+			],
+			[
+				"cut",
+				"cutSetSize"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "analysis-powervsentropy.py",
+			"settings":
+			{
+				"buffer_size": 9725,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "global_power_params.py",
+			"settings":
+			{
+				"buffer_size": 4244,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mfcc.py",
+			"settings":
+			{
+				"buffer_size": 8576,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "analysis-global-power-zscore.py",
+			"settings":
+			{
+				"buffer_size": 10115,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "RandomMan does not have sufficient number of data files!\nSad does not have sufficient number of data files!\nSad does not have sufficient number of data files!\nVaas does not have sufficient number of data files!\nLorelai does not have sufficient number of data files!\nUnsorted has too many similarly named data files!\nUnsorted has too many similarly named data files!\nAjinkya-angry.wav-powerSpectrum Normal: 0.026842092811 Angry: 0.156362239555\nari_angry.wav-powerSpectrum Normal: -0.0451995479358 Angry: 0.191374173736\narrow-angry.wav-powerSpectrum Normal: 0.0258580047216 Angry: -0.0351046368461\narun-angry.wav-powerSpectrum Normal: 0.482449521937 Angry: 0.604535470713\nbhargav-angry.wav-powerSpectrum Normal: -0.132283539466 Angry: 0.130805232361\ntomcruise-angry.wav-powerSpectrum Normal: 0.00374036069577 Angry: 0.265256736757\ndadpatil-angry.wav-powerSpectrum Normal: 0.346584855817 Angry: 0.44809520135\ndc_angry.wav-powerSpectrum Normal: -0.0881820695904 Angry: 0.0342359209761\ndicap_django_angry.wav-powerSpectrum Normal: -0.141559597344 Angry: 0.341925885429\ndipack-angry.wav-powerSpectrum Normal: 0.0255486927877 Angry: -0.0953867516347\nthedoctor-angry.wav-powerSpectrum Normal: 0.0811525551791 Angry: -0.050835780387\ngoswami_angry.wav-powerSpectrum Normal: -0.0139095752506 Angry: 0.555307572426\nHarsh angry.wav-powerSpectrum Normal: 0.0408749545981 Angry: -0.0144703489926\nharvey_angry.wav-powerSpectrum Normal: 0.108202499037 Angry: 0.110419004006\nje_angry.wav-powerSpectrum Normal: -0.0366542024273 Angry: 0.152584004252\njk_angry.wav-powerSpectrum Normal: -0.0830400411055 Angry: 0.11150880338\nsimmons_angry.wav-powerSpectrum Normal: 0.0482740568287 Angry: 0.053671053112\nKapish-angry.wav-powerSpectrum Normal: -0.0942440436344 Angry: 0.119848824147\nkl_angry.wav-powerSpectrum Normal: -0.099005319017 Angry: -0.111841449407\nleo_angry_wolf.wav-powerSpectrum Normal: 0.00419459720942 Angry: 0.099967602047\nliamNeeson-angry.wav-powerSpectrum Normal: -0.107755641604 Angry: -0.107755641604\nloki-angry.wav-powerSpectrum Normal: -0.0407240996353 Angry: -0.0674169326091\nlouis_angry.wav-powerSpectrum Normal: 0.139687485546 Angry: 0.174238018218\nMalkan-angry.wav-powerSpectrum Normal: 0.0172309409175 Angry: -0.0568430366623\nManas angry.wav-powerSpectrum Normal: -0.0448860580379 Angry: -0.0112530057085\nmathur_angry.wav-powerSpectrum Normal: 0.547569497364 Angry: 0.723365489362\nmichael_angry.wav-powerSpectrum Normal: -0.096074902166 Angry: 0.168278123383\nnicholson-angry.wav-powerSpectrum Normal: 0.328513560029 Angry: 0.0833718195049\nNishant-angry.wav-powerSpectrum Normal: -0.0671815136891 Angry: -0.111036065736\nold_angry.wav-powerSpectrum Normal: 0.202547474096 Angry: 0.00201490078748\nPuneet_angry.wav-powerSpectrum Normal: 0.0231722532305 Angry: -0.00418173644613\nrishi_angry.wav-powerSpectrum Normal: 0.290734325567 Angry: 0.730572363851\nrobert-angry.wav-powerSpectrum Normal: 0.0205994570471 Angry: 0.112720849886\nRohit-angry.wav-powerSpectrum Normal: -0.0347854491885 Angry: 0.0580361689875\ntoby_angry.wav-powerSpectrum Normal: -0.0191768652842 Angry: 0.16169829272\nTushar-angry.wav-powerSpectrum Normal: 0.0654116101067 Angry: 0.0732721267853\ntyrion-angry.wav-powerSpectrum Normal: 0.0333956228487 Angry: -0.0438135246888\nAkansha-normal.wav-powerSpectrum Normal: 0.065394975634 Angry: 0.0168832898695\nArzoo-normal.wav-powerSpectrum Normal: -0.0721476549349 Angry: 0.185700303436\nemily-normal.wav-powerSpectrum Normal: 0.0419376904314 Angry: 0.185488036181\nIsha-normal.wav-powerSpectrum Normal: 0.0201279697225 Angry: 0.00992099066238\nmompatil-normal.wav-powerSpectrum Normal: 0.133313072873 Angry: 0.223273548777\nOlivianormal.wav-powerSpectrum Normal: -0.0104492505 Angry: 0.527720723207\npallavi-normal.wav-powerSpectrum Normal: 0.20324874694 Angry: -0.0105670857404\nparis-normal.wav-powerSpectrum Normal: 0.19308925735 Angry: 0.355260515042\nPriyanjali - normal.wav-powerSpectrum Normal: 0.12306803399 Angry: 0.0632110107928\nPooja-normal.wav-powerSpectrum Normal: 0.0110921609102 Angry: -0.0131681214093\nPritha-normal.wav-powerSpectrum Normal: 0.0629966656437 Angry: 0.00189603405935\nSayalee normal.wav-powerSpectrum Normal: 0.108596237145 Angry: 0.132992341993\nTanvi normal.wav-powerSpectrum Normal: -0.0825916627042 Angry: 0.164241073488\nyoung_neutral.wav-powerSpectrum Normal: 0.0527389469873 Angry: 0.0811900885999\n32 of 51\n[Finished in 140.6s]",
+			"settings":
+			{
+				"buffer_size": 4364,
+				"line_ending": "Unix",
+				"name": "RandomMan does not have sufficient number of data"
+			}
+		},
+		{
+			"contents": "Ajinkya Normal: 0.248193898599 Angry: 0.107043808469\nAri Normal: 0.034572106412 Angry: 0.151471774153\nArrow Normal: 0.0380002538788 Angry: 0.120741980066\nArun Normal: 0.0444751001198 Angry: 0.0362766830113\nBhargav Normal: 0.0138626094718 Angry: 0.0797669956339\nCruise Normal: 0.110167627053 Angry: 0.0612677723322\nDadPatil Normal: 0.0388720511074 Angry: 0.381092947608\nDC Normal: 0.0830138970872 Angry: 0.105454098697\nDicap_Django Normal: 0.0385260667188 Angry: 0.272395250711\nDipack Normal: 0.0973059686115 Angry: 0.0407103950856\nDoctor Normal: 0.0416629697778 Angry: 0.0742790161672\nGoswami Normal: 0.0633385462053 Angry: 0.0281839891525\nHarsh Normal: 0.127289304961 Angry: 0.142810703037\nHarvey Normal: 0.0155737786261 Angry: 0.0332470523238\nJE Normal: 0.105975905079 Angry: 0.19825217442\nJK Normal: 0.103342226983 Angry: 0.195517433109\nSimmons Normal: 0.0876959322063 Angry: 0.111146056735\nKapish Normal: 0.0318085432898 Angry: 0.0550139100507\nKL Normal: 0.0596367563439 Angry: 0.0352389102732\nLeo_Wolf Normal: 0.0273368093536 Angry: 0.0266784366153\nLiam Normal: 0.100155630512 Angry: 0.100155630512\nLoki Normal: 0.0178652608612 Angry: 0.0476203834832\nLouis Normal: 0.0235239143837 Angry: 0.0291297585087\nMalkan Normal: 0.0368606376698 Angry: 0.0470190059039\nManas Normal: 0.0616517749877 Angry: 0.0761376597465\nMathur Normal: 0.0478586512444 Angry: 0.0356555270166\nMichaelCera Normal: 0.0692811916316 Angry: 0.118369382041\nNicholson Normal: 0.0652303885078 Angry: 0.053174471927\nNishant Normal: 0.0545619936226 Angry: 0.0465635134834\nOldGuy Normal: 0.0973698436981 Angry: 0.0950425057932\nPuneet Normal: 0.102086517101 Angry: 0.158499778733\nRandomMan does not have sufficient number of data files!\nRishi Normal: 0.0895732810299 Angry: 0.0316005888818\nRobert Normal: 0.0395369322424 Angry: 0.0955163830209\nRohit Normal: 0.0859792738297 Angry: 0.139472377835\nSad does not have sufficient number of data files!\nSad does not have sufficient number of data files!\nTobymac Normal: 0.108416845652 Angry: 0.118262342995\nTushar Normal: 0.0769185877629 Angry: 0.0798299123603\nTyrion Normal: 0.0407054339807 Angry: 0.0926627696664\nVaas does not have sufficient number of data files!\nAkansha Normal: 0.114771583338 Angry: 0.149868507516\nArzoo Normal: 0.0598776053689 Angry: 0.119859354166\nEmily Normal: 0.044263020677 Angry: 0.0233652574684\nIsha Normal: 0.115695587348 Angry: 0.184926549657\nLorelai does not have sufficient number of data files!\nMomPatil Normal: 0.0839391655051 Angry: 0.103425708548\nOlivia Normal: 0.0870454125785 Angry: 0.0785769214249\nPallavi Normal: 0.266028189866 Angry: 0.33972742948\nParis Normal: 0.0767268970265 Angry: 0.0812976825324\nPDB Normal: 0.13702909687 Angry: 0.0610874590084\nPooja Normal: 0.0892974851213 Angry: 0.0804873740007\nPritha Normal: 0.067574490671 Angry: 0.101509794321\nSayalee Normal: 0.106382711027 Angry: 0.114950461017\nTanvi Normal: 0.0268604901257 Angry: 0.073147758596\nUnsorted has too many similarly named data files!\nUnsorted has too many similarly named data files!\nYoungWoman Normal: 0.205844982275 Angry: 0.072946300208\n33 of 51\n[Finished in 134.2s]",
+			"settings":
+			{
+				"buffer_size": 3096,
+				"line_ending": "Unix",
+				"name": "Ajinkya Normal: 0.248193898599 Angry: 0.1070438084"
+			}
+		}
+	],
+	"build_system": "Python3 Builder",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Python3 Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Python3 Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Python3 Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Python3 Builder",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "di",
+		"selected_items":
+		[
+			[
+				"di",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"search",
+				"File: Search Files"
+			],
+			[
+				"disn",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"linting",
+				"Anaconda: Enable linting on this file"
+			],
+			[
+				"dial",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"recent",
+				"File: New File Relative to Current View"
+			],
+			[
+				"open",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"auto",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"anaconda",
+				"Anaconda: McCabe complexity check"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"disl",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"dis",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"disab",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"insta",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"disable",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"ja",
+				"Javascript Beautify"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"disba",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"ach",
+				"Achievement: View Achievements"
+			],
+			[
+				"packagae",
+				"Package Control: List Packages"
+			],
+			[
+				"a",
+				"Achievement: View Achievements"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pakacg",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"build",
+				"Build: New Build System"
+			],
+			[
+				"syntax",
+				"Set Syntax: Python"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"pro",
+				"Project: Save As"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"Snippet: lore",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 408.0
+	},
+	"console":
+	{
+		"height": 255.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/__pycache__"
+	],
+	"file_history":
+	[
+		"/home/dipack/.zshrc",
+		"/etc/fstab",
+		"/home/dipack/.sudo_as_admin_successful",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse-2-qtc.py3",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/.directory",
+		"/media/dipack/Dipack's 1.5TB/Progs/spiral.cpp",
+		"/media/dipack/Dipack's 1.5TB/Progs/fibo.cpp",
+		"/media/dipack/Dipack's 1.5TB/Progs/BrilliantProg.cpp",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/simmons_normal.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/simmons_angry.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/pallavi-normal.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/pallavi-angry.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/dicap_django_angry.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/dicap_django_normal.csv",
+		"/usr/share/applications/vlc.desktop",
+		"/home/dipack/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/a_g_p_zs.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/pallavi-angry.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/pallavi-normal.csv",
+		"/home/dipack/Downloads/pyalienfx/install.py",
+		"/home/dipack/Downloads/libusb-1.0.9/INSTALL",
+		"/home/dipack/Downloads/libusb-1.0.9/README",
+		"/tmp/.fr-HtYv4Y/scikits.audiolab-0.11.0/README.txt",
+		"/tmp/.fr-MSPn4P/readline-6.3/README",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Angry/angry-fred.wav-powerSpectrum.csv",
+		"/tmp/.fr-8GD6X8/说明.txt",
+		"/tmp/.fr-ntxwWh/readme.txt",
+		"/media/dipack/Tomato/MGSV/3DMGAME-MGSV.TPP.v1.005.Update.and.Crack.v2-3DM/说明.txt",
+		"/media/dipack/Tomato/MGSV/3DMGAME-MGSV.TPP.v1.005.Update.and.Crack.v2-3DM/readme.txt",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ajinkya/Ajinkya-angry.wav-entropy.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ajinkya/Ajinkya-angry.wav-powerSpectrum.csv",
+		"/home/dipack/College/Fourth_Year/CC_Lab/codegen_arithmeticexpressions/codegen.y",
+		"/home/dipack/College/Fourth_Year/CC_Lab/codegen_arithmeticexpressions/codegen.l",
+		"/home/dipack/Scripts/backup-script.sh",
+		"/home/dipack/College/Fourth_Year/CC_Lab/CC_Assignments/Assignment_2/Infix-Postfix/111203013_infix_postfix.l",
+		"/home/dipack/College/Fourth_Year/CC_Lab/CC_Assignments/Assignment_2/Infix-Postfix/111203013_infix_postfix.y",
+		"/home/dipack/College/Fourth_Year/CC_Lab/CC_Assignments/Assignment_2/Calculator/111203013_cal.l",
+		"/home/dipack/College/Fourth_Year/CC_Lab/CC_Assignments/Assignment_2/Calculator/111203013_cal.y",
+		"/home/dipack/College/Fourth_Year/CC_Lab/CC_Assignments/Assignment_1/111203013_parser.l",
+		"/home/dipack/College/Fourth_Year/CC_Lab/CC_Assignments/Assignment_1/111203013_grammar.l",
+		"/home/dipack/College/Fourth_Year/CC_Lab/CC_Assignments/Assignment_1/111203013_grammar.y",
+		"/home/dipack/dead.letter",
+		"/home/dipack/College/Fourth_Year/CC_Lab/codegen_kirit/intif.l",
+		"/home/dipack/College/Fourth_Year/CC_Lab/codegen_kirit/intif1.y",
+		"/home/dipack/College/Fourth_Year/CC_Lab/codegen_arithmeticexpressions/run",
+		"/home/dipack/College/Fourth_Year/CC_Lab/codegen_ifelsethenfor/a.l",
+		"/home/dipack/College/Fourth_Year/CC_Lab/codegen_ifelsethenfor/a.y",
+		"/home/dipack/College/Fourth_Year/CC_Lab/codegen_ifelsethenfor/run",
+		"/home/dipack/College/Fourth_Year/CC_Lab/CC_Assignments/Assignment_1/compile-assg-1.sh",
+		"/home/dipack/College/Fourth_Year/CC_Lab/abab/anbn.l",
+		"/home/dipack/College/Fourth_Year/CC_Lab/abab/anbn.y",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/listOfNames.txt",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/mfcc.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/output.txt",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/analysis-powervsentropy.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/vals.txt",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Men/Ajinkya/Ajinkya-angry.wav-powerSpectrum.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/YoungWoman/young_angry.wav-power.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pallavi/pallavi-normal.wav-power.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pallavi/pallavi-angry.wav-power.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ajinkya/Ajinkya-angry.wav-power.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/KL/kl_angry.wav-power.csv",
+		"/usr/share/applications/sublime_text.desktop",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/output-first.txt",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ajinkya/Ajinkya-angry.wav-mfcc.csv",
+		"/tmp/.fr-UrGmHm/word/document.xml",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Men/Ajinkya/Ajinkya-normal.wav-entropy.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ajinkya/Ajinkya-normal.wav-entropy.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Amit/amit_normal.wav-entropy.csv",
+		"/home/dipack/CNS_Assignments/111203013_aes.c",
+		"/home/dipack/CNS_Assignments/111203013_des.cpp",
+		"/home/dipack/CNS_Assignments/111203013_diffieHellman.cpp",
+		"/home/dipack/CNS_Assignments/111203013_rsa.cpp",
+		"/home/dipack/CNS_Assignments/111203013_S-IDEA.cpp",
+		"/home/dipack/CNS_Assignments/111203013-caesars-cipher.cpp",
+		"/home/dipack/CNS_Assignments/111203013-trans-cipher.cpp",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/MFCC/analysis.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/qt_prosodizer/qt_prosodizer.pro",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse_prosodizer/prosodizer/Debug/Prosodizer/Prosodizer/Functions/subdir.mk",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse_prosodizer/prosodizer/Debug/sources.mk",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse_prosodizer/prosodizer/Debug/Prosodizer/Prosodizer-Tests/subdir.mk",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse_prosodizer/prosodizer/Debug/Prosodizer/Prosodizer/subdir.mk",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse_prosodizer/prosodizer/Debug/objects.mk",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse_prosodizer/prosodizer/Debug/makefile",
+		"/home/dipack/pro/pro.pro",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/qt_prosodizer/prosodizer/README.md",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/qt_prosodizer/prosodizer/contributors.txt",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/qt_prosodizer/Blender.creator",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/qt_prosodizer/Blender.files",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/qt_prosodizer/Blender.includes",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/qt_prosodizer/Blender.config",
+		"/home/dipack/College/Fourth_Year/Blender.includes",
+		"/home/dipack/College/Fourth_Year/Blender.files",
+		"/home/dipack/College/Fourth_Year/Blender.config",
+		"/home/dipack/College/Fourth_Year/Blender.creator",
+		"/home/dipack/College/Blender.includes",
+		"/home/dipack/College/Blender.files",
+		"/home/dipack/College/Blender.creator",
+		"/home/dipack/idea-IC-141.2735.5/Install-Linux-tar.txt",
+		"/home/dipack/projects/Test/build/Makefile",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse_prosodizer/prosodizer/README.md",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/MFCC/mfcc.py",
+		"/home/dipack/kdevelop-4.7.2/README",
+		"/home/dipack/Dropbox/Pr0n/.zshrc",
+		"/home/dipack/Dropbox/My Important Documents/Misc/Ebay.txt",
+		"/home/dipack/Dropbox/My Important Documents/Misc/bob.txt",
+		"/home/dipack/Dropbox/My Important Documents/Misc/Accounts.txt",
+		"/home/dipack/Dropbox/My Important Documents/Misc/Dads-Amazon.txt",
+		"/media/dipack/DIPACK/ /chat_with_savita.txt.vbs",
+		"/home/dipack/Dropbox/Scripts/imgur-downloader.py",
+		"/home/dipack/Dropbox/imgur-downloader.py",
+		"/home/dipack/Dropbox/imgur-downloader.sh",
+		"/media/Potato/Otmp/P/ExileVilify/imgur.sh",
+		"/tmp/.fr-WmqVDu/file_contexts",
+		"/home/dipack/Downloads/Windows Loader 2.0.7/Read me.txt",
+		"/home/dipack/Downloads/peazip_portable-5.8.1.LINUX.Qt/readme_Linux1.txt",
+		"/home/dipack/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/media/dipack/Tomato/Software/Must Have Software/ophcrack-vista-livecd-3.4.0.iso",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pallavi/pallavi-normal.wav-entropy.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pallavi/pallavi-angry.wav-entropy.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/MFCC/test-mfcc.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse_prosodizer/prosodizer/Prosodizer/Prosodizer-Tests/fullTest.cpp",
+		"/home/dipack/Dropbox/Pr0n/helpful-unix-commands.txt",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Men/Amit/amit_convo.wav-power.csv",
+		"/home/dipack/Dropbox/Pr0n/Accounts.txt",
+		"/home/dipack/Dropbox/Pr0n/Ebay.txt",
+		"/home/dipack/Dropbox/Crap Killer.cmd",
+		"/home/dipack/Dropbox/Mayur_suites_router.txt"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"np.append",
+			".csv",
+			"avgPowers",
+			"]))\n",
+			",",
+			"\\n",
+			"/",
+			"College/Fourth_Year/Final_Year_Project/",
+			"Final_Year_Project/eclipse_prosodizer/",
+			"dir",
+			"@define-color tooltip_bg_color",
+			"%{",
+			"creategridModal",
+			"#add-village",
+			"'e'",
+			"'d'",
+			"'c'",
+			"'b'",
+			"'a'",
+			"'f'",
+			"loading.gif",
+			"\\s\\s[0-9]+",
+			"\\w\\)\\s",
+			"\\\"",
+			"\\s",
+			"\\\"",
+			"\\s",
+			"\\\"",
+			"\\s",
+			"\\\"",
+			"\\s",
+			"\\w*",
+			"\\n",
+			"sep",
+			"opensuse",
+			"g",
+			"fillPlainText",
+			"round1addkey",
+			"\\/\\/.+",
+			"clrscr",
+			"getch",
+			"getch();",
+			"getch()",
+			"F1Output",
+			"P10_OP",
+			"P10RIGHT",
+			"P10LEFT",
+			"new",
+			"currIndex",
+			"\\/\\/.*",
+			"\\/\\*.*",
+			"\\/\\*.*\\*\\\\",
+			"\\/*",
+			"\\/\\*[a-z]+\\*\\\\",
+			"bytes_recieved",
+			"hello",
+			"position",
+			"hello",
+			"ppa.launchpad",
+			"[a-z]+",
+			"_",
+			"\\_[a-z]+",
+			"li",
+			"/li",
+			"_ps.wav",
+			"target=\"_blank\" href=\"",
+			"<",
+			"/a",
+			"https://tspace.library.utoronto.ca/bitstream/1807/24491/",
+			"OAF",
+			"IND",
+			"set",
+			"pidfg",
+			"outred",
+			"execvp",
+			"child",
+			"dup",
+			"MY_SHELL",
+			"\"source\"",
+			"\"target\"",
+			"\"type\"",
+			"\"target\"",
+			"\"source\"",
+			"}{",
+			"AppDef\": \"141\"",
+			"97",
+			"\"AppDef\": \"98",
+			"\"AppDef\":\"98\"",
+			"\"AppDef\": \"97\"",
+			"891351",
+			"ChildrenCount\":\"0\"",
+			"\n    ",
+			"1500",
+			"argv[1]",
+			"lfd",
+			"start",
+			"def start",
+			"n[j].get_rno() != -1",
+			"n[j].get_rno()",
+			"numbers",
+			"fp",
+			"gedit"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			".csv,",
+			",'",
+			"',",
+			"",
+			"\"|",
+			"p10_op",
+			"p10Right",
+			"p10Left",
+			"newIndex",
+			"bytes_received",
+			"[a-z]+\\\"",
+			",\"",
+			" ",
+			"B4$H-",
+			"source",
+			"target",
+			"type",
+			"target",
+			"source",
+			"},{",
+			"j > len",
+			"sublime_text"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "analysis-powervsentropy.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7982,
+								7982
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3344.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "global_power_params.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3366,
+								3366
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 24.0,
+						"translation.y": 1008.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "mfcc.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6433,
+								6433
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2400.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "analysis-global-power-zscore.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3255,
+								3255
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2160.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4364,
+								4364
+							]
+						],
+						"settings":
+						{
+							"auto_name": "RandomMan does not have sufficient number of data",
+							"default_dir": "/home/dipack/College/Fourth_Year/Final_Year_Project/python_code",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3096,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Ajinkya Normal: 0.248193898599 Angry: 0.1070438084",
+							"default_dir": "/home/dipack/College/Fourth_Year/Final_Year_Project/python_code",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 624.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 231.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "python-prosodizer.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 172.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

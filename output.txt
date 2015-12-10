@@ -1,0 +1,494 @@
+Ajinkya  -  normal
+Variance:  1702444.26548
+Z Score Outliers:  66
+Ajinkya  -  angry
+Variance:  304775.724313
+Z Score Outliers:  57
+Normal is higher for Ajinkya
+Normal:  1  Angry 0
+
+
+Ari  -  normal
+Variance:  72150.708247
+Z Score Outliers:  18
+Ari  -  angry
+Variance:  16359925.5134
+Z Score Outliers:  27
+Angry is higher for Ari
+Normal:  1  Angry 1
+
+
+Arrow  -  normal
+Variance:  49159.1436224
+Z Score Outliers:  23
+Arrow  -  angry
+Variance:  22505.1791231
+Z Score Outliers:  4
+Normal is higher for Arrow
+Normal:  2  Angry 1
+
+
+Arun  -  normal
+Variance:  1125.05407342
+Z Score Outliers:  1
+Arun  -  angry
+Variance:  152852.953731
+Z Score Outliers:  1
+
+Both are equal for Arun
+Normal:  2  Angry 1
+
+
+Bhargav  -  normal
+Variance:  12321.1028922
+Z Score Outliers:  22
+Bhargav  -  angry
+Variance:  694.566477883
+Z Score Outliers:  6
+Normal is higher for Bhargav
+Normal:  3  Angry 1
+
+
+Cruise  -  normal
+Variance:  428945.837688
+Z Score Outliers:  41
+Cruise  -  angry
+Variance:  6754.62812495
+Z Score Outliers:  5
+Normal is higher for Cruise
+Normal:  4  Angry 1
+
+
+DadPatil  -  normal
+Variance:  2864838.02948
+Z Score Outliers:  1
+DadPatil  -  angry
+Variance:  94456.4604278
+Z Score Outliers:  0
+Normal:  4  Angry 1
+
+
+DC  -  normal
+Variance:  4963393.97955
+Z Score Outliers:  167
+DC  -  angry
+Variance:  1551336.72082
+Z Score Outliers:  75
+Normal is higher for DC
+Normal:  5  Angry 1
+
+
+Dipack  -  normal
+Variance:  1389.65050447
+Z Score Outliers:  14
+Dipack  -  angry
+Variance:  6863.22099126
+Z Score Outliers:  31
+Angry is higher for Dipack
+Normal:  5  Angry 2
+
+
+Doctor  -  normal
+Variance:  102184.602494
+Z Score Outliers:  34
+Doctor  -  angry
+Variance:  78367.0085874
+Z Score Outliers:  46
+Angry is higher for Doctor
+Normal:  5  Angry 3
+
+
+Goswami  -  normal
+Variance:  37015.0774458
+Z Score Outliers:  31
+Goswami  -  angry
+Variance:  69142.8603187
+Z Score Outliers:  0
+Normal:  5  Angry 3
+
+
+Harsh does not have sufficient number of data files!
+Harsh  -  angry
+Variance:  51638.0382775
+Z Score Outliers:  122
+Normal:  5  Angry 3
+
+
+Harvey  -  normal
+Variance:  5867.21033016
+Z Score Outliers:  4
+Harvey  -  angry
+Variance:  106075.172151
+Z Score Outliers:  11
+Angry is higher for Harvey
+Normal:  5  Angry 4
+
+
+JE  -  normal
+Variance:  54725.5364342
+Z Score Outliers:  128
+JE  -  angry
+Variance:  2064333.72822
+Z Score Outliers:  89
+Normal is higher for JE
+Normal:  6  Angry 4
+
+
+JK has too many similarly named data files!
+JK has too many similarly named data files!
+Normal:  6  Angry 4
+
+
+JKSimmons  -  normal
+Variance:  61356.9420113
+Z Score Outliers:  6
+JKSimmons  -  angry
+Variance:  4649.65633547
+Z Score Outliers:  22
+Angry is higher for JKSimmons
+Normal:  6  Angry 5
+
+
+Kapish  -  normal
+Variance:  32346.2470431
+Z Score Outliers:  78
+Kapish  -  angry
+Variance:  73944.2359479
+Z Score Outliers:  44
+Normal is higher for Kapish
+Normal:  7  Angry 5
+
+
+KL  -  normal
+Variance:  231355.45386
+Z Score Outliers:  174
+KL  -  angry
+Variance:  18334916.5963
+Z Score Outliers:  77
+Normal is higher for KL
+Normal:  8  Angry 5
+
+
+Leonardo has too many similarly named data files!
+Leonardo has too many similarly named data files!
+Normal:  8  Angry 5
+
+
+Liam  -  normal
+Variance:  74069.0745864
+Z Score Outliers:  26
+Liam  -  angry
+Variance:  74069.0745864
+Z Score Outliers:  26
+
+Both are equal for Liam
+Normal:  8  Angry 5
+
+
+Loki  -  normal
+Variance:  742581.542611
+Z Score Outliers:  51
+Loki  -  angry
+Variance:  13027.2453499
+Z Score Outliers:  10
+Normal is higher for Loki
+Normal:  9  Angry 5
+
+
+Louis  -  normal
+Variance:  3652.21332274
+Z Score Outliers:  11
+Louis  -  angry
+Variance:  6213.92046434
+Z Score Outliers:  8
+Normal is higher for Louis
+Normal:  10  Angry 5
+
+
+Malkan  -  normal
+Variance:  202022.634993
+Z Score Outliers:  66
+Malkan  -  angry
+Variance:  689780.79355
+Z Score Outliers:  74
+Angry is higher for Malkan
+Normal:  10  Angry 6
+
+
+Manas does not have sufficient number of data files!
+Manas  -  angry
+Variance:  95841.1099053
+Z Score Outliers:  62
+Normal:  10  Angry 6
+
+
+Mathur  -  normal
+Variance:  186541.550881
+Z Score Outliers:  1
+Mathur  -  angry
+Variance:  1653027.13294
+Z Score Outliers:  10
+Angry is higher for Mathur
+Normal:  10  Angry 7
+
+
+MichaelCera  -  normal
+Variance:  1200575.99645
+Z Score Outliers:  174
+MichaelCera  -  angry
+Variance:  5072311.85079
+Z Score Outliers:  20
+Normal is higher for MichaelCera
+Normal:  11  Angry 7
+
+
+Nicholson  -  normal
+Variance:  1688613.92842
+Z Score Outliers:  26
+Nicholson  -  angry
+Variance:  13370.2948554
+Z Score Outliers:  16
+Normal is higher for Nicholson
+Normal:  12  Angry 7
+
+
+Nishant has too many similarly named data files!
+Nishant has too many similarly named data files!
+Normal:  12  Angry 7
+
+
+OldGuy  -  normal
+Variance:  31211.3098874
+Z Score Outliers:  74
+OldGuy  -  angry
+Variance:  1205534.74027
+Z Score Outliers:  395
+Angry is higher for OldGuy
+Normal:  12  Angry 8
+
+
+Puneet  -  normal
+Variance:  2415279845.29
+Z Score Outliers:  43
+Puneet  -  angry
+Variance:  56171.1421176
+Z Score Outliers:  72
+Angry is higher for Puneet
+Normal:  12  Angry 9
+
+
+RandomMan  -  normal
+Variance:  23849628.3671
+Z Score Outliers:  76
+RandomMan does not have sufficient number of data files!
+Normal:  12  Angry 9
+
+
+Rishi  -  normal
+Variance:  16138.4708415
+Z Score Outliers:  10
+Rishi  -  angry
+Variance:  595776459.79
+Z Score Outliers:  8
+Normal is higher for Rishi
+Normal:  13  Angry 9
+
+
+Robert  -  normal
+Variance:  151220.402494
+Z Score Outliers:  44
+Robert  -  angry
+Variance:  1201247.55141
+Z Score Outliers:  10
+Normal is higher for Robert
+Normal:  14  Angry 9
+
+
+Rohit  -  normal
+Variance:  2503975.41463
+Z Score Outliers:  75
+Rohit  -  angry
+Variance:  225355.21381
+Z Score Outliers:  101
+Angry is higher for Rohit
+Normal:  14  Angry 10
+
+
+Sad does not have sufficient number of data files!
+Sad does not have sufficient number of data files!
+Normal:  14  Angry 10
+
+
+Tobymac  -  normal
+Variance:  1170834.51903
+Z Score Outliers:  59
+Tobymac  -  angry
+Variance:  73163.0477677
+Z Score Outliers:  11
+Normal is higher for Tobymac
+Normal:  15  Angry 10
+
+
+Tushar  -  normal
+Variance:  98773.2824663
+Z Score Outliers:  97
+Tushar  -  angry
+Variance:  38658.2418467
+Z Score Outliers:  83
+Normal is higher for Tushar
+Normal:  16  Angry 10
+
+
+Tyrion  -  normal
+Variance:  247539.433568
+Z Score Outliers:  42
+Tyrion  -  angry
+Variance:  71629.3045627
+Z Score Outliers:  54
+Angry is higher for Tyrion
+Normal:  16  Angry 11
+
+
+Vaas does not have sufficient number of data files!
+Vaas  -  angry
+Variance:  264590.584258
+Z Score Outliers:  21
+Normal:  16  Angry 11
+
+
+Akansha  -  normal
+Variance:  4351483.5459
+Z Score Outliers:  99
+Akansha  -  angry
+Variance:  29526748.5877
+Z Score Outliers:  37
+Normal is higher for Akansha
+Normal:  17  Angry 11
+
+
+Arzoo  -  normal
+Variance:  1174587.12135
+Z Score Outliers:  99
+Arzoo  -  angry
+Variance:  1895867.63007
+Z Score Outliers:  75
+Normal is higher for Arzoo
+Normal:  18  Angry 11
+
+
+Emily  -  normal
+Variance:  110498.670777
+Z Score Outliers:  20
+Emily  -  angry
+Variance:  210612.777431
+Z Score Outliers:  14
+Normal is higher for Emily
+Normal:  19  Angry 11
+
+
+Isha  -  normal
+Variance:  11601336477.7
+Z Score Outliers:  81
+Isha  -  angry
+Variance:  3430414.66611
+Z Score Outliers:  74
+Normal is higher for Isha
+Normal:  20  Angry 11
+
+
+Lorelai does not have sufficient number of data files!
+Lorelai  -  angry
+Variance:  116879.191065
+Z Score Outliers:  14
+Normal:  20  Angry 11
+
+
+MomPatil  -  normal
+Variance:  315613.313265
+Z Score Outliers:  14
+MomPatil has too many similarly named data files!
+Normal:  20  Angry 11
+
+
+Olivia does not have sufficient number of data files!
+Olivia  -  angry
+Variance:  785686.974169
+Z Score Outliers:  72
+Normal:  20  Angry 11
+
+
+Pallavi  -  normal
+Variance:  103497.024087
+Z Score Outliers:  7
+Pallavi  -  angry
+Variance:  2668.09908623
+Z Score Outliers:  0
+Normal:  20  Angry 11
+
+
+Paris  -  normal
+Variance:  89199.5839057
+Z Score Outliers:  5
+Paris  -  angry
+Variance:  7442.07965591
+Z Score Outliers:  19
+Angry is higher for Paris
+Normal:  20  Angry 12
+
+
+PDB does not have sufficient number of data files!
+PDB  -  angry
+Variance:  2664845.99427
+Z Score Outliers:  53
+Normal:  20  Angry 12
+
+
+Pooja  -  normal
+Variance:  100865.190526
+Z Score Outliers:  125
+Pooja  -  angry
+Variance:  4185958.0904
+Z Score Outliers:  132
+Angry is higher for Pooja
+Normal:  20  Angry 13
+
+
+Pritha  -  normal
+Variance:  1597144.95264
+Z Score Outliers:  74
+Pritha  -  angry
+Variance:  157106.347261
+Z Score Outliers:  53
+Normal is higher for Pritha
+Normal:  21  Angry 13
+
+
+Sayalee does not have sufficient number of data files!
+Sayalee  -  angry
+Variance:  2388543.9919
+Z Score Outliers:  44
+Normal:  21  Angry 13
+
+
+Tanvi does not have sufficient number of data files!
+Tanvi  -  angry
+Variance:  2422378.02158
+Z Score Outliers:  50
+Normal:  21  Angry 13
+
+
+Unsorted has too many similarly named data files!
+Unsorted has too many similarly named data files!
+Normal:  21  Angry 13
+
+
+YoungWoman  -  normal
+Variance:  122948.819175
+Z Score Outliers:  168
+YoungWoman  -  angry
+Variance:  311035.284463
+Z Score Outliers:  715
+Angry is higher for YoungWoman
+Normal:  21  Angry 14
+
+

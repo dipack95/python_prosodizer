@@ -1,0 +1,217 @@
+Variance of Ajinkya for normal is 1702444.26548
+Variance of Ajinkya for angry is 304775.724313
+Normal is higher for Ajinkya
+Normal:  1  Angry 0
+
+
+Variance of Ari for normal is 72150.708247
+Variance of Ari for angry is 16359925.5134
+Angry is higher for Ari
+Normal:  1  Angry 1
+
+
+Variance of Arrow for normal is 49159.1436224
+Variance of Arrow for angry is 22505.1791231
+Normal is higher for Arrow
+Normal:  2  Angry 1
+
+
+Variance of Arun for normal is 1125.05407342
+Variance of Arun for angry is 152852.953731
+Angry is higher for Arun
+Normal:  2  Angry 2
+
+
+Variance of Bhargav for normal is 12321.1028922
+Variance of Bhargav for angry is 694.566477883
+Normal is higher for Bhargav
+Normal:  3  Angry 2
+
+
+Variance of Cruise for normal is 428945.837688
+Variance of Cruise for angry is 6754.62812495
+Normal is higher for Cruise
+Normal:  4  Angry 2
+
+
+Variance of DadPatil for normal is 2864838.02948
+Variance of DadPatil for angry is 94456.4604278
+Normal is higher for DadPatil
+Normal:  5  Angry 2
+
+
+Variance of DC for normal is 4963393.97955
+Variance of DC for angry is 1551336.72082
+Normal is higher for DC
+Normal:  6  Angry 2
+
+
+Variance of Dipack for normal is 1389.65050447
+Variance of Dipack for angry is 6863.22099126
+Angry is higher for Dipack
+Normal:  6  Angry 3
+
+
+Variance of Doctor for normal is 102184.602494
+Variance of Doctor for angry is 78367.0085874
+Normal is higher for Doctor
+Normal:  7  Angry 3
+
+
+Variance of Goswami for normal is 37015.0774458
+Variance of Goswami for angry is 69142.8603187
+Angry is higher for Goswami
+Normal:  7  Angry 4
+
+
+Variance of Harvey for normal is 5867.21033016
+Variance of Harvey for angry is 106075.172151
+Angry is higher for Harvey
+Normal:  7  Angry 5
+
+
+Variance of JE for normal is 54725.5364342
+Variance of JE for angry is 2064333.72822
+Angry is higher for JE
+Normal:  7  Angry 6
+
+
+Variance of Kapish for normal is 32346.2470431
+Variance of Kapish for angry is 73944.2359479
+Angry is higher for Kapish
+Normal:  7  Angry 7
+
+
+Variance of KL for normal is 231355.45386
+Variance of KL for angry is 18334916.5963
+Angry is higher for KL
+Normal:  7  Angry 8
+
+
+Variance of Liam for normal is 74069.0745864
+Variance of Liam for angry is 74069.0745864
+
+Both are equal for Liam
+Normal:  7  Angry 8
+
+
+Variance of Loki for normal is 742581.542611
+Variance of Loki for angry is 13027.2453499
+Normal is higher for Loki
+Normal:  8  Angry 8
+
+
+Variance of Louis for normal is 3652.21332274
+Variance of Louis for angry is 6213.92046434
+Angry is higher for Louis
+Normal:  8  Angry 9
+
+
+Variance of Mathur for normal is 186541.550881
+Variance of Mathur for angry is 1653027.13294
+Angry is higher for Mathur
+Normal:  8  Angry 10
+
+
+Variance of MichaelCera for normal is 1200575.99645
+Variance of MichaelCera for angry is 5072311.85079
+Angry is higher for MichaelCera
+Normal:  8  Angry 11
+
+
+Variance of Nicholson for normal is 1688613.92842
+Variance of Nicholson for angry is 13370.2948554
+Normal is higher for Nicholson
+Normal:  9  Angry 11
+
+
+Variance of OldGuy for normal is 31211.3098874
+Variance of OldGuy for angry is 1205534.74027
+Angry is higher for OldGuy
+Normal:  9  Angry 12
+
+
+Variance of Puneet for normal is 2415279845.29
+Variance of Puneet for angry is 56171.1421176
+Normal is higher for Puneet
+Normal:  10  Angry 12
+
+
+Variance of Rishi for normal is 16138.4708415
+Variance of Rishi for angry is 595776459.79
+Angry is higher for Rishi
+Normal:  10  Angry 13
+
+
+Variance of Robert for normal is 151220.402494
+Variance of Robert for angry is 1201247.55141
+Angry is higher for Robert
+Normal:  10  Angry 14
+
+
+Variance of Rohit for normal is 2503975.41463
+Variance of Rohit for angry is 225355.21381
+Normal is higher for Rohit
+Normal:  11  Angry 14
+
+
+Variance of Tobymac for normal is 1170834.51903
+Variance of Tobymac for angry is 73163.0477677
+Normal is higher for Tobymac
+Normal:  12  Angry 14
+
+
+Variance of Tushar for normal is 98773.2824663
+Variance of Tushar for angry is 38658.2418467
+Normal is higher for Tushar
+Normal:  13  Angry 14
+
+
+Variance of Tyrion for normal is 247539.433568
+Variance of Tyrion for angry is 71629.3045627
+Normal is higher for Tyrion
+Normal:  14  Angry 14
+
+
+Variance of Arzoo for normal is 1174587.12135
+Variance of Arzoo for angry is 1895867.63007
+Angry is higher for Arzoo
+Normal:  14  Angry 15
+
+
+Variance of Emily for normal is 110498.670777
+Variance of Emily for angry is 210612.777431
+Angry is higher for Emily
+Normal:  14  Angry 16
+
+
+Variance of Isha for normal is 11601336477.7
+Variance of Isha for angry is 3430414.66611
+Normal is higher for Isha
+Normal:  15  Angry 16
+
+
+Variance of Pallavi for normal is 103497.024087
+Variance of Pallavi for angry is 2668.09908623
+Normal is higher for Pallavi
+Normal:  16  Angry 16
+
+
+Variance of Paris for normal is 89199.5839057
+Variance of Paris for angry is 7442.07965591
+Normal is higher for Paris
+Normal:  17  Angry 16
+
+
+Variance of Pooja for normal is 100865.190526
+Variance of Pooja for angry is 4185958.0904
+Angry is higher for Pooja
+Normal:  17  Angry 17
+
+
+Variance of YoungWoman for normal is 122948.819175
+Variance of YoungWoman for angry is 311035.284463
+Angry is higher for YoungWoman
+Normal:  17  Angry 18
+
+
