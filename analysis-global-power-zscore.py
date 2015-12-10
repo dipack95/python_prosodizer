@@ -130,7 +130,6 @@ def splitSignal(powerFile):
 
     while (endIndex != fileLen):
         # Taking only rows from startIndex to endIndex
-        print(startIndex, endIndex)
         tempPower = power[startIndex:endIndex, ]
         avgPower = np.mean(tempPower)
         divFrames = np.append(divFrames, avgPower)
@@ -139,8 +138,8 @@ def splitSignal(powerFile):
 
     return divFrames
 
-# names = ['Ajinkya','Ari','Arrow','Arun','Bhargav','Cruise','DadPatil','DC','Dicap_Django', 'Dipack','Doctor','Goswami','Harsh','Harvey','JE','JK','Simmons','Kapish','KL','Leo_Wolf','Liam','Loki','Louis','Malkan','Manas','Mathur','MichaelCera','Nicholson','Nishant','OldGuy','Puneet','RandomMan','Rishi','Robert','Rohit','Sad','Tobymac','Tushar','Tyrion','Vaas','Akansha','Arzoo','Emily','Isha','Lorelai','MomPatil','Olivia','Pallavi','Paris','PDB','Pooja','Pritha','Sayalee','Tanvi','Unsorted','YoungWoman']
-names = ['Pallavi']
+names = ['Ajinkya','Ari','Arrow','Arun','Bhargav','Cruise','DadPatil','DC','Dicap_Django', 'Dipack','Doctor','Goswami','Harsh','Harvey','JE','JK','Simmons','Kapish','KL','Leo_Wolf','Liam','Loki','Louis','Malkan','Manas','Mathur','MichaelCera','Nicholson','Nishant','OldGuy','Puneet','RandomMan','Rishi','Robert','Rohit','Sad','Tobymac','Tushar','Tyrion','Vaas','Akansha','Arzoo','Emily','Isha','Lorelai','MomPatil','Olivia','Pallavi','Paris','PDB','Pooja','Pritha','Sayalee','Tanvi','Unsorted','YoungWoman']
+# names = ['Pallavi']
 
 def main():
 
@@ -198,10 +197,10 @@ def main():
             minDivFrames = np.append(minDivFrames, min(divFrames))
             divFrames = divFrames - min(divFrames)
             
-            # if ("normal" in targetFiles[0]) or ("neutral" in targetFiles[0]): 
-            #     meanNormal = np.mean(divFrames)
-            # elif ("angry" in targetFiles[0]): 
-            #     meanAngry = np.mean(divFrames) 
+            if ("normal" in targetFiles[0]) or ("neutral" in targetFiles[0]): 
+                meanNormal = np.mean(divFrames)
+            elif ("angry" in targetFiles[0]): 
+                meanAngry = np.mean(divFrames) 
             
             # np.savetxt('Windowed_Power_ZS_Comps/' + targetFiles[0].split('/')[-1].split('.wav')[0] + '.csv', divFrames, fmt='%10.5f')
 
@@ -216,15 +215,15 @@ def main():
             avgPowerAll = np.append(avgPowerAll, avgPowerOfFrames)
 
 
-        # if(meanNormal != 0) and (meanAngry != 0):
-        #     print(person, "Normal:", meanNormal, "Angry:", meanAngry)
-        #     totalCount += 1
+        if(meanNormal != 0) and (meanAngry != 0):
+            print(person, "Normal:", meanNormal, "Angry:", meanAngry)
+            totalCount += 1
             
-        #     if(meanAngry > meanNormal):
-        #         count += 1
+            if(meanAngry > meanNormal):
+                count += 1
 
-        # meanNormal = 0
-        # meanAngry = 0
+        meanNormal = 0
+        meanAngry = 0
 
     # totalZS, powerFileMentions, angryCount, normalCount = totalPowerZScoreCalc(avgPowerAll, startIndexForFiles)
 
