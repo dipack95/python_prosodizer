@@ -1,2 +1,2 @@
-TESS_Corpus/
-__pycache__/
+TESS_Corpus/*
+__pycache__/*

@@ -128,8 +128,9 @@ def splitSignal(powerFile):
     
     fileLen = len(power)
 
-    for i in range(fileLen // divFrameLength):
+    while (endIndex != fileLen):
         # Taking only rows from startIndex to endIndex
+        print(startIndex, endIndex)
         tempPower = power[startIndex:endIndex, ]
         avgPower = np.mean(tempPower)
         divFrames = np.append(divFrames, avgPower)
@@ -138,8 +139,8 @@ def splitSignal(powerFile):
 
     return divFrames
 
-names = ['Ajinkya','Ari','Arrow','Arun','Bhargav','Cruise','DadPatil','DC','Dicap_Django', 'Dipack','Doctor','Goswami','Harsh','Harvey','JE','JK','Simmons','Kapish','KL','Leo_Wolf','Liam','Loki','Louis','Malkan','Manas','Mathur','MichaelCera','Nicholson','Nishant','OldGuy','Puneet','RandomMan','Rishi','Robert','Rohit','Sad','Tobymac','Tushar','Tyrion','Vaas','Akansha','Arzoo','Emily','Isha','Lorelai','MomPatil','Olivia','Pallavi','Paris','PDB','Pooja','Pritha','Sayalee','Tanvi','Unsorted','YoungWoman']
-# names = ['Simmons', 'Pallavi', 'Dicap_Django']
+# names = ['Ajinkya','Ari','Arrow','Arun','Bhargav','Cruise','DadPatil','DC','Dicap_Django', 'Dipack','Doctor','Goswami','Harsh','Harvey','JE','JK','Simmons','Kapish','KL','Leo_Wolf','Liam','Loki','Louis','Malkan','Manas','Mathur','MichaelCera','Nicholson','Nishant','OldGuy','Puneet','RandomMan','Rishi','Robert','Rohit','Sad','Tobymac','Tushar','Tyrion','Vaas','Akansha','Arzoo','Emily','Isha','Lorelai','MomPatil','Olivia','Pallavi','Paris','PDB','Pooja','Pritha','Sayalee','Tanvi','Unsorted','YoungWoman']
+names = ['Pallavi']
 
 def main():
 
