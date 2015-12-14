@@ -132,7 +132,7 @@ def splitSignal(powerFile):
     power = np.nan_to_num(np.array(pd.read_csv(powerFile, header=None), dtype='float64'))
     divFrames = []
 
-    jump = 25
+    jump = 50
     divFrameLength = 200
     startIndex = 0
     endIndex = divFrameLength
@@ -150,17 +150,26 @@ def splitSignal(powerFile):
         tempPower = power[startIndex:endIndex, ]
         avgPower = np.mean(tempPower)
         divFrames = np.append(divFrames, avgPower)
+        print(startIndex * 10 / 1000, endIndex * 10 / 1000)
         startIndex += jump
         endIndex += jump
 
     return divFrames
 
-def meanPowerForEntireFile(filename):
-    power = np.nan_to_num(np.array(pd.read_csv(filename, header=None), dtype='float64'))
-    return np.mean(power)
+def meanForEntireFile(filename):
+    meanForFile = np.nan_to_num(np.array(pd.read_csv(filename, header=None), dtype='float64'))
+    return np.mean(meanForFile)
+
+names = ['training', 'OldGuy', 'YoungWoman']
+# names = ['OldGuy']
 
 def main():
     emotions = ["normal", "angry"]
+
+    numberOfPlots = len(emotions)
+
+    # powerEntropyPlot = plt.figure()
+    # powerEntropyPlot.suptitle('Power vs Entropy')
 
     powerDivFrameFiles = []
     allAvgPower = {}
@@ -170,6 +179,9 @@ def main():
 
     meanPowerForNormalFiles = []
     meanPowerForAngryFiles = []
+
+    meanEntropyForNormalFiles = []
+    meanEntropyForAngryFiles = []
 
     meanNormal = 0
     meanAngry = 0
@@ -181,38 +193,61 @@ def main():
 
     targetFiles = []
     
-    for emotion in emotions:
-        for filename in powerFiles:
-            if "training" in filename:
-                if emotion == "normal":
-                    if ("normal" in filename) or ("neutral" in filename):
-                        targetFiles.append(filename)
-                elif emotion in filename:
-                    targetFiles.append(filename)
+    # for name in names:
+    #     for emotion in emotions:
+    #         targetFiles = []
 
-                if ("angry" in filename):
-                    meanPowerForAngryFiles = np.append(meanPowerForAngryFiles, meanPowerForEntireFile(filename))
-                elif("normal" in filename) or ("neutral" in filename):
-                    meanPowerForNormalFiles = np.append(meanPowerForNormalFiles, meanPowerForEntireFile(filename))
+    #         for filename in powerFiles:
+    #             if name in filename:
+    #                 if emotion == "normal":
+    #                     if ("normal" in filename) or ("neutral" in filename):
+    #                         targetFiles.append(filename)
+    #                 elif emotion in filename:
+    #                     targetFiles.append(filename)
 
-    print(targetFiles)
+    #         for filename in entropyFiles:
+    #             if name in filename:
+    #                 if emotion == "normal":
+    #                     if ("normal" in filename) or ("neutral" in filename):
+    #                         targetFiles.append(filename)
+    #                         meanEntropyForNormalFiles = np.append(meanEntropyForNormalFiles, meanForEntireFile(filename))
+    #                 elif emotion in filename:
+    #                     targetFiles.append(filename)
+    #                     meanEntropyForAngryFiles = np.append(meanEntropyForAngryFiles, meanForEntireFile(filename))
 
-    globalPowerPlot = plt.figure()
-    globalPowerPlot.suptitle('Global Power Plot')
-    gPlot = globalPowerPlot.add_subplot(111)
-    gPlot.set_title('All files plot')
-    gPlot.plot(meanPowerForAngryFiles, 'o', c='r')
-    gPlot.plot(meanPowerForNormalFiles, 'o', c='b')
+    #         # avgPowerOfFrames, entropyOfFrames = powerAndEntropy(targetFiles[0], targetFiles[1])         
+
+    #         # actualPlot = powerEntropyPlot.add_subplot((numberOfPlots * 100) + 10 + emotions.index(emotion))
+    #         # actualPlot.set_title(targetFiles[0].split('/')[-1].split('.wav')[0])
+    #         # actualPlot.plot(np.abs(avgPowerOfFrames), np.abs(entropyOfFrames), 'o')
+
+    #         # if ("angry" in targetFiles[0]):
+    #         #     meanPowerForAngryFiles = np.append(meanPowerForAngryFiles, meanForEntireFile(targetFiles[0]))
+    #         # elif("normal" in targetFiles[0]) or ("neutral" in targetFiles[0]):
+    #         #     meanPowerForNormalFiles = np.append(meanPowerForNormalFiles, targetFiles[0])
+
+    # print(targetFiles)
+    
+    # globalPowerPlot = plt.figure()
+    # globalPowerPlot.suptitle('Global Power Plot')
+    # gPlot = globalPowerPlot.add_subplot(111)
+    # gPlot.set_title('All files plot')
+    # gPlot.plot(meanEntropyForAngryFiles, 'o', c='r')
+    # gPlot.plot(meanEntropyForNormalFiles, 'o', c='b')
+
+    # targetFiles = ['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Training_Data/angry/training_angry_3.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Training_Data/angry/training_angry_2.wav-entropy.csv']
+
+    # avgPowerOfFrames, entropyOfFrames = powerAndEntropy(targetFiles[0], targetFiles[1])
 
     # localFilePlot = plt.figure()
-    # localFilePlot.suptitle('Local 2 Second Frame Plot')
+    # localFilePlot.suptitle('Local Frame Plot')
     # lPlot = localFilePlot.add_subplot(111)
-    # lPlot.set_title('~/College/Fourth_Year/Final_Year_Project/csv/Men/Simmons/simmons_angry.wav-powerSpectrum.csv')
-    # lPlot.plot(splitSignal('~/College/Fourth_Year/Final_Year_Project/csv/Men/Simmons/simmons_angry.wav-powerSpectrum.csv'), 'o')
+    # lPlot.set_title('Old_Guy')
+    # lPlot.plot(splitSignal(targetFiles[0]), 'o')
 
-    plt.show()
+    # plt.show()
 
-
+    splitSignal('/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Training_Data/angry/training_angry_9.wav-powerSpectrum.csv')
 
 if __name__ == '__main__':
     main()
