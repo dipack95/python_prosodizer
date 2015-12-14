@@ -4,16 +4,48 @@
 		"selected_items":
 		[
 			[
-				"min",
-				"minDivFrames	statement"
+				"pl",
+				"plot"
 			],
 			[
 				"mean",
-				"mean	function"
+				"meanPowerForNormalFiles	statement"
+			],
+			[
+				"mea",
+				"meanPowerForFiles	statement"
+			],
+			[
+				"local",
+				"localFilePlot	statement"
+			],
+			[
+				"glo",
+				"globalPowerPlot	statement"
+			],
+			[
+				"div",
+				"divFrames	statement"
+			],
+			[
+				"temp",
+				"tempPower	statement"
 			],
 			[
 				"file",
-				"filename	forstmt"
+				"filename	param"
+			],
+			[
+				"fil",
+				"filename	param"
+			],
+			[
+				"split",
+				"splitSignal	function"
+			],
+			[
+				"min",
+				"minDivFrames	statement"
 			],
 			[
 				"tot",
@@ -34,10 +66,6 @@
 			[
 				"power",
 				"powerFile	param"
-			],
-			[
-				"div",
-				"divFrames	statement"
 			],
 			[
 				"global",
@@ -204,10 +232,6 @@
 				"computeGlobalValuesForEntropy	function"
 			],
 			[
-				"glo",
-				"globalMean	statement"
-			],
-			[
 				"com",
 				"computeGlobalValues	function"
 			],
@@ -258,10 +282,6 @@
 			[
 				"del",
 				"delimiter	param"
-			],
-			[
-				"fil",
-				"filename	forstmt"
 			],
 			[
 				"ac",
@@ -494,26 +514,6 @@
 			[
 				"sI",
 				"sIdeaRunner"
-			],
-			[
-				"pl",
-				"plainTextDiv3"
-			],
-			[
-				"bin",
-				"binaryToDecimal"
-			],
-			[
-				"rank",
-				"rank1"
-			],
-			[
-				"prin",
-				"printf	printf …"
-			],
-			[
-				"cut",
-				"cutSetSize"
 			]
 		]
 	},
@@ -528,45 +528,11 @@
 			}
 		},
 		{
-			"file": "global_power_params.py",
-			"settings":
-			{
-				"buffer_size": 4244,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "mfcc.py",
-			"settings":
-			{
-				"buffer_size": 8576,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "analysis-global-power-zscore.py",
 			"settings":
 			{
-				"buffer_size": 10115,
+				"buffer_size": 11336,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "RandomMan does not have sufficient number of data files!\nSad does not have sufficient number of data files!\nSad does not have sufficient number of data files!\nVaas does not have sufficient number of data files!\nLorelai does not have sufficient number of data files!\nUnsorted has too many similarly named data files!\nUnsorted has too many similarly named data files!\nAjinkya-angry.wav-powerSpectrum Normal: 0.026842092811 Angry: 0.156362239555\nari_angry.wav-powerSpectrum Normal: -0.0451995479358 Angry: 0.191374173736\narrow-angry.wav-powerSpectrum Normal: 0.0258580047216 Angry: -0.0351046368461\narun-angry.wav-powerSpectrum Normal: 0.482449521937 Angry: 0.604535470713\nbhargav-angry.wav-powerSpectrum Normal: -0.132283539466 Angry: 0.130805232361\ntomcruise-angry.wav-powerSpectrum Normal: 0.00374036069577 Angry: 0.265256736757\ndadpatil-angry.wav-powerSpectrum Normal: 0.346584855817 Angry: 0.44809520135\ndc_angry.wav-powerSpectrum Normal: -0.0881820695904 Angry: 0.0342359209761\ndicap_django_angry.wav-powerSpectrum Normal: -0.141559597344 Angry: 0.341925885429\ndipack-angry.wav-powerSpectrum Normal: 0.0255486927877 Angry: -0.0953867516347\nthedoctor-angry.wav-powerSpectrum Normal: 0.0811525551791 Angry: -0.050835780387\ngoswami_angry.wav-powerSpectrum Normal: -0.0139095752506 Angry: 0.555307572426\nHarsh angry.wav-powerSpectrum Normal: 0.0408749545981 Angry: -0.0144703489926\nharvey_angry.wav-powerSpectrum Normal: 0.108202499037 Angry: 0.110419004006\nje_angry.wav-powerSpectrum Normal: -0.0366542024273 Angry: 0.152584004252\njk_angry.wav-powerSpectrum Normal: -0.0830400411055 Angry: 0.11150880338\nsimmons_angry.wav-powerSpectrum Normal: 0.0482740568287 Angry: 0.053671053112\nKapish-angry.wav-powerSpectrum Normal: -0.0942440436344 Angry: 0.119848824147\nkl_angry.wav-powerSpectrum Normal: -0.099005319017 Angry: -0.111841449407\nleo_angry_wolf.wav-powerSpectrum Normal: 0.00419459720942 Angry: 0.099967602047\nliamNeeson-angry.wav-powerSpectrum Normal: -0.107755641604 Angry: -0.107755641604\nloki-angry.wav-powerSpectrum Normal: -0.0407240996353 Angry: -0.0674169326091\nlouis_angry.wav-powerSpectrum Normal: 0.139687485546 Angry: 0.174238018218\nMalkan-angry.wav-powerSpectrum Normal: 0.0172309409175 Angry: -0.0568430366623\nManas angry.wav-powerSpectrum Normal: -0.0448860580379 Angry: -0.0112530057085\nmathur_angry.wav-powerSpectrum Normal: 0.547569497364 Angry: 0.723365489362\nmichael_angry.wav-powerSpectrum Normal: -0.096074902166 Angry: 0.168278123383\nnicholson-angry.wav-powerSpectrum Normal: 0.328513560029 Angry: 0.0833718195049\nNishant-angry.wav-powerSpectrum Normal: -0.0671815136891 Angry: -0.111036065736\nold_angry.wav-powerSpectrum Normal: 0.202547474096 Angry: 0.00201490078748\nPuneet_angry.wav-powerSpectrum Normal: 0.0231722532305 Angry: -0.00418173644613\nrishi_angry.wav-powerSpectrum Normal: 0.290734325567 Angry: 0.730572363851\nrobert-angry.wav-powerSpectrum Normal: 0.0205994570471 Angry: 0.112720849886\nRohit-angry.wav-powerSpectrum Normal: -0.0347854491885 Angry: 0.0580361689875\ntoby_angry.wav-powerSpectrum Normal: -0.0191768652842 Angry: 0.16169829272\nTushar-angry.wav-powerSpectrum Normal: 0.0654116101067 Angry: 0.0732721267853\ntyrion-angry.wav-powerSpectrum Normal: 0.0333956228487 Angry: -0.0438135246888\nAkansha-normal.wav-powerSpectrum Normal: 0.065394975634 Angry: 0.0168832898695\nArzoo-normal.wav-powerSpectrum Normal: -0.0721476549349 Angry: 0.185700303436\nemily-normal.wav-powerSpectrum Normal: 0.0419376904314 Angry: 0.185488036181\nIsha-normal.wav-powerSpectrum Normal: 0.0201279697225 Angry: 0.00992099066238\nmompatil-normal.wav-powerSpectrum Normal: 0.133313072873 Angry: 0.223273548777\nOlivianormal.wav-powerSpectrum Normal: -0.0104492505 Angry: 0.527720723207\npallavi-normal.wav-powerSpectrum Normal: 0.20324874694 Angry: -0.0105670857404\nparis-normal.wav-powerSpectrum Normal: 0.19308925735 Angry: 0.355260515042\nPriyanjali - normal.wav-powerSpectrum Normal: 0.12306803399 Angry: 0.0632110107928\nPooja-normal.wav-powerSpectrum Normal: 0.0110921609102 Angry: -0.0131681214093\nPritha-normal.wav-powerSpectrum Normal: 0.0629966656437 Angry: 0.00189603405935\nSayalee normal.wav-powerSpectrum Normal: 0.108596237145 Angry: 0.132992341993\nTanvi normal.wav-powerSpectrum Normal: -0.0825916627042 Angry: 0.164241073488\nyoung_neutral.wav-powerSpectrum Normal: 0.0527389469873 Angry: 0.0811900885999\n32 of 51\n[Finished in 140.6s]",
-			"settings":
-			{
-				"buffer_size": 4364,
-				"line_ending": "Unix",
-				"name": "RandomMan does not have sufficient number of data"
-			}
-		},
-		{
-			"contents": "Ajinkya Normal: 0.248193898599 Angry: 0.107043808469\nAri Normal: 0.034572106412 Angry: 0.151471774153\nArrow Normal: 0.0380002538788 Angry: 0.120741980066\nArun Normal: 0.0444751001198 Angry: 0.0362766830113\nBhargav Normal: 0.0138626094718 Angry: 0.0797669956339\nCruise Normal: 0.110167627053 Angry: 0.0612677723322\nDadPatil Normal: 0.0388720511074 Angry: 0.381092947608\nDC Normal: 0.0830138970872 Angry: 0.105454098697\nDicap_Django Normal: 0.0385260667188 Angry: 0.272395250711\nDipack Normal: 0.0973059686115 Angry: 0.0407103950856\nDoctor Normal: 0.0416629697778 Angry: 0.0742790161672\nGoswami Normal: 0.0633385462053 Angry: 0.0281839891525\nHarsh Normal: 0.127289304961 Angry: 0.142810703037\nHarvey Normal: 0.0155737786261 Angry: 0.0332470523238\nJE Normal: 0.105975905079 Angry: 0.19825217442\nJK Normal: 0.103342226983 Angry: 0.195517433109\nSimmons Normal: 0.0876959322063 Angry: 0.111146056735\nKapish Normal: 0.0318085432898 Angry: 0.0550139100507\nKL Normal: 0.0596367563439 Angry: 0.0352389102732\nLeo_Wolf Normal: 0.0273368093536 Angry: 0.0266784366153\nLiam Normal: 0.100155630512 Angry: 0.100155630512\nLoki Normal: 0.0178652608612 Angry: 0.0476203834832\nLouis Normal: 0.0235239143837 Angry: 0.0291297585087\nMalkan Normal: 0.0368606376698 Angry: 0.0470190059039\nManas Normal: 0.0616517749877 Angry: 0.0761376597465\nMathur Normal: 0.0478586512444 Angry: 0.0356555270166\nMichaelCera Normal: 0.0692811916316 Angry: 0.118369382041\nNicholson Normal: 0.0652303885078 Angry: 0.053174471927\nNishant Normal: 0.0545619936226 Angry: 0.0465635134834\nOldGuy Normal: 0.0973698436981 Angry: 0.0950425057932\nPuneet Normal: 0.102086517101 Angry: 0.158499778733\nRandomMan does not have sufficient number of data files!\nRishi Normal: 0.0895732810299 Angry: 0.0316005888818\nRobert Normal: 0.0395369322424 Angry: 0.0955163830209\nRohit Normal: 0.0859792738297 Angry: 0.139472377835\nSad does not have sufficient number of data files!\nSad does not have sufficient number of data files!\nTobymac Normal: 0.108416845652 Angry: 0.118262342995\nTushar Normal: 0.0769185877629 Angry: 0.0798299123603\nTyrion Normal: 0.0407054339807 Angry: 0.0926627696664\nVaas does not have sufficient number of data files!\nAkansha Normal: 0.114771583338 Angry: 0.149868507516\nArzoo Normal: 0.0598776053689 Angry: 0.119859354166\nEmily Normal: 0.044263020677 Angry: 0.0233652574684\nIsha Normal: 0.115695587348 Angry: 0.184926549657\nLorelai does not have sufficient number of data files!\nMomPatil Normal: 0.0839391655051 Angry: 0.103425708548\nOlivia Normal: 0.0870454125785 Angry: 0.0785769214249\nPallavi Normal: 0.266028189866 Angry: 0.33972742948\nParis Normal: 0.0767268970265 Angry: 0.0812976825324\nPDB Normal: 0.13702909687 Angry: 0.0610874590084\nPooja Normal: 0.0892974851213 Angry: 0.0804873740007\nPritha Normal: 0.067574490671 Angry: 0.101509794321\nSayalee Normal: 0.106382711027 Angry: 0.114950461017\nTanvi Normal: 0.0268604901257 Angry: 0.073147758596\nUnsorted has too many similarly named data files!\nUnsorted has too many similarly named data files!\nYoungWoman Normal: 0.205844982275 Angry: 0.072946300208\n33 of 51\n[Finished in 134.2s]",
-			"settings":
-			{
-				"buffer_size": 3096,
-				"line_ending": "Unix",
-				"name": "Ajinkya Normal: 0.248193898599 Angry: 0.1070438084"
 			}
 		}
 	],
@@ -839,11 +805,28 @@
 	},
 	"expanded_folders":
 	[
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/__pycache__"
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code"
 	],
 	"file_history":
 	[
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Training_Data/happy/happy_1.wav-powerSpectrum.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pallavi/pallavi-angry.wav-powerSpectrum.csv",
+		"/home/dipack/Dropbox/My Important Documents/book.xlsx.asc",
+		"/home/dipack/Dropbox/PGP/keyList.txt",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Rec_Data/convert.sh",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Rec_Data/README.md",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Rec_Data/sample.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Rec_Data/run.sh",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/mfcc.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/global_power_params.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/simmons_normal.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/simmons_angry.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/pallavi-normal.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/pallavi-angry.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/dicap_django_normal.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/dicap_django_angry.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/.gitignore",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/tmp.bundle",
 		"/home/dipack/.zshrc",
 		"/etc/fstab",
 		"/home/dipack/.sudo_as_admin_successful",
@@ -852,12 +835,6 @@
 		"/media/dipack/Dipack's 1.5TB/Progs/spiral.cpp",
 		"/media/dipack/Dipack's 1.5TB/Progs/fibo.cpp",
 		"/media/dipack/Dipack's 1.5TB/Progs/BrilliantProg.cpp",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/simmons_normal.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/simmons_angry.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/pallavi-normal.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/pallavi-angry.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/dicap_django_angry.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Windowed_Power_ZS_Comps/dicap_django_normal.csv",
 		"/usr/share/applications/vlc.desktop",
 		"/home/dipack/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/a_g_p_zs.csv",
@@ -896,7 +873,6 @@
 		"/home/dipack/College/Fourth_Year/CC_Lab/abab/anbn.l",
 		"/home/dipack/College/Fourth_Year/CC_Lab/abab/anbn.y",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/listOfNames.txt",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/mfcc.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/output.txt",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/analysis-powervsentropy.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/vals.txt",
@@ -960,18 +936,7 @@
 		"/tmp/.fr-WmqVDu/file_contexts",
 		"/home/dipack/Downloads/Windows Loader 2.0.7/Read me.txt",
 		"/home/dipack/Downloads/peazip_portable-5.8.1.LINUX.Qt/readme_Linux1.txt",
-		"/home/dipack/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/media/dipack/Tomato/Software/Must Have Software/ophcrack-vista-livecd-3.4.0.iso",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pallavi/pallavi-normal.wav-entropy.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pallavi/pallavi-angry.wav-entropy.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/MFCC/test-mfcc.py",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse_prosodizer/prosodizer/Prosodizer/Prosodizer-Tests/fullTest.cpp",
-		"/home/dipack/Dropbox/Pr0n/helpful-unix-commands.txt",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Men/Amit/amit_convo.wav-power.csv",
-		"/home/dipack/Dropbox/Pr0n/Accounts.txt",
-		"/home/dipack/Dropbox/Pr0n/Ebay.txt",
-		"/home/dipack/Dropbox/Crap Killer.cmd",
-		"/home/dipack/Dropbox/Mayur_suites_router.txt"
+		"/home/dipack/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
 	],
 	"find":
 	{
@@ -989,6 +954,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"divFrames",
 			"np.append",
 			".csv",
 			"avgPowers",
@@ -1130,7 +1096,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1157,158 +1123,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3344.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "global_power_params.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4244,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3366,
-								3366
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 24.0,
-						"translation.y": 1008.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "mfcc.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8576,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6433,
-								6433
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2400.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "analysis-global-power-zscore.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10115,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3255,
-								3255
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2160.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4364,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4364,
-								4364
-							]
-						],
-						"settings":
-						{
-							"auto_name": "RandomMan does not have sufficient number of data",
-							"default_dir": "/home/dipack/College/Fourth_Year/Final_Year_Project/python_code",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 288.0,
+						"translation.y": 3680.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 1,
+					"file": "analysis-global-power-zscore.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3096,
+						"buffer_size": 11336,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								45,
-								45
+								8241,
+								8241
 							]
 						],
 						"settings":
 						{
-							"auto_name": "Ajinkya Normal: 0.248193898599 Angry: 0.1070438084",
-							"default_dir": "/home/dipack/College/Fourth_Year/Final_Year_Project/python_code",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 624.0,
+						"translation.y": 3488.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1347,7 +1195,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 231.0
+		"height": 181.0
 	},
 	"output.find_results":
 	{
