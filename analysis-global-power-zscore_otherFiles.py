@@ -247,7 +247,7 @@ def main():
 
     # plt.show()
 
-    splitSignal('/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Training_Data/angry/training_angry_9.wav-powerSpectrum.csv')
+    splitSignal('/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Training_Data/angry/training_angry_14.wav-powerSpectrum.csv')
 
 if __name__ == '__main__':
     main()

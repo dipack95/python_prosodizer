@@ -4,12 +4,60 @@
 		"selected_items":
 		[
 			[
-				"pl",
-				"plot"
+				"training",
+				"training_angry_2"
+			],
+			[
+				"split",
+				"splitSignal	function"
+			],
+			[
+				"meanEnt",
+				"meanEntropyForNormalFiles"
+			],
+			[
+				"meanEN",
+				"meanEntropyForNormalFiles"
 			],
 			[
 				"mean",
-				"meanPowerForNormalFiles	statement"
+				"meanForEntireFile"
+			],
+			[
+				"dis",
+				"divisionAns"
+			],
+			[
+				"nam",
+				"names"
+			],
+			[
+				"entr",
+				"entropyOfFrames"
+			],
+			[
+				"avg",
+				"avgPowerOfFrames"
+			],
+			[
+				"pwoer",
+				"powerAndEntropy	function"
+			],
+			[
+				"avgPower",
+				"avgPowerOfFrames"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"power",
+				"powerFiles	statement"
+			],
+			[
+				"pl",
+				"plot"
 			],
 			[
 				"mea",
@@ -32,16 +80,8 @@
 				"tempPower	statement"
 			],
 			[
-				"file",
-				"filename	param"
-			],
-			[
 				"fil",
 				"filename	param"
-			],
-			[
-				"split",
-				"splitSignal	function"
 			],
 			[
 				"min",
@@ -64,20 +104,12 @@
 				"divFrames"
 			],
 			[
-				"power",
-				"powerFile	param"
-			],
-			[
 				"global",
 				"globalStandardDeviation"
 			],
 			[
 				"glob",
 				"globalVar"
-			],
-			[
-				"nam",
-				"name"
 			],
 			[
 				"emo",
@@ -122,10 +154,6 @@
 			[
 				"norm",
 				"normalCount	statement"
-			],
-			[
-				"pwoer",
-				"powerFileMentions"
 			],
 			[
 				"startIn",
@@ -208,10 +236,6 @@
 				"range	function"
 			],
 			[
-				"avg",
-				"avgPowerAll	statement"
-			],
-			[
 				"Avg",
 				"avgPowerAll"
 			],
@@ -270,10 +294,6 @@
 			[
 				"in",
 				"index	function"
-			],
-			[
-				"entr",
-				"entropy	statement"
 			],
 			[
 				"na_",
@@ -494,44 +514,24 @@
 			[
 				"noe",
 				"nodes"
-			],
-			[
-				"ca",
-				"Calculator"
-			],
-			[
-				"yy",
-				"yytext"
-			],
-			[
-				"delta",
-				"deltaTwo	statement"
-			],
-			[
-				"pla",
-				"plainTextDiv4"
-			],
-			[
-				"sI",
-				"sIdeaRunner"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "analysis-powervsentropy.py",
-			"settings":
-			{
-				"buffer_size": 9725,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "analysis-global-power-zscore.py",
 			"settings":
 			{
 				"buffer_size": 11336,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "analysis-global-power-zscore_otherFiles.py",
+			"settings":
+			{
+				"buffer_size": 8684,
 				"line_ending": "Unix"
 			}
 		}
@@ -608,9 +608,13 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "di",
+		"last_filter": "disa",
 		"selected_items":
 		[
+			[
+				"disa",
+				"Anaconda: Disable linting on this file"
+			],
 			[
 				"di",
 				"Anaconda: Disable linting on this file"
@@ -809,6 +813,17 @@
 	],
 	"file_history":
 	[
+		"/etc/fstab",
+		"/media/Potato/MGS5-QAR-Tool/data1/Assets/tpp/script/lib/TppStory.lua",
+		"/media/Potato/MGS5-QAR-Tool/Readme.txt",
+		"/tmp/.fr-qXsTc6/Readme.txt",
+		"/tmp/.fr-aSLJGY/dictionary.txt",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Training_Data/angry/.directory",
+		"/home/dipack/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Training_Data/angry/training_angry_1.wav-entropy.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Training_Data/OldGuy/old_disgust.wav-zeroCrossing.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/analysis-powervsentropy.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/analysis-global-power-zscore.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Training_Data/happy/happy_1.wav-powerSpectrum.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pallavi/pallavi-angry.wav-powerSpectrum.csv",
 		"/home/dipack/Dropbox/My Important Documents/book.xlsx.asc",
@@ -828,7 +843,6 @@
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/.gitignore",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/tmp.bundle",
 		"/home/dipack/.zshrc",
-		"/etc/fstab",
 		"/home/dipack/.sudo_as_admin_successful",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse-2-qtc.py3",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/.directory",
@@ -874,7 +888,6 @@
 		"/home/dipack/College/Fourth_Year/CC_Lab/abab/anbn.y",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/listOfNames.txt",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/output.txt",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/analysis-powervsentropy.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/vals.txt",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Men/Ajinkya/Ajinkya-angry.wav-powerSpectrum.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/YoungWoman/young_angry.wav-power.csv",
@@ -927,16 +940,7 @@
 		"/home/dipack/Dropbox/My Important Documents/Misc/Ebay.txt",
 		"/home/dipack/Dropbox/My Important Documents/Misc/bob.txt",
 		"/home/dipack/Dropbox/My Important Documents/Misc/Accounts.txt",
-		"/home/dipack/Dropbox/My Important Documents/Misc/Dads-Amazon.txt",
-		"/media/dipack/DIPACK/ /chat_with_savita.txt.vbs",
-		"/home/dipack/Dropbox/Scripts/imgur-downloader.py",
-		"/home/dipack/Dropbox/imgur-downloader.py",
-		"/home/dipack/Dropbox/imgur-downloader.sh",
-		"/media/Potato/Otmp/P/ExileVilify/imgur.sh",
-		"/tmp/.fr-WmqVDu/file_contexts",
-		"/home/dipack/Downloads/Windows Loader 2.0.7/Read me.txt",
-		"/home/dipack/Downloads/peazip_portable-5.8.1.LINUX.Qt/readme_Linux1.txt",
-		"/home/dipack/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+		"/home/dipack/Dropbox/My Important Documents/Misc/Dads-Amazon.txt"
 	],
 	"find":
 	{
@@ -954,6 +958,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"meanFOrFile",
 			"divFrames",
 			"np.append",
 			".csv",
@@ -1101,38 +1106,8 @@
 			[
 				{
 					"buffer": 0,
-					"file": "analysis-powervsentropy.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9725,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7982,
-								7982
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3680.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "analysis-global-power-zscore.py",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 11336,
@@ -1142,8 +1117,8 @@
 						"selection":
 						[
 							[
-								8241,
-								8241
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1153,7 +1128,37 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3488.0,
+						"translation.y": 3552.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "analysis-global-power-zscore_otherFiles.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8620,
+								8620
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3712.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1201,7 +1206,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Python3 Builder",
 	"project": "python-prosodizer.sublime-project",
 	"replace":
 	{
@@ -1243,7 +1248,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 172.0,
+	"side_bar_width": 178.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
