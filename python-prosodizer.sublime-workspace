@@ -531,7 +531,7 @@
 			"file": "analysis-global-power-zscore_otherFiles.py",
 			"settings":
 			{
-				"buffer_size": 8684,
+				"buffer_size": 8712,
 				"line_ending": "Unix"
 			}
 		}
@@ -813,7 +813,6 @@
 	],
 	"file_history":
 	[
-		"/etc/fstab",
 		"/media/Potato/MGS5-QAR-Tool/data1/Assets/tpp/script/lib/TppStory.lua",
 		"/media/Potato/MGS5-QAR-Tool/Readme.txt",
 		"/tmp/.fr-qXsTc6/Readme.txt",
@@ -843,6 +842,7 @@
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/.gitignore",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/tmp.bundle",
 		"/home/dipack/.zshrc",
+		"/etc/fstab",
 		"/home/dipack/.sudo_as_admin_successful",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse-2-qtc.py3",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/.directory",
@@ -1140,15 +1140,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8684,
+						"buffer_size": 8712,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8620,
-								8620
+								8394,
+								8394
 							]
 						],
 						"settings":
@@ -1158,7 +1158,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3712.0,
+						"translation.y": 3616.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
