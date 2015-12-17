@@ -150,7 +150,7 @@ def splitSignal(powerFile):
         tempPower = power[startIndex:endIndex, ]
         avgPower = np.mean(tempPower)
         divFrames = np.append(divFrames, avgPower)
-        # print(startIndex * 10 / 1000, endIndex * 10 / 1000)
+        print(startIndex * 10 / 1000, endIndex * 10 / 1000)
         startIndex += jump
         endIndex += jump
 
@@ -239,7 +239,7 @@ def main():
 
     # avgPowerOfFrames, entropyOfFrames = powerAndEntropy(targetFiles[0], targetFiles[1])
 
-    localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Training_Data/angry/training_angry_14.wav-powerSpectrum.csv'
+    localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Training_Data/angry/training_angry_53.wav-powerSpectrum.csv'
     localFilePlot = plt.figure()
     localFilePlot.suptitle('Local Frame Plot')
     lPlot = localFilePlot.add_subplot(111)
