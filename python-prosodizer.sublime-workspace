@@ -531,7 +531,7 @@
 			"file": "analysis-global-power-zscore_otherFiles.py",
 			"settings":
 			{
-				"buffer_size": 8712,
+				"buffer_size": 8710,
 				"line_ending": "Unix"
 			}
 		}
@@ -813,6 +813,8 @@
 	],
 	"file_history":
 	[
+		"/home/dipack/Downloads/anyremote-android-client/README",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/Markers.csv",
 		"/media/Potato/MGS5-QAR-Tool/data1/Assets/tpp/script/lib/TppStory.lua",
 		"/media/Potato/MGS5-QAR-Tool/Readme.txt",
 		"/tmp/.fr-qXsTc6/Readme.txt",
@@ -938,9 +940,7 @@
 		"/home/dipack/kdevelop-4.7.2/README",
 		"/home/dipack/Dropbox/Pr0n/.zshrc",
 		"/home/dipack/Dropbox/My Important Documents/Misc/Ebay.txt",
-		"/home/dipack/Dropbox/My Important Documents/Misc/bob.txt",
-		"/home/dipack/Dropbox/My Important Documents/Misc/Accounts.txt",
-		"/home/dipack/Dropbox/My Important Documents/Misc/Dads-Amazon.txt"
+		"/home/dipack/Dropbox/My Important Documents/Misc/bob.txt"
 	],
 	"find":
 	{
@@ -1140,15 +1140,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8712,
+						"buffer_size": 8710,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8394,
-								8394
+								8654,
+								8654
 							]
 						],
 						"settings":
@@ -1158,7 +1158,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3616.0,
+						"translation.y": 3664.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

@@ -239,7 +239,7 @@ def main():
 
     # avgPowerOfFrames, entropyOfFrames = powerAndEntropy(targetFiles[0], targetFiles[1])
 
-    localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Training_Data/angry/training_angry_68.wav-powerSpectrum.csv'
+    localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Training_Data/angry/training_angry_95.wav-powerSpectrum.csv'
     localFilePlot = plt.figure()
     localFilePlot.suptitle('Local Frame Plot')
     lPlot = localFilePlot.add_subplot(111)
