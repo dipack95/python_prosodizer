@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"err",
+				"errorMessage	statement"
+			],
+			[
+				"erro",
+				"errorMessage"
+			],
+			[
 				"training",
 				"training_angry_2"
 			],
@@ -506,24 +514,16 @@
 			[
 				"l",
 				"length"
-			],
-			[
-				"e",
-				"edges"
-			],
-			[
-				"noe",
-				"nodes"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "analysis-global-power-zscore.py",
+			"file": "analysis-powervsentropy.py",
 			"settings":
 			{
-				"buffer_size": 11336,
+				"buffer_size": 9725,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "analysis-global-power-zscore_otherFiles.py",
 			"settings":
 			{
-				"buffer_size": 8710,
+				"buffer_size": 8713,
 				"line_ending": "Unix"
 			}
 		}
@@ -813,6 +813,13 @@
 	],
 	"file_history":
 	[
+		"/home/dipack/imgur_downloader/alexis_downloader.py",
+		"/home/dipack/imgur_downloader/imgur_downloader.py",
+		"/home/dipack/Downloads/android-sdk-linux/SDK Readme.txt",
+		"/tmp/.fr-qrDgfH/minimal_adb_fastboot_v1.3.1/How to install.txt",
+		"/tmp/.fr-kmMB2Z/minimal_adb_fastboot_v1.3.1/Downloaded from.txt",
+		"/tmp/.fr-WiXXLj/Android/README.txt",
+		"/home/dipack/.cache/kioexec/krun/2936_0_miniclipId.txt",
 		"/home/dipack/Downloads/anyremote-android-client/README",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/Markers.csv",
 		"/media/Potato/MGS5-QAR-Tool/data1/Assets/tpp/script/lib/TppStory.lua",
@@ -933,14 +940,7 @@
 		"/home/dipack/College/Blender.includes",
 		"/home/dipack/College/Blender.files",
 		"/home/dipack/College/Blender.creator",
-		"/home/dipack/idea-IC-141.2735.5/Install-Linux-tar.txt",
-		"/home/dipack/projects/Test/build/Makefile",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse_prosodizer/prosodizer/README.md",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/MFCC/mfcc.py",
-		"/home/dipack/kdevelop-4.7.2/README",
-		"/home/dipack/Dropbox/Pr0n/.zshrc",
-		"/home/dipack/Dropbox/My Important Documents/Misc/Ebay.txt",
-		"/home/dipack/Dropbox/My Important Documents/Misc/bob.txt"
+		"/home/dipack/idea-IC-141.2735.5/Install-Linux-tar.txt"
 	],
 	"find":
 	{
@@ -1106,11 +1106,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "analysis-global-power-zscore.py",
-					"semi_transient": true,
+					"file": "analysis-powervsentropy.py",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11336,
+						"buffer_size": 9725,
 						"regions":
 						{
 						},
@@ -1128,7 +1128,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3552.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1140,15 +1140,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8710,
+						"buffer_size": 8713,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8654,
-								8654
+								8395,
+								8395
 							]
 						],
 						"settings":
@@ -1158,7 +1158,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3664.0,
+						"translation.y": 3616.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
