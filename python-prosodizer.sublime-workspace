@@ -531,7 +531,7 @@
 			"file": "analysis-global-power-zscore_otherFiles.py",
 			"settings":
 			{
-				"buffer_size": 8713,
+				"buffer_size": 8716,
 				"line_ending": "Unix"
 			}
 		}
@@ -813,6 +813,10 @@
 	],
 	"file_history":
 	[
+		"/home/dipack/imgur-downloader.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/training_dataset/conv.sh",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Training_Data/conv.sh",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/hack-the-talk-exotel-master/training_dataset/README.md",
 		"/home/dipack/imgur_downloader/alexis_downloader.py",
 		"/home/dipack/imgur_downloader/imgur_downloader.py",
 		"/home/dipack/Downloads/android-sdk-linux/SDK Readme.txt",
@@ -936,11 +940,7 @@
 		"/home/dipack/College/Fourth_Year/Blender.includes",
 		"/home/dipack/College/Fourth_Year/Blender.files",
 		"/home/dipack/College/Fourth_Year/Blender.config",
-		"/home/dipack/College/Fourth_Year/Blender.creator",
-		"/home/dipack/College/Blender.includes",
-		"/home/dipack/College/Blender.files",
-		"/home/dipack/College/Blender.creator",
-		"/home/dipack/idea-IC-141.2735.5/Install-Linux-tar.txt"
+		"/home/dipack/College/Fourth_Year/Blender.creator"
 	],
 	"find":
 	{
@@ -1140,15 +1140,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8713,
+						"buffer_size": 8716,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8395,
-								8395
+								8396,
+								8396
 							]
 						],
 						"settings":
@@ -1158,7 +1158,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3616.0,
+						"translation.y": 3562.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

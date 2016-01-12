@@ -132,8 +132,8 @@ def splitSignal(powerFile):
     power = np.nan_to_num(np.array(pd.read_csv(powerFile, header=None), dtype='float64'))
     divFrames = []
 
-    jump = 50
-    divFrameLength = 200
+    jump = 25
+    divFrameLength = 100
     startIndex = 0
     endIndex = divFrameLength
     fileLen = len(power)
@@ -239,14 +239,14 @@ def main():
 
     # avgPowerOfFrames, entropyOfFrames = powerAndEntropy(targetFiles[0], targetFiles[1])
 
-    localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Training_Data/neutral/training_neutral_3.wav-powerSpectrum.csv'
+    localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Training_Data/neutral/training_neutral_10.wav-powerSpectrum.csv'
     localFilePlot = plt.figure()
     localFilePlot.suptitle('Local Frame Plot')
     lPlot = localFilePlot.add_subplot(111)
     lPlot.set_title(localFileName.split('/')[-1].split('.wav')[0])
     lPlot.plot(splitSignal(localFileName), '-o')
 
-    plt.show()
+    # plt.show()
 
 if __name__ == '__main__':
     main()
