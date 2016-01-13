@@ -531,7 +531,7 @@
 			"file": "analysis-global-power-zscore_otherFiles.py",
 			"settings":
 			{
-				"buffer_size": 8716,
+				"buffer_size": 8712,
 				"line_ending": "Unix"
 			}
 		}
@@ -1140,15 +1140,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8716,
+						"buffer_size": 8712,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8396,
-								8396
+								8392,
+								8392
 							]
 						],
 						"settings":
