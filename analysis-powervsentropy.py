@@ -157,8 +157,8 @@ def customZScore(data, mean, standardDeviation):
 
     return zs
 
-# names = ['Ajinkya','Ari','Arrow','Arun','Bhargav','Cruise','DadPatil','DC','Dipack','Doctor','Goswami','Harsh','Harvey','JE','JK','Simmons','Kapish','KL','Leonardo','Liam','Loki','Louis','Malkan','Manas','Mathur','MichaelCera','Nicholson','Nishant','OldGuy','Puneet','RandomMan','Rishi','Robert','Rohit','Sad','Tobymac','Tushar','Tyrion','Vaas','Akansha','Arzoo','Emily','Isha','Lorelai','MomPatil','Olivia','Pallavi','Paris','PDB','Pooja','Pritha','Sayalee','Tanvi','Unsorted','YoungWoman']
-names = ['Pallavi']
+names = ['Ajinkya','Ari','Arrow','Arun','Bhargav','Cruise','DadPatil','DC','Dipack','Doctor','Goswami','Harsh','Harvey','JE','JK','Simmons','Kapish','KL','Leonardo','Liam','Loki','Louis','Malkan','Manas','Mathur','MichaelCera','Nicholson','Nishant','OldGuy','Puneet','RandomMan','Rishi','Robert','Rohit','Sad','Tobymac','Tushar','Tyrion','Vaas','Akansha','Arzoo','Emily','Isha','Lorelai','MomPatil','Olivia','Pallavi','Paris','PDB','Pooja','Pritha','Sayalee','Tanvi','Unsorted','YoungWoman']
+# names = ['Pallavi']
 
 def main():
 
@@ -173,9 +173,9 @@ def main():
 
     globalMean, globalStandardDeviation, globalVar = computeGlobalValuesForPower(names, emotions, powerFiles)
 
-    globalMean = 0.333817846598
-    globalStandardDeviation = 2.57808951914
-    globalVar = 6.64654556871
+    # globalMean = 0.333817846598
+    # globalStandardDeviation = 2.57808951914
+    # globalVar = 6.64654556871
     
     print(globalMean)
     print(globalStandardDeviation)
@@ -228,7 +228,7 @@ def main():
             variance = np.var(combinedArray)
 
             for zsOfFrame in zs:
-                if(zsOfFrame > 1):
+                if(zsOfFrame > 3):
                     outlierCount += 1
             
             print(person, " - ", emotion)

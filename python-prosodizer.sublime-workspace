@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"power",
+				"powerSpectrum"
+			],
+			[
+				"loa",
+				"localFileNameMfcc"
+			],
+			[
+				"mfc",
+				"mfcc	statement"
+			],
+			[
+				"mf",
+				"mfcc	statement"
+			],
+			[
+				"local",
+				"localFileNameMfcc	statement"
+			],
+			[
+				"fil",
+				"filterBankEnergies	statement"
+			],
+			[
+				"filter",
+				"filterBankEnergies	statement"
+			],
+			[
+				"Filter",
+				"filterBankEnergies"
+			],
+			[
+				"filte",
+				"filterBanks	statement"
+			],
+			[
+				"sign",
+				"signalPower	statement"
+			],
+			[
 				"err",
 				"errorMessage	statement"
 			],
@@ -60,20 +100,12 @@
 				"filename"
 			],
 			[
-				"power",
-				"powerFiles	statement"
-			],
-			[
 				"pl",
 				"plot"
 			],
 			[
 				"mea",
 				"meanPowerForFiles	statement"
-			],
-			[
-				"local",
-				"localFilePlot	statement"
 			],
 			[
 				"glo",
@@ -86,10 +118,6 @@
 			[
 				"temp",
 				"tempPower	statement"
-			],
-			[
-				"fil",
-				"filename	param"
 			],
 			[
 				"min",
@@ -336,10 +364,6 @@
 				"filenames"
 			],
 			[
-				"mfc",
-				"mfccFiles	statement"
-			],
-			[
 				"input",
 				"inputFile	statement"
 			],
@@ -490,30 +514,6 @@
 			[
 				"out",
 				"output"
-			],
-			[
-				"filter",
-				"filterBankEnergies	param"
-			],
-			[
-				"ndoe",
-				"nodes"
-			],
-			[
-				"ad",
-				"adjacencyMatrix"
-			],
-			[
-				"c",
-				"console.	console.log()"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"l",
-				"length"
 			]
 		]
 	},
@@ -523,15 +523,24 @@
 			"file": "analysis-powervsentropy.py",
 			"settings":
 			{
-				"buffer_size": 9725,
+				"buffer_size": 9731,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "analysis-global-power-zscore_otherFiles.py",
+			"contents": "109\n12868.3810595\n16019.3446246\n256619402.202\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ajinkya/Ajinkya-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ajinkya/Ajinkya-normal.wav-entropy.csv']\nAjinkya  -  normal\nVariance:  106535365.825\nZ Score Outliers:  392\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ajinkya/Ajinkya-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ajinkya/Ajinkya-angry.wav-entropy.csv']\nAjinkya  -  angry\nVariance:  487341510.606\nZ Score Outliers:  1545\nAngry is higher for Ajinkya\nNormal:  0  Angry 1\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ari/ari_normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ari/ari_normal.wav-entropy.csv']\nAri  -  normal\nVariance:  79572711.1184\nZ Score Outliers:  107\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ari/ari_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ari/ari_angry.wav-entropy.csv']\nAri  -  angry\nVariance:  119430004.823\nZ Score Outliers:  507\nAngry is higher for Ari\nNormal:  0  Angry 2\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Arrow/arrow-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Arrow/arrow-normal.wav-entropy.csv']\nArrow  -  normal\nVariance:  111739578.426\nZ Score Outliers:  126\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Arrow/arrow-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Arrow/arrow-angry.wav-entropy.csv']\nArrow  -  angry\nVariance:  186683475.879\nZ Score Outliers:  321\nAngry is higher for Arrow\nNormal:  0  Angry 3\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Arun/arun-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Arun/arun-normal.wav-entropy.csv']\nArun  -  normal\nVariance:  758248862.396\nZ Score Outliers:  315\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Arun/arun-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Arun/arun-angry.wav-entropy.csv']\nArun  -  angry\nVariance:  958178224.724\nZ Score Outliers:  411\nAngry is higher for Arun\nNormal:  0  Angry 4\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Bhargav/bhargav-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Bhargav/bhargav-normal.wav-entropy.csv']\nBhargav  -  normal\nVariance:  1928729.53186\nZ Score Outliers:  0\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Bhargav/bhargav-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Bhargav/bhargav-angry.wav-entropy.csv']\nBhargav  -  angry\nVariance:  2239714.02724\nZ Score Outliers:  0\nNormal:  0  Angry 4\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Cruise/tomcruise-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Cruise/tomcruise-normal.wav-entropy.csv']\nCruise  -  normal\nVariance:  68471224.2044\nZ Score Outliers:  119\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Cruise/tomcruise-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Cruise/tomcruise-angry.wav-entropy.csv']\nCruise  -  angry\nVariance:  255627191.357\nZ Score Outliers:  353\nAngry is higher for Cruise\nNormal:  0  Angry 5\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/DadPatil/dadpatil-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/DadPatil/dadpatil-normal.wav-entropy.csv']\nDadPatil  -  normal\nVariance:  803126006.639\nZ Score Outliers:  527\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/DadPatil/dadpatil-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/DadPatil/dadpatil-angry.wav-entropy.csv']\nDadPatil  -  angry\nVariance:  949330612.162\nZ Score Outliers:  628\nAngry is higher for DadPatil\nNormal:  0  Angry 6\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/DC/dc_neutral.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/DC/dc_neutral.wav-entropy.csv']\nDC  -  normal\nVariance:  45759333.0805\nZ Score Outliers:  159\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/DC/dc_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/DC/dc_angry.wav-entropy.csv']\nDC  -  angry\nVariance:  410998459.202\nZ Score Outliers:  1056\nAngry is higher for DC\nNormal:  0  Angry 7\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Dipack/dipack-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Dipack/dipack-normal.wav-entropy.csv']\nDipack  -  normal\nVariance:  112421.178324\nZ Score Outliers:  0\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Dipack/dipack-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Dipack/dipack-angry.wav-entropy.csv']\nDipack  -  angry\nVariance:  396944.07013\nZ Score Outliers:  0\nNormal:  0  Angry 7\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Doctor/thedoctor-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Doctor/thedoctor-normal.wav-entropy.csv']\nDoctor  -  normal\nVariance:  218132321.454\nZ Score Outliers:  388\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Doctor/thedoctor-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Doctor/thedoctor-angry.wav-entropy.csv']\nDoctor  -  angry\nVariance:  137002383.077\nZ Score Outliers:  238\nNormal is higher for Doctor\nNormal:  1  Angry 7\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Goswami/goswami_normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Goswami/goswami_normal.wav-entropy.csv']\nGoswami  -  normal\nVariance:  83410957.4723\nZ Score Outliers:  69\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Goswami/goswami_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Goswami/goswami_angry.wav-entropy.csv']\nGoswami  -  angry\nVariance:  265535686.837\nZ Score Outliers:  330\nAngry is higher for Goswami\nNormal:  1  Angry 8\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Harsh/Harsh normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Harsh/Harsh normal.wav-entropy.csv']\nHarsh  -  normal\nVariance:  138286148.149\nZ Score Outliers:  632\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Harsh/Harsh angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Harsh/Harsh angry.wav-entropy.csv']\nHarsh  -  angry\nVariance:  204932073.101\nZ Score Outliers:  623\nNormal is higher for Harsh\nNormal:  2  Angry 8\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Harvey/harvey_normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Harvey/harvey_normal.wav-entropy.csv']\nHarvey  -  normal\nVariance:  29781392.868\nZ Score Outliers:  2\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Harvey/harvey_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Harvey/harvey_angry.wav-entropy.csv']\nHarvey  -  angry\nVariance:  56241491.0258\nZ Score Outliers:  13\nAngry is higher for Harvey\nNormal:  2  Angry 9\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/JE/je_neutral.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/JE/je_neutral.wav-entropy.csv']\nJE  -  normal\nVariance:  39519286.5938\nZ Score Outliers:  83\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/JE/je_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/JE/je_angry.wav-entropy.csv']\nJE  -  angry\nVariance:  628071977.264\nZ Score Outliers:  1399\nAngry is higher for JE\nNormal:  2  Angry 10\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/JK/jk_neutral.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/JK/jk_neutral.wav-entropy.csv']\nJK  -  normal\nVariance:  115137179.811\nZ Score Outliers:  788\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/JK/jk_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/JK/jk_angry.wav-entropy.csv']\nJK  -  angry\nVariance:  1168232311.45\nZ Score Outliers:  1574\nAngry is higher for JK\nNormal:  2  Angry 11\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Simmons/simmons_normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Simmons/simmons_normal.wav-entropy.csv']\nSimmons  -  normal\nVariance:  177481927.683\nZ Score Outliers:  820\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Simmons/simmons_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Simmons/simmons_angry.wav-entropy.csv']\nSimmons  -  angry\nVariance:  43887516.536\nZ Score Outliers:  16\nNormal is higher for Simmons\nNormal:  3  Angry 11\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Kapish/Kapish-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Kapish/Kapish-normal.wav-entropy.csv']\nKapish  -  normal\nVariance:  71721524.9608\nZ Score Outliers:  198\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Kapish/Kapish-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Kapish/Kapish-angry.wav-entropy.csv']\nKapish  -  angry\nVariance:  285032351.278\nZ Score Outliers:  848\nAngry is higher for Kapish\nNormal:  3  Angry 12\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/KL/kl_neutral.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/KL/kl_neutral.wav-entropy.csv']\nKL  -  normal\nVariance:  702412.48073\nZ Score Outliers:  0\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/KL/kl_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/KL/kl_angry.wav-entropy.csv']\nKL  -  angry\nVariance:  2444108.28603\nZ Score Outliers:  0\nNormal:  3  Angry 12\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Leonardo/leo_normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Leonardo/leo_normal.wav-entropy.csv']\nLeonardo  -  normal\nVariance:  38804226.8485\nZ Score Outliers:  37\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Leonardo/leo_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Leonardo/leo_angry.wav-entropy.csv']\nLeonardo  -  angry\nVariance:  43663882.0619\nZ Score Outliers:  16\nNormal is higher for Leonardo\nNormal:  4  Angry 12\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Liam/neeson-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Liam/neeson-normal.wav-entropy.csv']\nLiam  -  normal\nVariance:  97178392.8562\nZ Score Outliers:  237\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Liam/liamNeeson-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Liam/liamNeeson-angry.wav-entropy.csv']\nLiam  -  angry\nVariance:  97178392.8562\nZ Score Outliers:  237\n\nBoth are equal for Liam\nNormal:  4  Angry 12\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Loki/loki-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Loki/loki-normal.wav-entropy.csv']\nLoki  -  normal\nVariance:  26959861.7633\nZ Score Outliers:  13\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Loki/loki-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Loki/loki-angry.wav-entropy.csv']\nLoki  -  angry\nVariance:  143335666.517\nZ Score Outliers:  253\nAngry is higher for Loki\nNormal:  4  Angry 13\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Louis/louis_normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Louis/louis_normal.wav-entropy.csv']\nLouis  -  normal\nVariance:  49722601.4187\nZ Score Outliers:  12\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Louis/louis_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Louis/louis_angry.wav-entropy.csv']\nLouis  -  angry\nVariance:  124556805.487\nZ Score Outliers:  105\nAngry is higher for Louis\nNormal:  4  Angry 14\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Malkan/Malkan-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Malkan/Malkan-normal.wav-entropy.csv']\nMalkan  -  normal\nVariance:  45782983.3253\nZ Score Outliers:  41\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Malkan/Malkan-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Malkan/Malkan-angry.wav-entropy.csv']\nMalkan  -  angry\nVariance:  82042718.8828\nZ Score Outliers:  251\nAngry is higher for Malkan\nNormal:  4  Angry 15\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Manas/Manas normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Manas/Manas normal.wav-entropy.csv']\nManas  -  normal\nVariance:  66708897.6031\nZ Score Outliers:  173\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Manas/Manas angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Manas/Manas angry.wav-entropy.csv']\nManas  -  angry\nVariance:  144637448.63\nZ Score Outliers:  627\nAngry is higher for Manas\nNormal:  4  Angry 16\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Mathur/mathur_normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Mathur/mathur_normal.wav-entropy.csv']\nMathur  -  normal\nVariance:  626153695.311\nZ Score Outliers:  439\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Mathur/mathur_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Mathur/mathur_angry.wav-entropy.csv']\nMathur  -  angry\nVariance:  1115260296.04\nZ Score Outliers:  707\nAngry is higher for Mathur\nNormal:  4  Angry 17\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/MichaelCera/michael_normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/MichaelCera/michael_normal.wav-entropy.csv']\nMichaelCera  -  normal\nVariance:  19054285.1639\nZ Score Outliers:  40\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/MichaelCera/michael_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/MichaelCera/michael_angry.wav-entropy.csv']\nMichaelCera  -  angry\nVariance:  228717892.481\nZ Score Outliers:  1354\nAngry is higher for MichaelCera\nNormal:  4  Angry 18\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Nicholson/nicholson-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Nicholson/nicholson-normal.wav-entropy.csv']\nNicholson  -  normal\nVariance:  470719574.551\nZ Score Outliers:  899\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Nicholson/nicholson-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Nicholson/nicholson-angry.wav-entropy.csv']\nNicholson  -  angry\nVariance:  171139708.323\nZ Score Outliers:  305\nNormal is higher for Nicholson\nNormal:  5  Angry 18\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Nishant/Nishant-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Nishant/Nishant-normal.wav-entropy.csv']\nNishant  -  normal\nVariance:  22859719.1309\nZ Score Outliers:  8\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Nishant/Nishant-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Nishant/Nishant-angry.wav-entropy.csv']\nNishant  -  angry\nVariance:  148121393.59\nZ Score Outliers:  1129\nAngry is higher for Nishant\nNormal:  5  Angry 19\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/OldGuy/old_neutral.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/OldGuy/old_neutral.wav-entropy.csv']\nOldGuy  -  normal\nVariance:  1802866.47323\nZ Score Outliers:  0\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/OldGuy/old_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/OldGuy/old_angry.wav-entropy.csv']\nOldGuy  -  angry\nVariance:  28033767.8593\nZ Score Outliers:  60\nNormal:  5  Angry 19\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Puneet/Puneet_normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Puneet/Puneet_normal.wav-entropy.csv']\nPuneet  -  normal\nVariance:  17379300.3879\nZ Score Outliers:  0\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Puneet/Puneet_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Puneet/Puneet_angry.wav-entropy.csv']\nPuneet  -  angry\nVariance:  208059098.539\nZ Score Outliers:  824\nNormal:  5  Angry 19\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/RandomMan/normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/RandomMan/normal.wav-entropy.csv']\nRandomMan  -  normal\nVariance:  26214920.0865\nZ Score Outliers:  28\n[]\nRandomMan does not have sufficient number of data files!\nNormal:  5  Angry 19\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Rishi/rishi_normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Rishi/rishi_normal.wav-entropy.csv']\nRishi  -  normal\nVariance:  642776218.579\nZ Score Outliers:  423\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Rishi/rishi_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Rishi/rishi_angry.wav-entropy.csv']\nRishi  -  angry\nVariance:  1235691229.62\nZ Score Outliers:  472\nAngry is higher for Rishi\nNormal:  5  Angry 20\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Robert/robert-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Robert/robert-normal.wav-entropy.csv']\nRobert  -  normal\nVariance:  232414342.347\nZ Score Outliers:  792\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Robert/robert-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Robert/robert-angry.wav-entropy.csv']\nRobert  -  angry\nVariance:  267037830.414\nZ Score Outliers:  490\nNormal is higher for Robert\nNormal:  6  Angry 20\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Rohit/Rohit-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Rohit/Rohit-normal.wav-entropy.csv']\nRohit  -  normal\nVariance:  129838596.878\nZ Score Outliers:  537\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Rohit/Rohit-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Rohit/Rohit-angry.wav-entropy.csv']\nRohit  -  angry\nVariance:  233679899.57\nZ Score Outliers:  794\nAngry is higher for Rohit\nNormal:  6  Angry 21\n\n\n[]\nSad does not have sufficient number of data files!\n[]\nSad does not have sufficient number of data files!\nNormal:  6  Angry 21\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Tobymac/toby_normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Tobymac/toby_normal.wav-entropy.csv']\nTobymac  -  normal\nVariance:  150945447.696\nZ Score Outliers:  371\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Tobymac/toby_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Tobymac/toby_angry.wav-entropy.csv']\nTobymac  -  angry\nVariance:  10071853.0756\nZ Score Outliers:  0\nNormal:  6  Angry 21\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Tushar/Tushar-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Tushar/Tushar-normal.wav-entropy.csv']\nTushar  -  normal\nVariance:  134587163.358\nZ Score Outliers:  544\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Tushar/Tushar-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Tushar/Tushar-angry.wav-entropy.csv']\nTushar  -  angry\nVariance:  143784164.359\nZ Score Outliers:  598\nAngry is higher for Tushar\nNormal:  6  Angry 22\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Tyrion/tyrion-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Tyrion/tyrion-normal.wav-entropy.csv']\nTyrion  -  normal\nVariance:  191096430.135\nZ Score Outliers:  438\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Tyrion/tyrion-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Tyrion/tyrion-angry.wav-entropy.csv']\nTyrion  -  angry\nVariance:  122635573.662\nZ Score Outliers:  420\nNormal is higher for Tyrion\nNormal:  7  Angry 22\n\n\n[]\nVaas does not have sufficient number of data files!\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Vaas/vaas-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Vaas/vaas-angry.wav-entropy.csv']\nVaas  -  angry\nVariance:  23150673.9615\nZ Score Outliers:  0\nNormal:  7  Angry 22\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Akansha/Akansha-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Akansha/Akansha-normal.wav-entropy.csv']\nAkansha  -  normal\nVariance:  122005417.084\nZ Score Outliers:  524\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Akansha/Akansha angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Akansha/Akansha angry.wav-entropy.csv']\nAkansha  -  angry\nVariance:  566635349.846\nZ Score Outliers:  1941\nAngry is higher for Akansha\nNormal:  7  Angry 23\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Arzoo/Arzoo-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Arzoo/Arzoo-normal.wav-entropy.csv']\nArzoo  -  normal\nVariance:  67948609.9423\nZ Score Outliers:  197\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Arzoo/Arzoo-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Arzoo/Arzoo-angry.wav-entropy.csv']\nArzoo  -  angry\nVariance:  279486699.387\nZ Score Outliers:  1199\nAngry is higher for Arzoo\nNormal:  7  Angry 24\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Emily/emily-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Emily/emily-normal.wav-entropy.csv']\nEmily  -  normal\nVariance:  132255202.036\nZ Score Outliers:  365\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Emily/emily-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Emily/emily-angry.wav-entropy.csv']\nEmily  -  angry\nVariance:  168762845.792\nZ Score Outliers:  225\nNormal is higher for Emily\nNormal:  8  Angry 24\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Isha/Isha-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Isha/Isha-normal.wav-entropy.csv']\nIsha  -  normal\nVariance:  195714297.179\nZ Score Outliers:  813\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Isha/Isha-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Isha/Isha-angry.wav-entropy.csv']\nIsha  -  angry\nVariance:  329028821.645\nZ Score Outliers:  1360\nAngry is higher for Isha\nNormal:  8  Angry 25\n\n\n[]\nLorelai does not have sufficient number of data files!\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Lorelai/lorelai-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Lorelai/lorelai-angry.wav-entropy.csv']\nLorelai  -  angry\nVariance:  170365698.853\nZ Score Outliers:  290\nNormal:  8  Angry 25\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/MomPatil/mompatil-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/MomPatil/mompatil-normal.wav-entropy.csv']\nMomPatil  -  normal\nVariance:  212773664.617\nZ Score Outliers:  151\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/MomPatil/mompatil-angry-2.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/MomPatil/mompatil-angry-2.wav-entropy.csv']\nMomPatil  -  angry\nVariance:  961503469.515\nZ Score Outliers:  430\nAngry is higher for MomPatil\nNormal:  8  Angry 26\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Olivia/Olivianormal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Olivia/Olivianormal.wav-entropy.csv']\nOlivia  -  normal\nVariance:  3038384.17728\nZ Score Outliers:  0\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Olivia/Oliviaangry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Olivia/Oliviaangry.wav-entropy.csv']\nOlivia  -  angry\nVariance:  94756170.2025\nZ Score Outliers:  272\nNormal:  8  Angry 26\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pallavi/pallavi-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pallavi/pallavi-normal.wav-entropy.csv']\nPallavi  -  normal\nVariance:  519279146.747\nZ Score Outliers:  449\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pallavi/pallavi-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pallavi/pallavi-angry.wav-entropy.csv']\nPallavi  -  angry\nVariance:  1224558041.83\nZ Score Outliers:  485\nAngry is higher for Pallavi\nNormal:  8  Angry 27\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Paris/paris-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Paris/paris-normal.wav-entropy.csv']\nParis  -  normal\nVariance:  79880049.5479\nZ Score Outliers:  38\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Paris/paris-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Paris/paris-angry.wav-entropy.csv']\nParis  -  angry\nVariance:  154281514.257\nZ Score Outliers:  232\nAngry is higher for Paris\nNormal:  8  Angry 28\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/PDB/Priyanjali - normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/PDB/Priyanjali - normal.wav-entropy.csv']\nPDB  -  normal\nVariance:  139752702.283\nZ Score Outliers:  811\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/PDB/Priyanjali - angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/PDB/Priyanjali - angry.wav-entropy.csv']\nPDB  -  angry\nVariance:  52474368.9634\nZ Score Outliers:  72\nNormal is higher for PDB\nNormal:  9  Angry 28\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pooja/Pooja-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pooja/Pooja-normal.wav-entropy.csv']\nPooja  -  normal\nVariance:  140448692.498\nZ Score Outliers:  591\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pooja/Pooja-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pooja/Pooja-angry.wav-entropy.csv']\nPooja  -  angry\nVariance:  285091495.783\nZ Score Outliers:  1202\nAngry is higher for Pooja\nNormal:  9  Angry 29\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pritha/Pritha-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pritha/Pritha-normal.wav-entropy.csv']\nPritha  -  normal\nVariance:  227101191.97\nZ Score Outliers:  924\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pritha/Pritha_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pritha/Pritha_angry.wav-entropy.csv']\nPritha  -  angry\nVariance:  305778268.263\nZ Score Outliers:  1173\nAngry is higher for Pritha\nNormal:  9  Angry 30\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Sayalee/Sayalee normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Sayalee/Sayalee normal.wav-entropy.csv']\nSayalee  -  normal\nVariance:  257478507.68\nZ Score Outliers:  1224\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Sayalee/Sayalee angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Sayalee/Sayalee angry.wav-entropy.csv']\nSayalee  -  angry\nVariance:  325644541.872\nZ Score Outliers:  1380\nAngry is higher for Sayalee\nNormal:  9  Angry 31\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Tanvi/Tanvi normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Tanvi/Tanvi normal.wav-entropy.csv']\nTanvi  -  normal\nVariance:  110771681.386\nZ Score Outliers:  546\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Tanvi/Tanvi angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Tanvi/Tanvi angry.wav-entropy.csv']\nTanvi  -  angry\nVariance:  59171701.9701\nZ Score Outliers:  106\nNormal is higher for Tanvi\nNormal:  10  Angry 31\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Unsorted/normal-woman.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Unsorted/paris-normal.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Unsorted/normal-woman.wav-entropy.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Unsorted/paris-normal.wav-entropy.csv']\nUnsorted has too many similarly named data files!\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Unsorted/emily-angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Unsorted/angry_woman.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Unsorted/angry_woman.wav-entropy.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Unsorted/emily-angry.wav-entropy.csv']\nUnsorted has too many similarly named data files!\nNormal:  10  Angry 31\n\n\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/YoungWoman/young_neutral.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/YoungWoman/young_neutral.wav-entropy.csv']\nYoungWoman  -  normal\nVariance:  19442310.9686\nZ Score Outliers:  1\n['/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/YoungWoman/young_angry.wav-powerSpectrum.csv', '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/YoungWoman/young_angry.wav-entropy.csv']\nYoungWoman  -  angry\nVariance:  149348563.037\nZ Score Outliers:  3777\nAngry is higher for YoungWoman\nNormal:  10  Angry 32\n\n\n[Finished in 123.1s]",
 			"settings":
 			{
-				"buffer_size": 8712,
+				"buffer_size": 31607,
+				"line_ending": "Unix",
+				"name": "109"
+			}
+		},
+		{
+			"file": "csv_files_times.py",
+			"settings":
+			{
+				"buffer_size": 2297,
 				"line_ending": "Unix"
 			}
 		}
@@ -608,9 +617,13 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "disa",
+		"last_filter": "dis",
 		"selected_items":
 		[
+			[
+				"dis",
+				"Anaconda: Disable linting on this file"
+			],
 			[
 				"disa",
 				"Anaconda: Disable linting on this file"
@@ -661,10 +674,6 @@
 			],
 			[
 				"disl",
-				"Anaconda: Disable linting on this file"
-			],
-			[
-				"dis",
 				"Anaconda: Disable linting on this file"
 			],
 			[
@@ -813,6 +822,37 @@
 	],
 	"file_history":
 	[
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/a_g_p_zs.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/analysis-global-power-zscore_otherFiles.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/neutral/training_neutral_9.wav-powerSpectrum.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/neutral/training_neutral_9.wav-mfcc.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/neutral/training_neutral_9.wav-entropy.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/neutral/training_neutral_9.wav-zeroCrossing.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_10.wav-powerSpectrum.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_10.wav-mfcc.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_10.wav-entropy.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/mfcc-new.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_16.wav-entropy.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_16.wav-mfcc.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_10.wav-zeroCrossing.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_16.wav-powerSpectrum.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_16.wav-zeroCrossing.csv",
+		"/home/dipack/HTS/basic-6.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/training_dataset/angry/training_angry_10.wav-powerSpectrum.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/training_dataset/angry/training_angry_10.wav-entropy.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/training_dataset/angry/training_angry_10.wav-mfcc.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/kirit_pushCSV.cpp",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/qt_prosodizer/prosodizer/README.md",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/qt_prosodizer/qt_prosodizer.pro.user",
+		"/home/dipack/Dropbox/Message_Backup/WhatsApp Chat with ‪+91 98 22 078374‬.txt",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/training_dataset/angry/training_angry_20.wav-powerSpectrum.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/training_dataset/angry/training_angry_10.wav-zeroCrossing.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/output.txt",
+		"/home/dipack/.local/share/applications/QtProject-qtcreator.desktop",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/test_prosodizer/test_prosodizer.pro",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/test-prosodizer/test_prosodizer.pro",
+		"/home/dipack/gta-d3-prims/README.md",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ari/ari_angry.wav-powerSpectrum.csv",
 		"/home/dipack/imgur-downloader.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/training_dataset/conv.sh",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Training_Data/conv.sh",
@@ -864,7 +904,6 @@
 		"/media/dipack/Dipack's 1.5TB/Progs/BrilliantProg.cpp",
 		"/usr/share/applications/vlc.desktop",
 		"/home/dipack/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/a_g_p_zs.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/pallavi-angry.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/pallavi-normal.csv",
 		"/home/dipack/Downloads/pyalienfx/install.py",
@@ -900,7 +939,6 @@
 		"/home/dipack/College/Fourth_Year/CC_Lab/abab/anbn.l",
 		"/home/dipack/College/Fourth_Year/CC_Lab/abab/anbn.y",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/listOfNames.txt",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/output.txt",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/vals.txt",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Men/Ajinkya/Ajinkya-angry.wav-powerSpectrum.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/YoungWoman/young_angry.wav-power.csv",
@@ -911,36 +949,7 @@
 		"/usr/share/applications/sublime_text.desktop",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/output-first.txt",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ajinkya/Ajinkya-angry.wav-mfcc.csv",
-		"/tmp/.fr-UrGmHm/word/document.xml",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Men/Ajinkya/Ajinkya-normal.wav-entropy.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ajinkya/Ajinkya-normal.wav-entropy.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Amit/amit_normal.wav-entropy.csv",
-		"/home/dipack/CNS_Assignments/111203013_aes.c",
-		"/home/dipack/CNS_Assignments/111203013_des.cpp",
-		"/home/dipack/CNS_Assignments/111203013_diffieHellman.cpp",
-		"/home/dipack/CNS_Assignments/111203013_rsa.cpp",
-		"/home/dipack/CNS_Assignments/111203013_S-IDEA.cpp",
-		"/home/dipack/CNS_Assignments/111203013-caesars-cipher.cpp",
-		"/home/dipack/CNS_Assignments/111203013-trans-cipher.cpp",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/MFCC/analysis.py",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/qt_prosodizer/qt_prosodizer.pro",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse_prosodizer/prosodizer/Debug/Prosodizer/Prosodizer/Functions/subdir.mk",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse_prosodizer/prosodizer/Debug/sources.mk",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse_prosodizer/prosodizer/Debug/Prosodizer/Prosodizer-Tests/subdir.mk",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse_prosodizer/prosodizer/Debug/Prosodizer/Prosodizer/subdir.mk",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse_prosodizer/prosodizer/Debug/objects.mk",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/eclipse_prosodizer/prosodizer/Debug/makefile",
-		"/home/dipack/pro/pro.pro",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/qt_prosodizer/prosodizer/README.md",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/qt_prosodizer/prosodizer/contributors.txt",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/qt_prosodizer/Blender.creator",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/qt_prosodizer/Blender.files",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/qt_prosodizer/Blender.includes",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/qt_prosodizer/Blender.config",
-		"/home/dipack/College/Fourth_Year/Blender.includes",
-		"/home/dipack/College/Fourth_Year/Blender.files",
-		"/home/dipack/College/Fourth_Year/Blender.config",
-		"/home/dipack/College/Fourth_Year/Blender.creator"
+		"/tmp/.fr-UrGmHm/word/document.xml"
 	],
 	"find":
 	{
@@ -958,6 +967,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"thunder",
+			"print",
+			"qt_prosodizer",
 			"meanFOrFile",
 			"divFrames",
 			"np.append",
@@ -1069,6 +1081,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"test_prosodizer",
 			".csv,",
 			",'",
 			"',",
@@ -1110,45 +1123,75 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9725,
+						"buffer_size": 9731,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								6718,
+								6718
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/Theme - itg.flat/itg.dark.tmTheme",
 							"syntax": "Packages/Python/Python.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3840.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "analysis-global-power-zscore_otherFiles.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8712,
+						"buffer_size": 31607,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8392,
-								8392
+								31607,
+								31607
+							]
+						],
+						"settings":
+						{
+							"auto_name": "109",
+							"default_dir": "/home/dipack/College/Fourth_Year/Final_Year_Project/python_code",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 11728.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "csv_files_times.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2297,
+								2297
 							]
 						],
 						"settings":
@@ -1158,10 +1201,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3562.0,
+						"translation.y": 528.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1200,7 +1243,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 181.0
+		"height": 223.0
 	},
 	"output.find_results":
 	{
@@ -1248,7 +1291,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 178.0,
+	"side_bar_width": 315.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
