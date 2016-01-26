@@ -64,6 +64,11 @@ entropyFiles = [os.path.join(path, name)
 def splitSignal(localFile):
 
     power = np.nan_to_num(np.array(pd.read_csv(localFile + '-powerSpectrum.csv', header=None), dtype='float64'))
+    mfcc = np.nan_to_num(np.array(pd.read_csv(localFile + '-mfcc.csv', header=None), dtype='float64'))
+    zeroCrossing = np.nan_to_num(np.array(pd.read_csv(localFile + '-zeroCrossing.csv', header=None), dtype='float64'))
+    entropy = np.nan_to_num(np.array(pd.read_csv(localFile + '-entropy.csv', header=None), dtype='float64'))
+    zeroCrossing = np.ravel(zeroCrossing)
+    entropy = np.ravel(entropy)
     
     blockLength = 100.0
     startIndex = 0.0
@@ -74,13 +79,23 @@ def splitSignal(localFile):
     frameOffset = 17.0
 
     avgPower = np.mean(power, axis = 1)
+    avgMfcc = np.mean(mfcc, axis = 1)
 
     lengthOfFile = (((power.shape[0] * power.shape[1]) * 0.600732601) // 10000)
     numOfJumps = (lengthOfFile * 100 / durationOffset)
+
     for i in range(0, int(numOfJumps)):
+        
         tempPower = np.mean(avgPower[frameStart:frameEnd])
+        tempMfcc = np.mean(avgMfcc[frameStart:frameEnd])
+        tempZcr = np.mean(zeroCrossing[frameStart:frameEnd])
+        tempEntropy = np.mean(entropy[frameStart:frameEnd])
+
         if not (np.isnan(tempPower)):
-            print(startIndex * 0.01, endIndex * 0.01, tempPower)
+            # Use the following print statement to print times, and labels
+            # print(startIndex * 0.01, "->", endIndex * 0.01, "Power:", tempPower, "Mfcc:", tempMfcc, "Entropy:", tempEntropy)
+            # Use the following print statement to just print the values
+            print(tempPower, tempMfcc, tempEntropy)
             # print(avgPower[frameStart:frameEnd])
             startIndex += durationOffset
             endIndex += durationOffset
@@ -102,7 +117,7 @@ def main():
     #         zcrFile = f[2]
     #         print powerFile, zcrFile, entropyFile
     #         splitSignal(powerFile, zcrFile, entropyFile)
-    localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_9.wav'
+    localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_10.wav'
     print(localFileName.split('/')[-1].split('.wav')[0])
     splitSignal(localFileName)
 
