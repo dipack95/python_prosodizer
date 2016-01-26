@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from scipy.stats import f
+from scipy import stats
 import matplotlib.pyplot as plt
 import os
 
@@ -91,11 +92,16 @@ def splitSignal(localFile):
         tempZcr = np.mean(zeroCrossing[frameStart:frameEnd])
         tempEntropy = np.mean(entropy[frameStart:frameEnd])
 
+        zsPower = stats.zscore(avgPower[frameStart:frameEnd])
+        zsMfcc = stats.zscore(avgMfcc[frameStart:frameEnd])
+        zsZcr = stats.zscore(zeroCrossing[frameStart:frameEnd])
+        zsEntropy = stats.zscore(entropy[frameStart:frameEnd])
+
         if not (np.isnan(tempPower)):
             # Use the following print statement to print times, and labels
             # print(startIndex * 0.01, "->", endIndex * 0.01, "Power:", tempPower, "Mfcc:", tempMfcc, "Entropy:", tempEntropy)
             # Use the following print statement to just print the values
-            print(tempPower, tempMfcc, tempEntropy)
+            # print(tempPower, tempMfcc, tempEntropy)
             # print(avgPower[frameStart:frameEnd])
             startIndex += durationOffset
             endIndex += durationOffset
@@ -107,17 +113,8 @@ def splitSignal(localFile):
 
 def main():
 
-    
-    # allFiles = np.dstack([powerFiles, entropyFiles, zcrFiles])
-
-    # for File in allFiles:
-    #     for f in File:
-    #         powerFile = f[0]
-    #         entropyFile = f[1]
-    #         zcrFile = f[2]
-    #         print powerFile, zcrFile, entropyFile
-    #         splitSignal(powerFile, zcrFile, entropyFile)
-    localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_10.wav'
+    localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_1.wav'
+    # localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pallavi/pallavi-normal.wav'
     print(localFileName.split('/')[-1].split('.wav')[0])
     splitSignal(localFileName)
 
