@@ -58,28 +58,37 @@ def splitSignal(localFile):
     print(frameOffset, blockLength, numOfJumps, lengthOfSignal, numOfFrames)
 
     avgPower = np.mean(power, axis = 1)
-    avgMfcc = np.mean(mfcc, axis = 1)
 
     print("Filename:", localFile.split('/')[-1].split('.wav')[0], "Length:", lengthOfSignal)
 
     for i in range(0, int(numOfJumps)):
         
         tempPower = np.mean(avgPower[frameStart:frameEnd])
-        tempMfcc = np.mean(avgMfcc[frameStart:frameEnd])
+        tempMfcc = mfcc[frameStart:frameEnd, ]
         tempZcr = np.mean(zeroCrossing[frameStart:frameEnd])
         tempEntropy = np.mean(entropy[frameStart:frameEnd])
 
+        ratio = []
+        for t in tempMfcc:
+            a, b, c, d, e, f = t[0], t[1], t[2], t[10], t[11], t[12]
+            av1 = sum(t[0:3]) / 3
+            av2 = sum(t[10:13]) / 3
+            ratio = np.append(ratio, av1 / av2)
+            
+        intraAverage = np.nan_to_num(np.array(ratio))
+        tempMfcc = np.mean(intraAverage)
+
         zsPower = stats.zscore(avgPower[frameStart:frameEnd])
-        zsMfcc = stats.zscore(avgMfcc[frameStart:frameEnd])
         zsZcr = stats.zscore(zeroCrossing[frameStart:frameEnd])
         zsEntropy = stats.zscore(entropy[frameStart:frameEnd])
+        zsMfcc = stats.zscore(intraAverage)
 
         if not (np.isnan(tempPower)):
             # Use the following print statement to print times, and labels
-            # print(startIndex * 0.01, endIndex * 0.01, frameStart, frameEnd)
-            print(startIndex * 0.01, "->", endIndex * 0.01, "Power:", tempPower, "Mfcc:", tempMfcc, "Entropy:", tempEntropy)
+            print(startIndex * 0.01, "->", endIndex * 0.01, "Power:", tempPower, "Mfcc:", tempMfcc, "Entropy:", tempEntropy, "Zcr:", tempZcr)
             # Use the following print statement to just print the values
-            # print(tempPower, tempMfcc, tempEntropy)
+            # print(tempPower, round(tempMfcc, 7), tempEntropy)
+            # print(startIndex * 0.01, endIndex * 0.01, frameStart, frameEnd)
             # print(avgPower[frameStart:frameEnd])
             startIndex += durationOffset
             endIndex += durationOffset

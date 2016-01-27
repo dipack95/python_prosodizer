@@ -70,22 +70,25 @@ def powerEntropyMfccZC(localFile):
 
     entropy = np.reshape(entropy, entropy.shape[1])
 
-    avgMfccOfFrames = []
-    avgMfccOfFrames = np.array(np.append(avgMfccOfFrames, np.mean(mfcc, axis=1)))
+    ratioOfMfccs = []
+    for frame in mfcc:
+        avg1 = sum(frame[0:3]) / 3
+        avg2 = sum(frame[10:13]) / 3
+        ratioOfMfccs = np.append(ratioOfMfccs, avg1 / avg2)
 
     zeroCrossing = np.reshape(zeroCrossing, zeroCrossing.shape[1])
 
     # print("avgPowerOfFrames: ", str(avgPowerOfFrames.shape), " entropy: ", str(entropy.shape))
 
-    return avgPowerOfFrames, entropy, avgMfccOfFrames, zeroCrossing
+    return avgPowerOfFrames, entropy, ratioOfMfccs, zeroCrossing
 
 def main():
     localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_10.wav'
     
     # printTimes(0, 25, 15, localFileName)
-    avgPowerOfFrames, entropy, avgMfccOfFrames, zeroCrossing = powerEntropyMfccZC(localFileName)
+    avgPowerOfFrames, entropy, ratioOfMfccs, zeroCrossing = powerEntropyMfccZC(localFileName)
     zsPower = stats.zscore(avgPowerOfFrames)
-    zsMfcc = stats.zscore(avgMfccOfFrames)
+    zsMfcc = stats.zscore(ratioOfMfccs)
     zsEntropy = stats.zscore(entropy)
     zsZC = stats.zscore(zeroCrossing)
 
@@ -94,8 +97,8 @@ def main():
     endIndex = 25
     jump = 15
 
-    for i in range(len(avgMfccOfFrames)):
-        print(startIndex, "ms ->", endIndex, "ms -- MFCC:", avgMfccOfFrames[i], zsMfcc[i], "-- Power:", avgPowerOfFrames[i], zsPower[i], "-- Entropy:", entropy[i], zsEntropy[i],"-- ZeroC:", zeroCrossing[i], zsZC[i])
+    for i in range(len(ratioOfMfccs)):
+        print(startIndex, "ms ->", endIndex, "ms -- MFCC:", ratioOfMfccs[i], zsMfcc[i], "-- Power:", avgPowerOfFrames[i], zsPower[i], "-- Entropy:", entropy[i], zsEntropy[i],"-- ZeroC:", zeroCrossing[i], zsZC[i])
         startIndex += jump
         endIndex += jump
 
