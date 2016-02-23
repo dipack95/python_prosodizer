@@ -9,26 +9,26 @@ from scipy import stats
 
 # np.set_printoptions(threshold=np.inf)
 
-targetPath = os.path.abspath("../sounds/sounds/hack-the-talk-exotel-master/training_dataset")
+targetPath = os.path.abspath("../sounds")
 
 zcrFiles = [os.path.join(path, name)
              for path, dirs, files in os.walk(targetPath)
-             for name in files if ("angry" in name and name.endswith(("-zeroCrossing.csv")))]
+             for name in files if ("angry" in name and name.endswith(("_zeroCrossing.csv")))]
 
 powerFiles = [os.path.join(path, name)
              for path, dirs, files in os.walk(targetPath)
-             for name in files if ("angry" in name and name.endswith(("-powerSpectrum.csv")))]
+             for name in files if ("angry" in name and name.endswith(("_powerSpectrum.csv")))]
 
 entropyFiles = [os.path.join(path, name)
              for path, dirs, files in os.walk(targetPath)
-             for name in files if ("angry" in name and name.endswith(("-entropy.csv")))]
+             for name in files if ("angry" in name and name.endswith(("_entropy.csv")))]
 
 def splitSignal(localFile):
 
-    power = np.nan_to_num(np.array(pd.read_csv(localFile + '-powerSpectrum.csv', header=None), dtype='float64'))
-    mfcc = np.nan_to_num(np.array(pd.read_csv(localFile + '-mfcc.csv', header=None), dtype='float64'))
-    zeroCrossing = np.nan_to_num(np.array(pd.read_csv(localFile + '-zeroCrossing.csv', header=None), dtype='float64'))
-    entropy = np.nan_to_num(np.array(pd.read_csv(localFile + '-entropy.csv', header=None), dtype='float64'))
+    power = np.nan_to_num(np.array(pd.read_csv(localFile + '_powerSpectrum.csv', header=None), dtype='float64'))
+    mfcc = np.nan_to_num(np.array(pd.read_csv(localFile + '_mfcc.csv', header=None), dtype='float64'))
+    zeroCrossing = np.nan_to_num(np.array(pd.read_csv(localFile + '_zeroCrossing.csv', header=None), dtype='float64'))
+    entropy = np.nan_to_num(np.array(pd.read_csv(localFile + '_entropy.csv', header=None), dtype='float64'))
     zeroCrossing = np.ravel(zeroCrossing)
     entropy = np.ravel(entropy)
 
@@ -55,7 +55,7 @@ def splitSignal(localFile):
     frameEnd = blockLength
     frameOffset = np.floor(numOfFrames / numOfJumps)
 
-    print(frameOffset, blockLength, numOfJumps, lengthOfSignal, numOfFrames)
+    # print(frameOffset, blockLength, numOfJumps, lengthOfSignal, numOfFrames)
 
     avgPower = np.mean(power, axis = 1)
 
@@ -85,7 +85,8 @@ def splitSignal(localFile):
 
         if not (np.isnan(tempPower)):
             # Use the following print statement to print times, and labels
-            print(startIndex * 0.01, "->", endIndex * 0.01, "Power:", tempPower, "Mfcc:", tempMfcc, "Entropy:", tempEntropy, "Zcr:", tempZcr)
+            # print(startIndex * 0.01, "->", endIndex * 0.01, "Power:", tempPower)
+            print(startIndex *0.01, endIndex * 0.01)
             # Use the following print statement to just print the values
             # print(tempPower, round(tempMfcc, 7), tempEntropy)
             # print(startIndex * 0.01, endIndex * 0.01, frameStart, frameEnd)
@@ -100,8 +101,9 @@ def splitSignal(localFile):
 
 def main():
 
-    localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_1.wav'
+    # localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_10.wav'
     # localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pallavi/pallavi-normal.wav'
+    localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Tyrion/tyrion_neutral.wav'
     splitSignal(localFileName)
 
 if __name__ == '__main__':

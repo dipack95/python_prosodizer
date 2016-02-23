@@ -10,35 +10,35 @@ np.set_printoptions(threshold=np.inf)
 
 mfccFiles = [os.path.join(path, name)
              for path, dirs, files in os.walk(targetPath)
-             for name in files if name.endswith(("-mfcc.csv"))]
+             for name in files if name.endswith(("_mfcc.csv"))]
 
 del1Files = [os.path.join(path, name)
              for path, dirs, files in os.walk(targetPath)
-             for name in files if name.endswith(("-del1.csv"))]
+             for name in files if name.endswith(("_del1.csv"))]
 
 del2Files = [os.path.join(path, name)
              for path, dirs, files in os.walk(targetPath)
-             for name in files if name.endswith(("-del2.csv"))]
+             for name in files if name.endswith(("_del2.csv"))]
 
 entropyFiles = [os.path.join(path, name)
                 for path, dirs, files in os.walk(targetPath)
-                for name in files if name.endswith(("-entropy.csv"))]
+                for name in files if name.endswith(("_entropy.csv"))]
 
 rmsFiles = [os.path.join(path, name)
             for path, dirs, files in os.walk(targetPath)
-            for name in files if name.endswith(("-rms.csv"))]
+            for name in files if name.endswith(("_rms.csv"))]
 
 zeroCrossingFiles = [os.path.join(path, name)
                      for path, dirs, files in os.walk(targetPath)
-                     for name in files if name.endswith(("-zeroCrossing.csv"))]
+                     for name in files if name.endswith(("_zeroCrossing.csv"))]
 
 powerFiles = [os.path.join(path, name)
               for path, dirs, files in os.walk(targetPath)
-              for name in files if name.endswith(("-powerSpectrum.csv"))]
+              for name in files if name.endswith(("_powerSpectrum.csv"))]
 
 def printTimes(startIndex, endIndex, jump, localFile):
-    mfcc = np.nan_to_num(np.array(pd.read_csv(localFile + '-mfcc.csv', header=None), dtype='float64'))
-    power = np.nan_to_num(np.array(pd.read_csv(localFile + '-powerSpectrum.csv', header=None), dtype='float64'))
+    mfcc = np.nan_to_num(np.array(pd.read_csv(localFile + '_mfcc.csv', header=None), dtype='float64'))
+    power = np.nan_to_num(np.array(pd.read_csv(localFile + '_powerSpectrum.csv', header=None), dtype='float64'))
     count = 0
 
     for i in range(len(mfcc)):
@@ -52,10 +52,10 @@ def printTimes(startIndex, endIndex, jump, localFile):
 def powerEntropyMfccZC(localFile):
     # print("Power file: " + str(powerFile.split("/")[-1]) + " Entropy file: " + str(entropyFile.split("/")[-1]))
     
-    power = np.nan_to_num(np.array(pd.read_csv(localFile + '-powerSpectrum.csv', header=None), dtype='float64'))
-    entropy = np.nan_to_num(np.array(pd.read_csv(localFile + '-entropy.csv', header=None), dtype='float64'))
-    mfcc = np.nan_to_num(np.array(pd.read_csv(localFile + '-mfcc.csv', header=None), dtype='float64'))
-    zeroCrossing = np.nan_to_num(np.array(pd.read_csv(localFile + '-zeroCrossing.csv', header=None), dtype='float64'))
+    power = np.nan_to_num(np.array(pd.read_csv(localFile + '_powerSpectrum.csv', header=None), dtype='float64'))
+    entropy = np.nan_to_num(np.array(pd.read_csv(localFile + '_entropy.csv', header=None), dtype='float64'))
+    mfcc = np.nan_to_num(np.array(pd.read_csv(localFile + '_mfcc.csv', header=None), dtype='float64'))
+    zeroCrossing = np.nan_to_num(np.array(pd.read_csv(localFile + '_zeroCrossing.csv', header=None), dtype='float64'))
 
     if power.shape[0] != entropy.shape[1]:
         print("Number of frames in power array is not equal to number of entropy values in entropy array.")
@@ -75,6 +75,7 @@ def powerEntropyMfccZC(localFile):
         avg1 = sum(frame[0:3]) / 3
         avg2 = sum(frame[10:13]) / 3
         ratioOfMfccs = np.append(ratioOfMfccs, avg1 / avg2)
+    ratioOfMfccs = np.nan_to_num(ratioOfMfccs)
 
     zeroCrossing = np.reshape(zeroCrossing, zeroCrossing.shape[1])
 
@@ -83,24 +84,26 @@ def powerEntropyMfccZC(localFile):
     return avgPowerOfFrames, entropy, ratioOfMfccs, zeroCrossing
 
 def main():
-    localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_10.wav'
-    
-    # printTimes(0, 25, 15, localFileName)
-    avgPowerOfFrames, entropy, ratioOfMfccs, zeroCrossing = powerEntropyMfccZC(localFileName)
-    zsPower = stats.zscore(avgPowerOfFrames)
-    zsMfcc = stats.zscore(ratioOfMfccs)
-    zsEntropy = stats.zscore(entropy)
-    zsZC = stats.zscore(zeroCrossing)
-
+    localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ajinkya/Ajinkya_angry.wav'
+    # localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pallavi/pallavi-normal.wav'
+    # localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/JE/je_angry.wav
     print(localFileName.split('/')[-1].split('.wav')[0])
-    startIndex = 0
-    endIndex = 25
-    jump = 15
+    printTimes(0, 25, 15, localFileName)
+    # avgPowerOfFrames, entropy, ratioOfMfccs, zeroCrossing = powerEntropyMfccZC(localFileName)
+    # zsPower = stats.zscore(avgPowerOfFrames)
+    # zsMfcc = stats.zscore(ratioOfMfccs)
+    # zsEntropy = stats.zscore(entropy)
+    # zsZC = stats.zscore(zeroCrossing)
 
-    for i in range(len(ratioOfMfccs)):
-        print(startIndex, "ms ->", endIndex, "ms -- MFCC:", ratioOfMfccs[i], zsMfcc[i], "-- Power:", avgPowerOfFrames[i], zsPower[i], "-- Entropy:", entropy[i], zsEntropy[i],"-- ZeroC:", zeroCrossing[i], zsZC[i])
-        startIndex += jump
-        endIndex += jump
+    # print(localFileName.split('/')[-1].split('.wav')[0])
+    # startIndex = 0
+    # endIndex = 25
+    # jump = 15
+
+    # for i in range(len(ratioOfMfccs)):
+    #     print(startIndex, "ms ->", endIndex, "ms -- MFCC:", ratioOfMfccs[i], zsMfcc[i], "-- Power:", avgPowerOfFrames[i], zsPower[i], "-- Entropy:", entropy[i], zsEntropy[i],"-- ZeroC:", zeroCrossing[i], zsZC[i])
+    #     startIndex += jump
+    #     endIndex += jump
 
 if __name__ == '__main__':
     main()
