@@ -48,14 +48,14 @@ def splitSignal(localFile):
     frameEnd = blockLength
     frameOffset = np.floor(numOfFrames / numOfJumps)
 
-    print(frameOffset, blockLength, numOfJumps, lengthOfSignal, numOfFrames)
+    # print(frameOffset, blockLength, numOfJumps, lengthOfSignal, numOfFrames)
 
     print("Filename:", localFile.split('/')[-1].split('.wav')[0], "Length:", lengthOfSignal, "Number of labels:", labels.shape, "Number of jumps:", numOfJumps)
     for i in range(0, int(numOfJumps)):
         print(startIndex * 0.01, "->", endIndex * 0.01, frameStart, frameEnd)
         # Prints the first MFCC of each frame in the block, and prints its block label
         for j in range(np.int(frameStart), np.int(frameEnd)):
-            print(j * 0.015, mfcc[j][0], labels[i])
+            print(j * 0.015, (j + 1) * 0.015, mfcc[j][0], labels[i][0])
         startIndex += durationOffset
         endIndex += durationOffset
         frameStart += frameOffset

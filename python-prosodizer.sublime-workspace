@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"km",
+				"kmRange	statement"
+			],
+			[
+				"comp",
+				"compute_bic	function"
+			],
+			[
 				"men",
 				"menData	statement"
 			],
@@ -170,10 +178,6 @@
 			[
 				"con",
 				"converged"
-			],
-			[
-				"km",
-				"kmeans	statement"
 			],
 			[
 				"loac",
@@ -510,23 +514,11 @@
 			[
 				"reu",
 				"return	keyword"
-			],
-			[
-				"avgPow",
-				"avgPowerAll"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "power-zcr-entropy-mfcc.py",
-			"settings":
-			{
-				"buffer_size": 4214,
-				"line_ending": "Unix"
-			}
-		},
 		{
 			"file": "dumpingFeatures.py",
 			"settings":
@@ -536,10 +528,18 @@
 			}
 		},
 		{
+			"file": "power-zcr-entropy-mfcc.py",
+			"settings":
+			{
+				"buffer_size": 2624,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "kmeans_clusters.py",
 			"settings":
 			{
-				"buffer_size": 823,
+				"buffer_size": 821,
 				"line_ending": "Unix"
 			}
 		},
@@ -564,8 +564,25 @@
 			"file": "kmeans_bic.py",
 			"settings":
 			{
-				"buffer_size": 1224,
+				"buffer_size": 1329,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gmm_bic.py",
+			"settings":
+			{
+				"buffer_size": 643,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "gmm bic\nNumber of components =  2  BIC =  87345653.2329\nNumber of components =  3  BIC =  86608403.513\nNumber of components =  4  BIC =  86112656.2565\nNumber of components =  5  BIC =  85856589.4012\nNumber of components =  6  BIC =  85655207.2987\nNumber of components =  7  BIC =  85543549.66\nNumber of components =  8  BIC =  85281210.6703\nNumber of components =  9  BIC =  85200021.8486\nNumber of components =  10  BIC =  85011713.7213\nNumber of components =  11  BIC =  84936952.959\nNumber of components =  12  BIC =  84869470.084\n	Number of components =  13  BIC =  84694154.2433\nNumber of components =  14  BIC =  84841350.6081\nNumber of components =  15  BIC =  84657704.0658\nNumber of components =  16  BIC =  84489980.156\nNumber of components =  17  BIC =  84533174.5275\n[Cancelled]",
+			"settings":
+			{
+				"buffer_size": 790,
+				"line_ending": "Unix",
+				"name": "gmm bic"
 			}
 		},
 		{
@@ -577,29 +594,12 @@
 			}
 		},
 		{
-			"file": "explode_25ms.py",
-			"settings":
-			{
-				"buffer_size": 3396,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "names.py",
 			"settings":
 			{
 				"buffer_size": 824,
 				"line_ending": "Unix",
 				"name": "import numpy as np"
-			}
-		},
-		{
-			"file": "val.Py",
-			"settings":
-			{
-				"buffer_size": 1720,
-				"line_ending": "Unix",
-				"name": "silences = [  6   8  11  13  14  17  24  25  26  3"
 			}
 		},
 		{
@@ -684,9 +684,13 @@
 	"command_palette":
 	{
 		"height": 398.0,
-		"last_filter": "d",
+		"last_filter": "di",
 		"selected_items":
 		[
+			[
+				"di",
+				"Anaconda: Disable linting on this file"
+			],
 			[
 				"d",
 				"Anaconda: Disable linting on this file"
@@ -701,10 +705,6 @@
 			],
 			[
 				"",
-				"Anaconda: Disable linting on this file"
-			],
-			[
-				"di",
 				"Anaconda: Disable linting on this file"
 			],
 			[
@@ -905,6 +905,9 @@
 	],
 	"file_history":
 	[
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/power-zcr-entropy-mfcc.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/val.Py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/explode_25ms.py",
 		"/home/dipack/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/men_angry_neutral_mfcc.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/men_angry_neutral_mfcc.csv",
@@ -971,7 +974,6 @@
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/OldGuy/old_angry.wav-entropy.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/pallavi-csv_files_times.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/analysis-powervsentropy.py",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/power-zcr-entropy-mfcc.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/pitch-detection.py",
 		"/tmp/.fr-M8fSQ1/it/evilsocket/dsploit/wifi/algorithms/DiscusKeygen.java",
 		"/tmp/.fr-UVvt5O/it/evilsocket/dsploit/wifi/Keygen.java",
@@ -1030,9 +1032,7 @@
 		"/home/dipack/Dropbox/Message_Backup/WhatsApp Chat with ‪+91 98 22 078374‬.txt",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/training_dataset/angry/training_angry_20.wav-powerSpectrum.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/training_dataset/angry/training_angry_10.wav-zeroCrossing.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/output.txt",
-		"/home/dipack/.local/share/applications/QtProject-qtcreator.desktop",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/test_prosodizer/test_prosodizer.pro"
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/output.txt"
 	],
 	"find":
 	{
@@ -1235,36 +1235,6 @@
 			[
 				{
 					"buffer": 0,
-					"file": "power-zcr-entropy-mfcc.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4214,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								19,
-								19
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "dumpingFeatures.py",
 					"semi_transient": false,
 					"settings":
@@ -1286,11 +1256,41 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 966.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "power-zcr-entropy-mfcc.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2624,
+								2624
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 756.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1299,15 +1299,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 823,
+						"buffer_size": 821,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								709,
-								709
+								707,
+								707
 							]
 						],
 						"settings":
@@ -1344,10 +1344,10 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1876.0,
+						"translation.y": 210.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -1373,11 +1373,11 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 462.0,
+						"translation.x": -0.0,
+						"translation.y": 84.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -1386,15 +1386,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1224,
+						"buffer_size": 1329,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1098,
+								1098
 							]
 						],
 						"settings":
@@ -1404,14 +1404,71 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 210.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
+					"file": "gmm_bic.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 643,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								632,
+								632
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 158.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								535,
+								535
+							]
+						],
+						"settings":
+						{
+							"auto_name": "gmm bic",
+							"default_dir": "/home/dipack/College/Fourth_Year/Final_Year_Project/python_code",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "csv_files_times.py",
 					"semi_transient": false,
 					"settings":
@@ -1433,45 +1490,15 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 777.0,
+						"translation.x": 42.0,
+						"translation.y": 693.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "explode_25ms.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3396,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3111,
-								3111
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 387.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "names.py",
 					"semi_transient": false,
 					"settings":
@@ -1496,38 +1523,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "val.Py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1720,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1689,
-								1689
-							]
-						],
-						"settings":
-						{
-							"auto_name": "silences = [  6   8  11  13  14  17  24  25  26  3",
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -1595,7 +1591,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 413.0
+		"height": 235.0
 	},
 	"output.find_results":
 	{

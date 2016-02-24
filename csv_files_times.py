@@ -36,13 +36,14 @@ powerFiles = [os.path.join(path, name)
               for path, dirs, files in os.walk(targetPath)
               for name in files if name.endswith(("_powerSpectrum.csv"))]
 
-def printTimes(startIndex, endIndex, jump, localFile):
+def printTimes(startIndex, endIndex, jump, localFile, writeToFile):
     mfcc = np.nan_to_num(np.array(pd.read_csv(localFile + '_mfcc.csv', header=None), dtype='float64'))
     power = np.nan_to_num(np.array(pd.read_csv(localFile + '_powerSpectrum.csv', header=None), dtype='float64'))
     count = 0
 
     for i in range(len(mfcc)):
-        print(startIndex, "ms ->", endIndex, "ms Mean Mfcc:", np.mean(mfcc[i]), "Mean Power:", np.mean(power[i]))
+        # print(startIndex, "ms ->", endIndex, "ms Mean Mfcc:", np.mean(mfcc[i]), "Mean Power:", np.mean(power[i]))
+        print(startIndex, endIndex, file = writeToFile)
         startIndex += jump
         endIndex += jump
         count += 1
@@ -84,26 +85,14 @@ def powerEntropyMfccZC(localFile):
     return avgPowerOfFrames, entropy, ratioOfMfccs, zeroCrossing
 
 def main():
-    localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ajinkya/Ajinkya_angry.wav'
-    # localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Women/Pallavi/pallavi-normal.wav'
-    # localFileName = '/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/JE/je_angry.wav
-    print(localFileName.split('/')[-1].split('.wav')[0])
-    printTimes(0, 25, 15, localFileName)
-    # avgPowerOfFrames, entropy, ratioOfMfccs, zeroCrossing = powerEntropyMfccZC(localFileName)
-    # zsPower = stats.zscore(avgPowerOfFrames)
-    # zsMfcc = stats.zscore(ratioOfMfccs)
-    # zsEntropy = stats.zscore(entropy)
-    # zsZC = stats.zscore(zeroCrossing)
+    menNames = np.ravel(np.array(pd.read_csv('Docs/men_filenames.csv', header = None, dtype = str)))
+    # print(menNames)
+    for localFileName in menNames:
 
-    # print(localFileName.split('/')[-1].split('.wav')[0])
-    # startIndex = 0
-    # endIndex = 25
-    # jump = 15
-
-    # for i in range(len(ratioOfMfccs)):
-    #     print(startIndex, "ms ->", endIndex, "ms -- MFCC:", ratioOfMfccs[i], zsMfcc[i], "-- Power:", avgPowerOfFrames[i], zsPower[i], "-- Entropy:", entropy[i], zsEntropy[i],"-- ZeroC:", zeroCrossing[i], zsZC[i])
-    #     startIndex += jump
-    #     endIndex += jump
+        if(localFileName.split('/')[-1][0] > 'k' or localFileName.split('/')[-1][0] > 'K'):
+            localFile = open('25ms_times/' + localFileName.split('/')[-1] + '_times.csv', 'w')
+            print(localFileName.split('/')[-1], file = localFile)
+            printTimes(0, 25, 15, localFileName, localFile)
 
 if __name__ == '__main__':
     main()
