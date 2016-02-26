@@ -44,6 +44,7 @@ def main():
                     elif "Women" in path:
                         printToFileName = printToFileNameWomen
                         printToFile = open(printToFileName, "a+")
+                    print(filename)
                     localFileName = os.path.join(path, filename) 
                     localFileName = localFileName.replace("/sounds/", "/csv/")
                     print_features(localFileName, printToFile)

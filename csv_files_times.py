@@ -85,14 +85,14 @@ def powerEntropyMfccZC(localFile):
     return avgPowerOfFrames, entropy, ratioOfMfccs, zeroCrossing
 
 def main():
-    menNames = np.ravel(np.array(pd.read_csv('Docs/men_filenames.csv', header = None, dtype = str)))
+    menNames = np.ravel(np.array(pd.read_csv('Docs/filenames/men_filenames.csv', header = None, dtype = str)))
     # print(menNames)
     for localFileName in menNames:
 
-        if(localFileName.split('/')[-1][0] > 'k' or localFileName.split('/')[-1][0] > 'K'):
-            localFile = open('25ms_times/' + localFileName.split('/')[-1] + '_times.csv', 'w')
-            print(localFileName.split('/')[-1], file = localFile)
-            printTimes(0, 25, 15, localFileName, localFile)
+        # if(localFileName.split('/')[-1][0] > 'k' or localFileName.split('/')[-1][0] > 'K'):
+        localFile = open('25ms_times/' + localFileName.split('/')[-1] + '_times.csv', 'w')
+        print(localFileName.split('/')[-1], file = localFile)
+        printTimes(0, 25, 15, localFileName, localFile)
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,84 @@
+Ajinkya Angry [ 62.685] 4180
+Ajinkya Neutral [ 60.855] 4058
+pacino_devils_angry [ 13.35] 891
+pacino_devils_neutral [ 8.925] 596
+Amit [ 224.76] 14985
+	Angry Fred [ 10.755] 718
+Angry Jap [ 19.935] 1330
+Angry Niko [ 94.965] 6332
+Angry Samuel [ 53.985] 3600
+Angry Walt [ 6.555] 438
+Angry Ari [ 58.62] 3909
+Ari Neutral [ 19.785] 1320
+Arrow Angry [ 17.925] 1196
+Arrow Neutral [ 14.055] 938
+Arun Angry [ 8.97] 599
+Arun Neutral [ 6.72] 449
+Bale Angry [ 46.005] 3068
+Bale Neutral [ 51.735] 3450
+Bhargav Angry [ 5.115] 342
+Bhargav Neutral [ 6.765] 452
+Cruise Angry [ 5.85] 391
+Cruise Neutral [ 18.225] 1216
+DadPatil Angry [ 12.975] 866
+DadPatil Neutral [ 10.215] 682
+DC Angry [ 35.025] 2336
+DC Neutral [ 66.525] 4436
+Dicap_Django Angry [ 9.48] 633
+Dicap_Django Neutral [ 26.25] 1751
+Doctor Angry [ 9.72] 649
+Doctor Neutral [ 16.725] 1116
+Goswami Angry [ 10.155] 678
+Goswami Neutral [ 11.22] 749
+Harvey Angry [ 8.985] 600
+Harvey Neutral [ 9.48] 633
+JE Angry [ 39.] 2601
+JE Neutral [ 77.775] 5186
+JK Angry [ 46.845] 3124
+JK Neutral [ 84.285] 5620
+Kapish Angry [ 34.755] 2318
+Kapish Neutral [ 52.515] 3502
+KL Angry [ 37.5] 2501
+	KL Neutral [ 69.18] 4613
+leo_angry_wolf.wav [ 22845.] 1524
+leo_neutral_wolf.wav [ 16140.] 1077
+leo_angry.wav [ 13680.] 913
+leo_neutral.wav [ 32445.] 2164
+loki_angry.wav [ 21225.] 1416
+loki_neutral.wav [ 30045.] 2004
+louis_angry.wav [ 13170.] 879
+louis_neutral.wav [ 13440.] 897
+Malkan_angry.wav [ 63060.] 4205
+Malkan_neutral.wav [ 61620.] 4109
+Manas_angry.wav [ 60570.] 4039
+Manas_neutral.wav [ 62055.] 4138
+mathur_angry.wav [ 13785.] 920
+mathur_neutral.wav [ 9900.] 661
+michael_angry.wav [ 67050.] 4471
+michael_neutral.wav [ 76545.] 5104
+nicholson_angry.wav [ 22740.] 1517
+nicholson_neutral.wav [ 26400.] 1761
+Nishant_angry.wav [ 122340.] 8157
+Nishant_neutral.wav [ 56385.] 3760
+old_angry.wav [ 312480.] 20833
+old_neutral.wav [387465] 25832
+RandomMan_angry.wav [ 39060.] 2605
+RandomMan_neutral.wav [ 42660.] 2845
+rishi_angry.wav [ 8280.] 553
+rishi_neutral.wav [ 10080.] 673
+simmons_angry.wav [ 55245.] 3684
+simmons_neutral.wav [ 52275.] 3486
+Puneet_angry.wav [ 59925.] 3996
+Puneet_neutral.wav [ 55545.] 3704
+robert_angry.wav [ 21480.] 1433
+robert_neutral.wav [ 45705.] 3048
+Rohit_angry.wav [ 59505.] 3968
+Rohit_neutral.wav [ 61365.] 4092
+toby_angry.wav [ 28530.] 1903
+toby_neutral.wav [ 35820.] 2389
+Tushar_angry.wav [ 59685.] 3980
+Tushar_neutral.wav [ 62865.] 4192
+tyrion_angry.wav [ 50205.] 3348
+tyrion_neutral.wav [ 35475.] 2366
+vaas_angry.wav [ 20175.] 1346
+vaas_neutral.wav [ 31230.] 2083
