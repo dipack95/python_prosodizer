@@ -867,6 +867,7 @@
 	],
 	"file_history":
 	[
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/all_files_mfcc_energy.csv",
 		"/home/dipack/eclipse_workspaces/Kirit_Udit/WebContent/WEB-INF/wst.jsp",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/women_filenames.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/men_filenames.csv",
@@ -993,8 +994,7 @@
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_16.wav-mfcc.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_16.wav-powerSpectrum.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/training_dataset/angry/training_angry_16.wav-zeroCrossing.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/training_dataset/angry/training_angry_10.wav-powerSpectrum.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/training_dataset/angry/training_angry_10.wav-entropy.csv"
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/training_dataset/angry/training_angry_10.wav-powerSpectrum.csv"
 	],
 	"find":
 	{
