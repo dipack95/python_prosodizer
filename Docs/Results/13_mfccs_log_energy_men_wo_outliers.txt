@@ -1,32 +1,18 @@
 13 MFCCs, Log Energy, Men
-KMeans Index: 1 BIC: -39260629.742
-KMeans Index: 2 BIC: -38901457.1847
-KMeans Index: 3 BIC: -38789573.1353
-KMeans Index: 4 BIC: -38662590.3896
-KMeans Index: 5 BIC: -38562377.3677
-KMeans Index: 6 BIC: -38484148.1694
-KMeans Index: 7 BIC: -38418846.8347
-KMeans Index: 8 BIC: -38356954.5357
-KMeans Index: 9 BIC: -38296822.7276
-KMeans Index: 10 BIC: -38290117.4723
-KMeans Index: 11 BIC: -38238256.6768
-KMeans Index: 12 BIC: -38204021.1778
-KMeans Index: 13 BIC: -38145184.2314
-KMeans Index: 14 BIC: -38132476.8775
-KMeans Index: 15 BIC: -38104327.6332
-KMeans Index: 16 BIC: -38089829.2404
-KMeans Index: 17 BIC: -38065097.8385
-KMeans Index: 18 BIC: -38032658.995
-KMeans Index: 19 BIC: -38013807.3933
-KMeans Index: 20 BIC: -37985682.6916
-KMeans Index: 21 BIC: -37973046.2323
-KMeans Index: 22 BIC: -37955263.1456
-KMeans Index: 23 BIC: -37951516.0012
-KMeans Index: 24 BIC: -37925895.0808
-KMeans Index: 25 BIC: -37919746.8443
-KMeans Index: 26 BIC: -37930300.8923
+Docs/men_angry_neutral_mfcc.csv (261997, 14)
+KMeans Index: 1 BIC: -50690405.5227
+KMeans Index: 2 BIC: -50223216.4001
+KMeans Index: 3 BIC: -50074820.2634
+KMeans Index: 4 BIC: -49908123.4338
+KMeans Index: 5 BIC: -49749500.4158
+KMeans Index: 6 BIC: -49650716.9083
+KMeans Index: 7 BIC: -49551997.7545
+KMeans Index: 8 BIC: -49469837.9784
+KMeans Index: 9 BIC: -49397672.7639
+KMeans Index: 10 BIC: -49342685.9595
+KMeans Index: 11 BIC: -49284400.9996
+KMeans Index: 12 BIC: -49300491.0522
 -------KNEE-------
-KMeans Index: 27 BIC: -37906469.7453
-KMeans Index: 28 BIC: -37874521.2017
-KMeans Index: 29 BIC: -37862440.2536
+KMeans Index: 13 BIC: -49239804.4054
+KMeans Index: 14 BIC: -49190855.9342
 [Cancelled]

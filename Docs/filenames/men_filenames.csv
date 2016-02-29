@@ -44,7 +44,7 @@
 ../csv/Men/Leonardo/leo_neutral.wav
 ../csv/Men/Leo_Wolf/leo_angry_wolf.wav
 ../csv/Men/Leo_Wolf/leo_neutral_wolf.wav
-../csv/Men/Loki/loki_angry.wav
+#../csv/Men/Loki/loki_angry.wav
 ../csv/Men/Loki/loki_neutral.wav
 ../csv/Men/Louis/louis_angry.wav
 ../csv/Men/Louis/louis_neutral.wav
@@ -76,7 +76,7 @@
 ../csv/Men/Simmons/simmons_neutral.wav
 ../csv/Men/Tobymac/toby_angry.wav
 ../csv/Men/Tobymac/toby_neutral.wav
-../csv/Men/Tushar/Tushar_angry.wav
+#../csv/Men/Tushar/Tushar_angry.wav
 ../csv/Men/Tushar/Tushar_neutral.wav
 ../csv/Men/Tyrion/tyrion_angry.wav
 ../csv/Men/Tyrion/tyrion_neutral.wav

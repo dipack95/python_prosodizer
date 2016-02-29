@@ -1,0 +1,17 @@
+10 MFCCs, Log Energy
+Docs/men_angry_neutral_mfcc.csv (261997, 12)
+KMeans Index: 1 BIC: -43630987.1459
+KMeans Index: 2 BIC: -43225356.9922
+KMeans Index: 3 BIC: -43103007.1354
+KMeans Index: 4 BIC: -42953656.0934
+KMeans Index: 5 BIC: -42815245.5955
+KMeans Index: 6 BIC: -42727777.5282
+KMeans Index: 7 BIC: -42646530.6629
+KMeans Index: 8 BIC: -42575705.7891
+KMeans Index: 9 BIC: -42523829.3113
+KMeans Index: 10 BIC: -42457632.6001
+KMeans Index: 11 BIC: -42421018.0599
+KMeans Index: 12 BIC: -42430643.7804
+-------KNEE-------
+KMeans Index: 13 BIC: -42375679.985
+[Cancelled]

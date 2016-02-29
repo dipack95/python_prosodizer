@@ -31,7 +31,7 @@ def compute_bic(kmeans,X):
 
 
 BIC = []
-dataFile = 'Docs/women_angry_neutral_mfcc.csv'
+dataFile = 'Docs/men_angry_neutral_mfcc.csv'
 data = np.array(pd.read_csv(dataFile, header=None, sep=' '))
 dataLabels = data[:, 0]
 data = data[:, 1:]

@@ -17,17 +17,11 @@ def print_features(localFile, dumpFile):
 
     avgOfMfcc = np.mean(mfcc, axis = 0)
 
-    # for i in range(len(mfcc)):
-    #     for j in range(len(mfcc[i])):
-    #         mfcc[i][j] -= avgOfMfcc[j]
-    #     print(labels[i], mfcc[i][0], np.log10(energy[i]))
-
     j = 0
     for tempMfcc in mfcc:
         for i in range(len(tempMfcc)):
             tempMfcc[i] = (tempMfcc[i] - avgOfMfcc[i])
-        # print(labels[j], tempMfcc[0], tempMfcc[1], tempMfcc[2], tempMfcc[3], tempMfcc[4], tempMfcc[5], tempMfcc[6], tempMfcc[7], tempMfcc[8], tempMfcc[9], tempMfcc[10], tempMfcc[11], tempMfcc[12], np.log10(energy[j]))
-        print(labels[j], tempMfcc[0], tempMfcc[1], tempMfcc[2], tempMfcc[3], tempMfcc[4], tempMfcc[5], tempMfcc[6], tempMfcc[7], tempMfcc[8], tempMfcc[9], tempMfcc[10], tempMfcc[11], tempMfcc[12], np.log10(energy[j]), file=dumpFile)
+        print(labels[j], tempMfcc[0], tempMfcc[1], tempMfcc[2], tempMfcc[3], tempMfcc[4], tempMfcc[5], tempMfcc[6], tempMfcc[7], tempMfcc[8], tempMfcc[9], tempMfcc[10], np.log10(energy[j]), file=dumpFile)
         j += 1
 
     return
@@ -58,7 +52,6 @@ def main():
             printToFile = open(printToFileNameWomen, "a+")
             print(filename)
             print_features(filename, printToFile)
-
 
 if __name__ == '__main__':
     main()

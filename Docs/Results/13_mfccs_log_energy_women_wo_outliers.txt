@@ -2,28 +2,20 @@
 Docs/women_angry_neutral_mfcc.csv (112295, 14)
 KMeans Index: 1 BIC: -21930414.6634
 KMeans Index: 2 BIC: -21681200.3155
-KMeans Index: 3 BIC: -21571477.5524
-KMeans Index: 4 BIC: -21479746.4331
-KMeans Index: 5 BIC: -21442534.0014
-KMeans Index: 6 BIC: -21393976.7669
-KMeans Index: 7 BIC: -21356483.5987
-KMeans Index: 8 BIC: -21329808.1748
-KMeans Index: 9 BIC: -21298024.6597
-KMeans Index: 10 BIC: -21267696.2512
-KMeans Index: 11 BIC: -21240798.2368
-KMeans Index: 12 BIC: -21234220.5632
-KMeans Index: 13 BIC: -21219771.5106
-KMeans Index: 14 BIC: -21196746.7308
-KMeans Index: 15 BIC: -21181471.367
-KMeans Index: 16 BIC: -21173491.8548
-KMeans Index: 17 BIC: -21153788.5766
-KMeans Index: 18 BIC: -21151799.3241
-KMeans Index: 19 BIC: -21141172.5288
-KMeans Index: 20 BIC: -21124527.6145
-KMeans Index: 21 BIC: -21119368.8993
-KMeans Index: 22 BIC: -21101841.1835
-KMeans Index: 23 BIC: -21102008.3137
+KMeans Index: 3 BIC: -21571477.358
+KMeans Index: 4 BIC: -21479755.6155
+KMeans Index: 5 BIC: -21443380.5717
+KMeans Index: 6 BIC: -21394844.8662
+KMeans Index: 7 BIC: -21356560.2474
+KMeans Index: 8 BIC: -21329819.5942
+KMeans Index: 9 BIC: -21298037.2589
+KMeans Index: 10 BIC: -21267706.6101
+KMeans Index: 11 BIC: -21241023.034
+KMeans Index: 12 BIC: -21234203.247
+KMeans Index: 13 BIC: -21214768.8029
+KMeans Index: 14 BIC: -21196673.2318
+KMeans Index: 15 BIC: -21178963.4573
+KMeans Index: 16 BIC: -21181781.7308
 -------KNEE-------
-KMeans Index: 24 BIC: -21085859.183
-KMeans Index: 25 BIC: -21083429.8632
+KMeans Index: 17 BIC: -21165053.8865
 [Cancelled]

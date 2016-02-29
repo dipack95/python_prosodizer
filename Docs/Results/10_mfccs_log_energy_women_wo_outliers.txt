@@ -1,0 +1,29 @@
+10 MFCCs, Log Energy
+Docs/women_angry_neutral_mfcc.csv (112295, 12)
+KMeans Index: 1 BIC: -18874581.2872
+KMeans Index: 2 BIC: -18655297.9072
+KMeans Index: 3 BIC: -18560150.9557
+KMeans Index: 4 BIC: -18477047.6114
+KMeans Index: 5 BIC: -18445382.2497
+KMeans Index: 6 BIC: -18407305.2893
+KMeans Index: 7 BIC: -18378339.7867
+KMeans Index: 8 BIC: -18349279.1145
+KMeans Index: 9 BIC: -18320831.2703
+KMeans Index: 10 BIC: -18295512.9379
+KMeans Index: 11 BIC: -18272207.417
+KMeans Index: 12 BIC: -18257144.5218
+KMeans Index: 13 BIC: -18250880.9009
+KMeans Index: 14 BIC: -18233629.6629
+KMeans Index: 15 BIC: -18217623.485
+KMeans Index: 16 BIC: -18214354.0767
+KMeans Index: 17 BIC: -18207680.7502
+KMeans Index: 18 BIC: -18194061.7015
+KMeans Index: 19 BIC: -18182139.3061
+KMeans Index: 20 BIC: -18172957.6629
+KMeans Index: 21 BIC: -18165893.5516
+KMeans Index: 22 BIC: -18162926.2981
+KMeans Index: 23 BIC: -18146177.0215
+KMeans Index: 24 BIC: -18152873.0965
+-------KNEE-------
+KMeans Index: 25 BIC: -18139698.9251
+[Cancelled]
