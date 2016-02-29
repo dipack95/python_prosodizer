@@ -16,7 +16,7 @@
 ../csv/Women/Paris/paris_angry.wav
 ../csv/Women/Paris/paris_neutral.wav
 ../csv/Women/PDB/Priyanjali_angry.wav
-#../csv/Women/PDB/Priyanjali_neutral.wav
+../csv/Women/PDB/Priyanjali_neutral.wav
 ../csv/Women/Pooja/Pooja_angry.wav
 ../csv/Women/Pooja/Pooja_neutral.wav
 ../csv/Women/Pritha/Pritha_angry.wav
@@ -27,5 +27,5 @@
 ../csv/Women/Tanvi/Tanvi_neutral.wav
 ../csv/Women/Unsorted/angry_woman.wav
 ../csv/Women/Unsorted/neutral_woman.wav
-#../csv/Women/YoungWoman/young_angry.wav
+../csv/Women/YoungWoman/young_angry.wav
 ../csv/Women/YoungWoman/young_neutral.wav

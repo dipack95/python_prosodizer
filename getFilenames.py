@@ -7,6 +7,7 @@ import math
 import scipy
 from scipy.stats import f
 from scipy import stats
+from subprocess import call
 
 np.set_printoptions(threshold=np.inf)
 
@@ -34,6 +35,9 @@ def main():
                     localFileName = os.path.join(path, filename) 
                     localFileName = localFileName.replace("/sounds/", "/csv/")
                     print(localFileName, file=printToFile)
+                    
+    call(["sort", printToFileNameMen, "-o", printToFileNameMen])
+    call(["sort", printToFileNameWomen, "-o", printToFileNameWomen])
 
 if __name__ == '__main__':
     main()

@@ -21,7 +21,8 @@ def print_features(localFile, dumpFile):
     for tempMfcc in mfcc:
         for i in range(len(tempMfcc)):
             tempMfcc[i] = (tempMfcc[i] - avgOfMfcc[i])
-        print(labels[j], tempMfcc[0], tempMfcc[1], tempMfcc[2], tempMfcc[3], tempMfcc[4], tempMfcc[5], tempMfcc[6], tempMfcc[7], tempMfcc[8], tempMfcc[9], tempMfcc[10], np.log10(energy[j]), file=dumpFile)
+        # print(labels[j], tempMfcc[0], tempMfcc[1], tempMfcc[2], tempMfcc[3], tempMfcc[4], tempMfcc[5], tempMfcc[6], tempMfcc[7], tempMfcc[8], tempMfcc[9], tempMfcc[10], np.log10(energy[j]), file=dumpFile)
+        print(labels[j], tempMfcc[0], tempMfcc[1], tempMfcc[2], tempMfcc[3], tempMfcc[4], tempMfcc[5], tempMfcc[6], tempMfcc[7], tempMfcc[8], tempMfcc[9], tempMfcc[10], tempMfcc[11], tempMfcc[12], np.log10(energy[j]), file=dumpFile)
         j += 1
 
     return
