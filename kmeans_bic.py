@@ -7,6 +7,8 @@ from sklearn import cluster
 from scipy.spatial import distance
 from sklearn.preprocessing import StandardScaler
 
+np.set_printoptions(threshold=np.inf)
+
 def compute_bic(kmeans,X):
     centers = [kmeans.cluster_centers_]
     labels  = kmeans.labels_
@@ -29,14 +31,22 @@ def compute_bic(kmeans,X):
 
 
 BIC = []
-data = np.array(pd.read_csv('Docs/men_angry_neutral_mfcc.csv', header=None, sep=' '))
+dataFile = 'Docs/women_angry_neutral_mfcc.csv'
+data = np.array(pd.read_csv(dataFile, header=None, sep=' '))
+dataLabels = data[:, 0]
+data = data[:, 1:]
 kmRange = range(1, 256)
+
+print(dataFile, data.shape)
 
 for i in kmRange:
     km = cluster.KMeans(n_clusters = i, n_jobs = -1).fit(data)
     kmBIC = compute_bic(km, data)
     print("KMeans Index:", i, "BIC:", kmBIC)
     BIC = np.append(BIC, kmBIC)
+    if(i > kmRange[0]):
+        if(BIC[i - kmRange[0]] < BIC[i - kmRange[0] - 1]):
+            print("-------KNEE-------")
 
 print("BIC Array:", BIC)
 

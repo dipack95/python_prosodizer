@@ -7,18 +7,21 @@ timeFiles = [os.path.join(path, name)
              for name in files]
 
 def main():
-	print("From CSV")
-	menFilesLocations = np.ravel(np.array(pd.read_csv('Docs/filenames/men_filenames.csv', header=None), dtype=str))
-	for filename in timeFiles:
-		targetFile = filename.split('/')[-1].split('_times')[0]
-		targetPath = [pathname for pathname in menFilesLocations if targetFile in pathname.split('/')[-1]]
-		if targetFile == "angry.wav":
-			targetPath = [pathname for pathname in menFilesLocations if "RandomMan" in pathname and "angry" in pathname]
-		if targetFile == "neutral.wav":
-			targetPath = [pathname for pathname in menFilesLocations if "RandomMan" in pathname and "neutral" in pathname]
-		
-		fileTime = pd.read_csv(filename, header=0)
-		print(targetFile, fileTime.tail(1).values, fileTime.shape)
+	if timeFiles:
+		print("From CSV")
+		menFilesLocations = np.ravel(np.array(pd.read_csv('Docs/filenames/men_filenames.csv', header=None), dtype=str))
+		for filename in timeFiles:
+			targetFile = filename.split('/')[-1].split('_times')[0]
+			targetPath = [pathname for pathname in menFilesLocations if targetFile in pathname.split('/')[-1]]
+			if targetFile == "angry.wav":
+				targetPath = [pathname for pathname in menFilesLocations if "RandomMan" in pathname and "angry" in pathname]
+			if targetFile == "neutral.wav":
+				targetPath = [pathname for pathname in menFilesLocations if "RandomMan" in pathname and "neutral" in pathname]
+			
+			fileTime = pd.read_csv(filename, header=0)
+			print(targetFile, fileTime.tail(1).values, fileTime.shape)
+	else:
+		print("There is no folder called '25ms_times/'. Please fix this to show times from CSVs.")
 
 	print("From Excel")
 	countRows = 0
