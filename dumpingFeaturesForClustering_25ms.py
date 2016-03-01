@@ -15,6 +15,10 @@ def print_features(localFile, dumpFile):
     energy = np.nan_to_num(np.array(pd.read_csv(localFile + '_energyOfFrames.csv', header=None), dtype='float64'))[0][:-1]
     labels = np.array(pd.read_csv(localFile + '_labels.csv', header=None))[:, 1]
 
+    if mfcc.shape[0] != len(labels):
+        print("The number of data frames in the MFCC CSV, and the number of labels for frames, are not equal. MFCC Shape:", mfcc.shape, "Number of labels:", len(labels))
+        return
+
     avgOfMfcc = np.mean(mfcc, axis = 0)
 
     j = 0

@@ -50,8 +50,9 @@ def printLabelsAndClusters(labels, predictedLabels, dumpFile):
 
 def scaleData(data):
 		stdScaler = preprocessing.StandardScaler()
+		data = np.reshape(data, (len(data), 1))
 		scaledData = stdScaler.fit_transform(data)
-		return scaledData
+		return np.ravel(scaledData)
 
 def main():
 	men = np.array(pd.read_csv('Docs/men_angry_neutral_mfcc.csv', header=None, sep=' '))
