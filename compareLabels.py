@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import sklearn
+import os
 from sklearn.mixture import GMM
 from sklearn.cluster import KMeans
 from sklearn import preprocessing
@@ -8,60 +9,78 @@ from matplotlib import pyplot
 
 # np.set_printoptions(threshold=np.inf)
 
-def scaleData(stdScaler, data):
+def showClustersForEmotions(labels, predictedLabels):
+	silences = np.unique(predictedLabels[np.where(labels == 'Silence')])
+	angry = np.unique(predictedLabels[np.where(labels == 'Angry')])
+	neutral = np.unique(predictedLabels[np.where(labels == 'Neutral')])
+	hybrid = np.unique(predictedLabels[np.where(labels == 'Hybrid')])
+	noise = np.unique(predictedLabels[np.where(labels == 'Noise')])
+
+	print("Silences", silences)
+	print("Angry", angry)
+	print("Neutral", neutral)
+	print("Hybrid", hybrid)
+	print("Noise", noise)
+
+	vals = []
+	for tempVal in angry:
+	  if(tempVal not in hybrid) and (tempVal not in neutral) and (tempVal not in noise) and (tempVal not in silences):
+	  	vals.append(tempVal)
+
+	un2angry = vals
+	print("Unique to angry", vals)
+
+	vals = []
+	for tempVal in neutral:
+	  if(tempVal not in hybrid) and (tempVal not in angry) and (tempVal not in noise) and (tempVal not in silences):
+	  	vals.append(tempVal)
+
+	un2neutral = vals
+	print("Unique to neutral", vals)
+	return
+
+def printLabelsAndClusters(labels, predictedLabels, dumpFile):
+	if len(labels) != len(predictedLabels):
+		print("The number of labels is not equal to the number of labels returned by clustering. Labels:", len(labels), "Predicted Labels:", len(predictedLabels))
+		return
+
+	for i in range(len(labels)):
+		print(labels[i], predictedLabels[i], file=dumpFile)
+	return
+
+def scaleData(data):
+		stdScaler = preprocessing.StandardScaler()
 		scaledData = stdScaler.fit_transform(data)
 		return scaledData
 
-men = np.array(pd.read_csv('Docs/men_angry_neutral_mfcc.csv', header=None, sep=' '))
-women = np.array(pd.read_csv('Docs/women_angry_neutral_mfcc.csv', header=None, sep=' '))
+def main():
+	men = np.array(pd.read_csv('Docs/men_angry_neutral_mfcc.csv', header=None, sep=' '))
+	women = np.array(pd.read_csv('Docs/women_angry_neutral_mfcc.csv', header=None, sep=' '))
 
-menData = men[:, 1:]
-menLabels = men[:, 0]
+	menData = men[:, 1:]
+	menLabels = men[:, 0]
 
-womenData = women[:, 1:]
-womenLabels = women[:, 0]
+	womenData = women[:, 1:]
+	womenLabels = women[:, 0]
 
-data = menData
-labels = menLabels
+	data = menData
+	labels = menLabels
 
-kmeans = []
+	for i in range(data.shape[1]):
+		data[:, i] = scaleData(data[:, i])
 
+	km = KMeans(n_clusters = 6, n_jobs = -1)
+	km.fit(data)
+	centers = km.cluster_centers_
+	predictedLabels = km.predict(data)
 
-stdScaler = preprocessing.StandardScaler()
-for i in range(data.shape[1]):
-	data[:, i] = scaleData(stdScaler, data[:, i])
+	dumpFile = 'Docs/labelsAndPredictedLabels.csv'
+	if os.path.isfile(dumpFile):
+		os.remove(dumpFile)
 
-km = KMeans(n_clusters = 13, n_jobs = -1)
-km.fit(data)
+	dumpFile = open(dumpFile, "a+")    
+	# showClustersForEmotions(labels, predictedLabels)
+	printLabelsAndClusters(labels, predictedLabels, dumpFile)
 
-centers = km.cluster_centers_
-
-predictedLabels = km.predict(data)
-
-silences = np.unique(predictedLabels[np.where(labels == 'Silence')])
-angry = np.unique(predictedLabels[np.where(labels == 'Angry')])
-neutral = np.unique(predictedLabels[np.where(labels == 'Neutral')])
-hybrid = np.unique(predictedLabels[np.where(labels == 'Hybrid')])
-noise = np.unique(predictedLabels[np.where(labels == 'Noise')])
-
-print("Silences", silences)
-print("Angry", angry)
-print("Neutral", neutral)
-print("Hybrid", hybrid)
-print("Noise", noise)
-
-vals = []
-for tempVal in angry:
-  if(tempVal not in hybrid) and (tempVal not in neutral) and (tempVal not in noise) and (tempVal not in silences):
-  	vals.append(tempVal)
-
-un2angry = vals
-print("Unique to angry", vals)
-
-vals = []
-for tempVal in neutral:
-  if(tempVal not in hybrid) and (tempVal not in angry) and (tempVal not in noise) and (tempVal not in silences):
-  	vals.append(tempVal)
-
-un2neutral = vals
-print("Unique to neutral", vals)
+if __name__ == '__main__':
+    main()

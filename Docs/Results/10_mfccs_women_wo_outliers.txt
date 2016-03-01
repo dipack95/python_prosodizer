@@ -1,0 +1,17 @@
+Docs/women_angry_neutral_mfcc.csv (146486, 10)
+KMeans Index: 1 BIC: -20634468.2037
+KMeans Index: 2 BIC: -20416462.7218
+KMeans Index: 3 BIC: -20336700.7045
+KMeans Index: 4 BIC: -20249469.6027
+KMeans Index: 5 BIC: -20174092.3709
+KMeans Index: 6 BIC: -20157978.4083
+KMeans Index: 7 BIC: -20119488.9743
+KMeans Index: 8 BIC: -20093417.2579
+KMeans Index: 9 BIC: -20061678.7867
+KMeans Index: 10 BIC: -20038976.5876
+KMeans Index: 11 BIC: -20012993.8238
+KMeans Index: 12 BIC: -19987176.894
+KMeans Index: 13 BIC: -19992711.0388
+-------KNEE-------
+KMeans Index: 14 BIC: -19990952.4073
+[Cancelled]

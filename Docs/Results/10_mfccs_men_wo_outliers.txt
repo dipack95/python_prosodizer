@@ -1,0 +1,17 @@
+Docs/men_angry_neutral_mfcc.csv (267393, 10)
+KMeans Index: 1 BIC: -37318821.7655
+KMeans Index: 2 BIC: -36978240.774
+KMeans Index: 3 BIC: -36888707.9188
+KMeans Index: 4 BIC: -36762376.4226
+KMeans Index: 5 BIC: -36646401.1217
+KMeans Index: 6 BIC: -36572906.4124
+KMeans Index: 7 BIC: -36498972.0255
+KMeans Index: 8 BIC: -36455493.1187
+KMeans Index: 9 BIC: -36397326.9523
+KMeans Index: 10 BIC: -36348778.0911
+KMeans Index: 11 BIC: -36312291.5691
+KMeans Index: 12 BIC: -36261321.9789
+KMeans Index: 13 BIC: -36282322.5018
+-------KNEE-------
+KMeans Index: 14 BIC: -36251408.152
+[Cancelled]
