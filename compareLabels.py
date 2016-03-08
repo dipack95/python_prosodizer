@@ -5,6 +5,7 @@ import os
 from sklearn.mixture import GMM
 from sklearn.cluster import KMeans
 from sklearn import preprocessing
+from sklearn.externals import joblib
 from matplotlib import pyplot
 
 # np.set_printoptions(threshold=np.inf)
@@ -64,14 +65,24 @@ def main():
 	womenData = women[:, 1:]
 	womenLabels = women[:, 0]
 
+	numOfClusters = 12
+	targetSex = "men"
 	data = menData
 	labels = menLabels
+	trainedClusterFileName = "KMeans_Trained_Clusters/" + str(numOfClusters) + "_" + str(targetSex) + ".pkl" 
 
-	for i in range(data.shape[1]):
-		data[:, i] = scaleData(data[:, i])
+	km = KMeans(n_clusters = numOfClusters, n_jobs = -1)
+	
+	if os.path.isfile(trainedClusterFileName):
+		km = joblib.load(trainedClusterFileName)
+		print("Picked up from:", trainedClusterFileName)
+	else:
+		for i in range(data.shape[1]):
+			data[:, i] = scaleData(data[:, i])
+		km.fit(data)
+		joblib.dump(km, trainedClusterFileName)
+		print("Saved to:", trainedClusterFileName)
 
-	km = KMeans(n_clusters = 6, n_jobs = -1)
-	km.fit(data)
 	centers = km.cluster_centers_
 	predictedLabels = km.predict(data)
 

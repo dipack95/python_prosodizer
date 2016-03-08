@@ -59,7 +59,7 @@ def main():
 		startIndex += numOfFrames
 		endIndex += numOfFrames
 
-	# print(weightOfEmotions, clustersForEmotions)
+	print(weightOfEmotions, clustersForEmotions)
 
 	for tempEmote in list(weightOfEmotions.keys()):
 		for tempEmotionCluster in list(clustersForEmotions.keys()):
