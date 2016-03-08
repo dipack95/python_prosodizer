@@ -4,6 +4,7 @@ import os
 
 from sklearn.mixture import GMM
 from sklearn.cluster import KMeans
+from sklearn.externals import joblib
 from sklearn import preprocessing
 
 def print_features(localFile, dumpFile):
@@ -141,14 +142,15 @@ def pdfFromClusters(localFile):
 
 
 def main():
-	localFileName = ""
-
+	localFileName = "../csv/Men/JK/jk_angry.wav"
+	localName = localFileName.split('/')[-1]
 	# Dumping the features for the new file
-	dumpFeaturesFile = localFileName + "_pdfFeatures.csv"	
+	dumpFeaturesFile = localName + "_pdfFeatures.csv"	
 	if os.path.isfile(dumpFeaturesFile):
 		os.remove(dumpFeaturesFile)
 	dumpFeaturesFileObj = open(dumpFeaturesFile, "a+")  
 	print_features(localFileName, dumpFeaturesFileObj)
+	dumpFeaturesFileObj.close()
 	
 	if not os.path.isfile(dumpFeaturesFile):
 		print("Features for", localFileName.split('/')[-1], "not dumped.\nExiting program.")
@@ -158,23 +160,34 @@ def main():
 
 	# Fitting the new data to a Kmeans Object
 	numOfClusters = 12
+	targetSex ="men"
 	dataFile = np.array(pd.read_csv(dumpFeaturesFile, header=None, sep=' '))
 	dataLabels = dataFile[:, 0]
 	data = dataFile[:, 1:]
 
+	trainedClusterFileName = "KMeans_Trained_Clusters/" + str(numOfClusters) + "_" + str(targetSex) + ".pkl" 
+
 	km = KMeans(n_clusters = numOfClusters, n_jobs = -1)
+	
+	if os.path.isfile(trainedClusterFileName):
+		km = joblib.load(trainedClusterFileName)
+		print("Picked up from:", trainedClusterFileName)
+	else:
+		print("The following KMeans Object", trainedClusterFileName, "is not available.")
+		return
+
 	for i in range(data.shape[1]):
 		data[:, i] = scaleData(data[:, i])
-	km.fit(data)
 	centers = km.cluster_centers_
 	predictedLabels = km.predict(data)
 
-	dumpLabelsFile = localFileName + "_lpl.csv"
+	dumpLabelsFile = localName + "_lpl.csv"
 	if os.path.isfile(dumpLabelsFile):
 		os.remove(dumpLabelsFile)
 	dumpLabelsFileObj = open(dumpLabelsFile, "a+")    
 	# showClustersForEmotions(labels, predictedLabels)
-	printLabelsAndClusters(labels, predictedLabels, dumpLabelsFileObj)
+	printLabelsAndClusters(dataLabels, predictedLabels, dumpLabelsFileObj)
+	dumpLabelsFileObj.close()
 
 	if not os.path.isfile(dumpLabelsFile):
 		print("Labels for", localFileName.split('/')[-1], "not dumped.\nExiting program.")

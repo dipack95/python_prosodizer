@@ -2,7 +2,6 @@
 ../csv/Men/Ajinkya/Ajinkya_neutral.wav
 ../csv/Men/Al_Pacino/pacino_devils_angry.wav
 ../csv/Men/Al_Pacino/pacino_devils_neutral.wav
-#../csv/Men/Amit/amit_convo_neutral.wav
 ../csv/Men/angry/angry_fred.wav
 ../csv/Men/angry/angry_jap.wav
 ../csv/Men/angry/angry_niko.wav
@@ -13,7 +12,7 @@
 ../csv/Men/Arrow/arrow_angry.wav
 ../csv/Men/Arrow/arrow_neutral.wav
 ../csv/Men/Arun/arun_angry.wav
-../csv/Men/Arun/arun_neutral.wav
+#../csv/Men/Arun/arun_neutral.wav
 ../csv/Men/Bale/bale_angry.wav
 ../csv/Men/Bale/bale_neutral.wav
 ../csv/Men/Bhargav/bhargav_angry.wav
@@ -21,7 +20,7 @@
 ../csv/Men/Cruise/tomcruise_angry.wav
 ../csv/Men/Cruise/tomcruise_neutral.wav
 ../csv/Men/DadPatil/dadpatil_angry.wav
-../csv/Men/DadPatil/dadpatil_neutral.wav
+#../csv/Men/DadPatil/dadpatil_neutral.wav
 ../csv/Men/DC/dc_angry.wav
 ../csv/Men/DC/dc_neutral.wav
 ../csv/Men/Dicap_Django/dicap_django_angry.wav
@@ -44,7 +43,7 @@
 ../csv/Men/Leonardo/leo_neutral.wav
 ../csv/Men/Leo_Wolf/leo_angry_wolf.wav
 ../csv/Men/Leo_Wolf/leo_neutral_wolf.wav
-#../csv/Men/Loki/loki_angry.wav
+../csv/Men/Loki/loki_angry.wav
 ../csv/Men/Loki/loki_neutral.wav
 ../csv/Men/Louis/louis_angry.wav
 ../csv/Men/Louis/louis_neutral.wav
@@ -64,8 +63,8 @@
 ../csv/Men/OldGuy/old_neutral.wav
 ../csv/Men/Puneet/Puneet_angry.wav
 ../csv/Men/Puneet/Puneet_neutral.wav
-../csv/Men/RandomMan/angry.wav
-../csv/Men/RandomMan/neutral.wav
+../csv/Men/RandomMan/RandomMan_angry.wav
+../csv/Men/RandomMan/RandomMan_neutral.wav
 ../csv/Men/Rishi/rishi_angry.wav
 ../csv/Men/Rishi/rishi_neutral.wav
 ../csv/Men/Robert/robert_angry.wav
@@ -76,7 +75,7 @@
 ../csv/Men/Simmons/simmons_neutral.wav
 ../csv/Men/Tobymac/toby_angry.wav
 ../csv/Men/Tobymac/toby_neutral.wav
-#../csv/Men/Tushar/Tushar_angry.wav
+../csv/Men/Tushar/Tushar_angry.wav
 ../csv/Men/Tushar/Tushar_neutral.wav
 ../csv/Men/Tyrion/tyrion_angry.wav
 ../csv/Men/Tyrion/tyrion_neutral.wav

@@ -73,15 +73,12 @@ def main():
 
 	km = KMeans(n_clusters = numOfClusters, n_jobs = -1)
 	
-	if os.path.isfile(trainedClusterFileName):
-		km = joblib.load(trainedClusterFileName)
-		print("Picked up from:", trainedClusterFileName)
-	else:
-		for i in range(data.shape[1]):
-			data[:, i] = scaleData(data[:, i])
-		km.fit(data)
-		joblib.dump(km, trainedClusterFileName)
-		print("Saved to:", trainedClusterFileName)
+	for i in range(data.shape[1]):
+		data[:, i] = scaleData(data[:, i])
+		
+	km.fit(data)
+	joblib.dump(km, trainedClusterFileName)
+	print("Saved to:", trainedClusterFileName)
 
 	centers = km.cluster_centers_
 	predictedLabels = km.predict(data)
