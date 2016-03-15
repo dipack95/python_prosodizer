@@ -73,21 +73,105 @@ def scaleData(data):
 		scaledData = stdScaler.fit_transform(data)
 		return np.ravel(scaledData)
 
+def getTrainingMatrix(trainingfilemame):
+
+	return trainingMatrix
+
+def calculateEmotionalProbabilities(trainingProbabilities, blockProbabilities):
+
+	'''
+
+	Block Probabilities are the probabilities for a block of frames.
+	Block Probabilities must be of the form:
+
+		[Cluster]	[PDF]
+		0			15.6
+		11			18.4
+		...
+
+	Training Probabilites are the probabilities for the entire training dataset.
+	Training Probabilties must be of the form:
+
+		[Emotional_Cluster]	[PDF]
+		Angry_1				82.1234
+		Silence_10 			19.5678
+		...
+
+	The training matrix being created is in the following order:
+
+		[Row]	[Emotion]	0	1	2	3	...
+		0		Angry
+		1		Sad
+		2		Neutral
+		3		Noise
+		4		Hybrid
+		5		Silence
+
+	'''
+
+	# trainpdf = "/Users/kirit/BtechProject/Analysis/PDF/trainingPDF.csv"
+	# trainingProbabilities = np.array(pd.read_csv(trainpdf, header=None, sep=' '))
+
+	if type(trainingProbabilities) is dict:
+		trainingProbabilities = np.array(list(trainingProbabilities.items()))
+		
+	trainingMatrix = np.zeros(shape=(6, 12))	
+
+	for i in trainingProbabilities:
+		x = i[0].split('_')
+		if "Angry" in x[0]:
+			trainingMatrix[0][int(x[1])] = i[1]
+		if "Sad" in x[0]:
+			trainingMatrix[1][int(x[1])] = i[1]
+		if "Neutral" in x[0]:
+			trainingMatrix[2][int(x[1])] = i[1]
+		if "Noise" in x[0]:
+			trainingMatrix[3][int(x[1])] = i[1]
+		if "Hybrid" in x[0]:
+			trainingMatrix[4][int(x[1])] = i[1]
+		if "Silence" in x[0]:
+			trainingMatrix[5][int(x[1])] = i[1]
+
+	# Each row contains the probability density for that particular cluster
+	incomingProbabilities = np.zeros(shape=(12, 1))
+
+	for i in blockProbabilities:
+		incomingProbabilities[i[0]] = i[1]
+
+	sentimentProbabilities = np.dot(trainingMatrix, incomingProbabilities)
+	sentimentProbabilities = np.divide(sentimentProbabilities, 100) #Divide by 100 to get result in terms of percentages
+
+	sentimentScores = {'Angry': sentimentProbabilities[0][0],
+						'Sad': sentimentProbabilities[1][0],
+						'Neutral': sentimentProbabilities[2][0],
+						'Noise': sentimentProbabilities[3][0],
+						'Hybrid': sentimentProbabilities[4][0],
+						'Silence': sentimentProbabilities[5][0]
+						}
+
+	print(sentimentScores)
+	maximum = max(sentimentScores, key=sentimentScores.get)  
+	print("Highest percentage ", maximum, sentimentScores[maximum], "\n")
+
+	return sentimentScores
+
 def pdfFromClusters(localFile):
 	data = np.array(pd.read_csv(localFile, header=None, sep=' '))
 
-	# In Milliseconds
 	frameLength = 25
 	blockLength = 1000
+	jump = 250
 
 	numOfFrames = blockLength // frameLength
 
 	startIndex = 0
 	endIndex = numOfFrames
+	jumpIndex = jump // frameLength
 
-	numOfBlocks = np.ceil(data.shape[0] / numOfFrames)
+	numOfBlocks = np.ceil(data.shape[0] / jumpIndex - (numOfFrames // jumpIndex))
 	weightOfEmotions = {}
 	clustersForEmotions = {}
+	blockProbabilities = []
 	for _ in range(np.int(numOfBlocks)):
 		'''
 		# NOTE: If the frames are not divisible by the numOfFrames,
@@ -123,26 +207,26 @@ def pdfFromClusters(localFile):
 					clustersForEmotions[tempKey] = val
 				else:
 					clustersForEmotions[emotions[i] + '_' + str(clusters[j])] += val
-				# print(emotions[i], clusters[j], val)
-
-		# print(percentagesOfEmotions, percentagesOfClusters)
-		# print("------------NEXT BLOCK---------")
-		startIndex += numOfFrames
-		endIndex += numOfFrames
-
-	print(weightOfEmotions, clustersForEmotions)
+				
+		blockProbability = np.array(list(percentagesOfClusters.items()))
+		blockProbabilities.append(blockProbability)
+		#startIndex += numOfFrames
+		#endIndex += numOfFrames
+		startIndex += jumpIndex
+		endIndex = startIndex + numOfFrames
+	oldClustersForEmotions = clustersForEmotions
 
 	for tempEmote in list(weightOfEmotions.keys()):
 		for tempEmotionCluster in list(clustersForEmotions.keys()):
 			if tempEmote in tempEmotionCluster:
 				stdWeight = clustersForEmotions[tempEmotionCluster] / weightOfEmotions[tempEmote]
-				print(tempEmotionCluster, stdWeight)
+				clustersForEmotions[tempEmotionCluster] = stdWeight
 
-	return
+	return weightOfEmotions, clustersForEmotions, blockProbabilities
 
 
 def main():
-	localFileName = "../csv/Men/JK/jk_angry.wav"
+	localFileName = "../csv/Men/Al_Pacino/pacino_devils_angry.wav"
 	localName = localFileName.split('/')[-1]
 	# Dumping the features for the new file
 	dumpFeaturesFile = localName + "_pdfFeatures.csv"	
@@ -166,8 +250,6 @@ def main():
 	data = dataFile[:, 1:]
 
 	trainedClusterFileName = "KMeans_Trained_Clusters/" + str(numOfClusters) + "_" + str(targetSex) + ".pkl" 
-
-	km = KMeans(n_clusters = numOfClusters, n_jobs = -1)
 	
 	if os.path.isfile(trainedClusterFileName):
 		km = joblib.load(trainedClusterFileName)
@@ -177,7 +259,8 @@ def main():
 		return
 
 	for i in range(data.shape[1]):
-		data[:, i] = scaleData(data[:, i])
+		data[:, i] = scaleData(np.ravel(data[:, i]))
+	
 	centers = km.cluster_centers_
 	predictedLabels = km.predict(data)
 
@@ -185,19 +268,29 @@ def main():
 	if os.path.isfile(dumpLabelsFile):
 		os.remove(dumpLabelsFile)
 	dumpLabelsFileObj = open(dumpLabelsFile, "a+")    
-	# showClustersForEmotions(labels, predictedLabels)
+	# showClustersForEmotions(dataLabels, predictedLabels)
 	printLabelsAndClusters(dataLabels, predictedLabels, dumpLabelsFileObj)
 	dumpLabelsFileObj.close()
 
 	if not os.path.isfile(dumpLabelsFile):
-		print("Labels for", localFileName.split('/')[-1], "not dumped.\nExiting program.")
+		print("Labels for", localFileName.split('/')[-1], "not dumped.\nExiting program. \n")
 		return
-	print("Labels for", localFileName.split('/')[-1], "dumped.")
+	print("Labels for", localFileName.split('/')[-1], "dumped.\n")
 	# End fitting the data, and dumping of predicted labels for new data
+
+
+	#Getting the training matrix
+	# trainingfile = "/Users/kirit/BtechProject/Analysis/PDF/trainingPDF.csv"
+
+	# trainingMatrix = getTrainingMatrix(trainingfile)
+
+	weightOfEmotionsGlobal, clustersForEmotionsGlobal, blockProbabilitiesGlobal = pdfFromClusters('Docs/labelsAndPredictedLabels.csv')
 
 	# Dumping probability density functions by comparing our labels, 
 	# to KMeans predicted labels, for new data.
-	pdfFromClusters(dumpLabelsFile)
+	weightOfEmotionsLocal, clustersForEmotionsLocal, blockProbabilitiesLocal = pdfFromClusters(dumpLabelsFile)
+	for blockProbability in blockProbabilitiesLocal:
+		sentimentScores = calculateEmotionalProbabilities(clustersForEmotionsGlobal, blockProbability)
 
 	print("----------Program End----------")
 

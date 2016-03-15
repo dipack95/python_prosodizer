@@ -4,17 +4,19 @@ import os
 
 def main():
 	data = np.array(pd.read_csv('Docs/labelsAndPredictedLabels.csv', header=None, sep=' '))
-
 	# In Milliseconds
 	frameLength = 25
 	blockLength = 1000
+	jump = 250
 
 	numOfFrames = blockLength // frameLength
 
 	startIndex = 0
 	endIndex = numOfFrames
+	jumpIndex = jump // frameLength
 
-	numOfBlocks = np.ceil(data.shape[0] / numOfFrames)
+	numOfBlocks = np.ceil(data.shape[0] / jumpIndex - (numOfFrames // jumpIndex))
+	#numOfBlocks = np.ceil(data.shape[0] / numOfFrames)
 	weightOfEmotions = {}
 	clustersForEmotions = {}
 	for _ in range(np.int(numOfBlocks)):
@@ -23,6 +25,8 @@ def main():
 		# When it reaches the last block, since it is not of the exact size, it just takes how many ever values it can find,
 		# creating a block of less than the size that we want
 		'''
+		#print (startIndex, endIndex)
+
 		dataBlock = data[startIndex : endIndex, :]
 		
 		dataBlockLabels = dataBlock[:, 0]
@@ -56,10 +60,15 @@ def main():
 
 		# print(percentagesOfEmotions, percentagesOfClusters)
 		# print("------------NEXT BLOCK---------")
-		startIndex += numOfFrames
-		endIndex += numOfFrames
 
-	print(weightOfEmotions, clustersForEmotions)
+		#startIndex += numOfFrames
+		#endIndex += numOfFrames
+
+		startIndex += jumpIndex
+		endIndex = startIndex + numOfFrames
+
+
+	# print(weightOfEmotions, clustersForEmotions)
 
 	for tempEmote in list(weightOfEmotions.keys()):
 		for tempEmotionCluster in list(clustersForEmotions.keys()):

@@ -39,7 +39,7 @@ def dumpLabelsFromSheet(workbook):
 
 	# Women
 	labelsWorkbook = pd.read_excel(workbook, header=0, sheetname=0)
-	columnNames = labelsWorkbook.columns.values
+	columnNames = labelsWorkbook.columns.valuesudo 
 	j = 0
 	for i in range(2, len(columnNames), 3):
 		columnData = labelsWorkbook[columnNames[i]].dropna().values

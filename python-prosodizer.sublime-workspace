@@ -4,28 +4,220 @@
 		"selected_items":
 		[
 			[
+				"dump",
+				"dumpFeaturesFile	statement"
+			],
+			[
+				"dum",
+				"dumpLabelsFile	statement"
+			],
+			[
+				"clius",
+				"clustersForEmotionsGlobal	statement"
+			],
+			[
+				"bloca",
+				"blockProbabilities"
+			],
+			[
+				"block",
+				"blockProbabilitiesLocal	statement"
+			],
+			[
+				"sn",
+				"sentimentScores	statement"
+			],
+			[
+				"sen",
+				"sentimentScores"
+			],
+			[
+				"senti",
+				"sentimentProbabilities	statement"
+			],
+			[
+				"train",
+				"trainingProbabilities	param"
+			],
+			[
+				"bloc",
+				"blockProbability	forstmt"
+			],
+			[
+				"emo",
+				"emotionalClusterArray	statement"
+			],
+			[
+				"cal",
+				"calculateEmotionalProbabilities	function"
+			],
+			[
+				"blo",
+				"blockProbability	forstmt"
+			],
+			[
+				"temp",
+				"tempEmotionCluster	forstmt"
+			],
+			[
+				"clus",
+				"clustersForEmotions"
+			],
+			[
+				"blocl",
+				"blockProbabilities"
+			],
+			[
+				"trai",
+				"trainingProbabilities"
+			],
+			[
+				"from",
+				"from_dict	function"
+			],
+			[
+				"tra",
+				"trainingMatrix	statement"
+			],
+			[
+				"pri",
+				"printLabelsAndClusters	function"
+			],
+			[
+				"data",
+				"dataLabels	statement"
+			],
+			[
+				"prin",
+				"printToFileNameWomen	statement"
+			],
+			[
+				"filter",
+				"filterFiles	function"
+			],
+			[
+				"fol",
+				"folderPath	param"
+			],
+			[
+				"len",
+				"lengthOfCurrFile	statement"
+			],
+			[
+				"la",
+				"labelsFileName	statement"
+			],
+			[
+				"cl",
+				"close	function"
+			],
+			[
+				"lab",
+				"labelsFileObj	statement"
+			],
+			[
+				"fil",
+				"fileLocation"
+			],
+			[
+				"pa",
+				"path	forstmt"
+			],
+			[
+				"file",
+				"filenames	forstmt"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"m",
+				"mylist"
+			],
+			[
+				"in",
+				"infile	forstmt"
+			],
+			[
+				"ne",
+				"neutralFiles	statement"
+			],
+			[
+				"con",
+				"combine	function"
+			],
+			[
+				"Po",
+				"Poppy/"
+			],
+			[
+				"sp",
+				"SpikeFiles	statement"
+			],
+			[
+				"path",
+				"pathToFile	statement"
+			],
+			[
+				"du",
+				"dumpFeaturesFileObj	statement"
+			],
+			[
+				"lo",
+				"localName	statement"
+			],
+			[
+				"Ajinkya_",
+				"Ajinkya_neutral.wav_entropy.csv"
+			],
+			[
+				"dat",
+				"dataFile"
+			],
+			[
+				"loacl",
+				"localName	statement"
+			],
+			[
+				"print",
+				"print	keyword"
+			],
+			[
+				"wom",
+				"womenFile	param"
+			],
+			[
+				"wo",
+				"workbook"
+			],
+			[
+				"colu",
+				"columnData"
+			],
+			[
+				"colum",
+				"columnName	statement"
+			],
+			[
+				"all",
+				"allFiles	statement"
+			],
+			[
+				"col",
+				"columnName	statement"
+			],
+			[
+				"fi",
+				"women_filenames.csv"
+			],
+			[
 				"num",
 				"numOfClusters"
 			],
 			[
-				"dump",
-				"dumpLabelsFile	statement"
-			],
-			[
-				"dum",
-				"dumpFeaturesFile	statement"
-			],
-			[
-				"data",
-				"dataFile"
-			],
-			[
 				"dup",
 				"dumpFile	statement"
-			],
-			[
-				"pri",
-				"print	keyword"
 			],
 			[
 				"tar",
@@ -36,24 +228,12 @@
 				"tempEmotionCluster	forstmt"
 			],
 			[
-				"temp",
-				"tempEmote	forstmt"
-			],
-			[
 				"li",
 				"list	class"
 			],
 			[
 				"pr",
 				"print	function"
-			],
-			[
-				"col",
-				"columnData	statement"
-			],
-			[
-				"clus",
-				"clustersForEmotions	statement"
 			],
 			[
 				"we",
@@ -66,14 +246,6 @@
 			[
 				"perce",
 				"percentagesOfClusters	statement"
-			],
-			[
-				"cl",
-				"clusters	statement"
-			],
-			[
-				"emo",
-				"emotions	statement"
 			],
 			[
 				"emoit",
@@ -112,10 +284,6 @@
 				"unique	function"
 			],
 			[
-				"prin",
-				"printLabelsAndClusters	function"
-			],
-			[
 				"pred",
 				"predictedLabels	param"
 			],
@@ -140,14 +308,6 @@
 				"menLabels	statement"
 			],
 			[
-				"lo",
-				"log10"
-			],
-			[
-				"colu",
-				"columnData"
-			],
-			[
 				"del",
 				"delimiter	param"
 			],
@@ -160,20 +320,8 @@
 				"savetxt	function"
 			],
 			[
-				"colum",
-				"columnData	statement"
-			],
-			[
 				"name",
 				"namesData	statement"
-			],
-			[
-				"fil",
-				"filename	statement"
-			],
-			[
-				"file",
-				"filename	forstmt"
 			],
 			[
 				"dta",
@@ -188,10 +336,6 @@
 				"labels_	statement"
 			],
 			[
-				"lab",
-				"labels"
-			],
-			[
 				"km",
 				"kmRange	statement"
 			],
@@ -200,24 +344,12 @@
 				"shape"
 			],
 			[
-				"wom",
-				"women_filenames"
-			],
-			[
 				"me",
 				"filenames/"
 			],
 			[
-				"path",
-				"pathname"
-			],
-			[
 				"targ",
 				"targetPath	statement"
-			],
-			[
-				"pa",
-				"pathname	forstmt"
 			],
 			[
 				"paht",
@@ -230,10 +362,6 @@
 			[
 				"i",
 				"i	forstmt"
-			],
-			[
-				"loacl",
-				"localFileName	statement"
 			],
 			[
 				"Men",
@@ -264,20 +392,8 @@
 				"isfile	function"
 			],
 			[
-				"print",
-				"printToFile"
-			],
-			[
-				"all",
-				"allMfcc	statement"
-			],
-			[
 				"to",
 				"to_csv"
-			],
-			[
-				"wo",
-				"womenTimes"
 			],
 			[
 				"Mark",
@@ -372,14 +488,6 @@
 				"vstack	function"
 			],
 			[
-				"in",
-				"inertia_	statement"
-			],
-			[
-				"con",
-				"converged"
-			],
-			[
 				"loac",
 				"localFileName	statement"
 			],
@@ -406,133 +514,26 @@
 			[
 				"simm",
 				"simmons_angry.wav_mfcc.csv"
-			],
-			[
-				"ro",
-				"Rohit_neutral.wav_mfcc.csv"
-			],
-			[
-				"rober",
-				"robert_neutral.wav_mfcc.csv"
-			],
-			[
-				"ri",
-				"rishi_neutral.wav_entropy.csv"
-			],
-			[
-				"sum",
-				"sumOfPower"
-			],
-			[
-				"su",
-				"sum	function"
-			],
-			[
-				"avg",
-				"avgPower	statement"
-			],
-			[
-				"norm",
-				"normalisePower	function"
-			],
-			[
-				"av",
-				"avgPowerOfBins	statement"
-			],
-			[
-				"power",
-				"powerFiles	statement"
-			],
-			[
-				"local",
-				"localFileName	statement"
-			],
-			[
-				"id",
-				"id-field"
-			],
-			[
-				"zs",
-				"zsMfcc	statement"
-			],
-			[
-				"rai",
-				"ratioOfMfccs	statement"
-			],
-			[
-				"rat",
-				"ratio	statement"
-			],
-			[
-				"ra",
-				"ratioOfMfccs	statement"
-			],
-			[
-				"int",
-				"intraAverage	statement"
-			],
-			[
-				"block",
-				"blockLength	statement"
-			],
-			[
-				"len",
-				"lengthOfSignal	statement"
-			],
-			[
-				"sign",
-				"signal	statement"
-			],
-			[
-				"stat",
-				"stats	module"
-			],
-			[
-				"tmep",
-				"tempPower	statement"
-			],
-			[
-				"fra",
-				"frameEnd	statement"
-			],
-			[
-				"fr",
-				"frameOffset	statement"
-			],
-			[
-				"res",
-				"result_type	statement"
-			],
-			[
-				"coun",
-				"countData	statement"
-			],
-			[
-				"powe",
-				"power	statement"
-			],
-			[
-				"en",
-				"entropy	statement"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "kmeans_bic.py",
+			"file": "dumpLabelsFromSheetAndFilter.py",
 			"settings":
 			{
-				"buffer_size": 1585,
+				"buffer_size": 4943,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dumpLabelsFromSheet.py",
+			"file": "getFilenamesAndFilter.py",
 			"settings":
 			{
-				"buffer_size": 1349,
-				"line_ending": "Unix"
+				"buffer_size": 2050,
+				"line_ending": "Unix",
+				"name": "import pandas as pd"
 			}
 		},
 		{
@@ -544,19 +545,10 @@
 			}
 		},
 		{
-			"file": "newFileDumpPDF.py",
+			"file": "trainCompareLabels.py",
 			"settings":
 			{
-				"buffer_size": 6921,
-				"line_ending": "Unix",
-				"name": "import numpy as np"
-			}
-		},
-		{
-			"file": "compareLabels.py",
-			"settings":
-			{
-				"buffer_size": 3007,
+				"buffer_size": 2860,
 				"line_ending": "Unix"
 			}
 		},
@@ -564,35 +556,18 @@
 			"file": "pdfFromClusters.py",
 			"settings":
 			{
-				"buffer_size": 2440,
+				"buffer_size": 5136,
 				"line_ending": "Unix",
 				"name": "import numpy as np"
 			}
 		},
 		{
-			"contents": "6 Clusters\nSilence_1 0.110778443114\nSilence_4 61.625748503\nSilence_2 1.25648702595\nSilence_5 33.5359281437\nSilence_3 1.87824351297\nSilence_0 1.59281437126\nHybrid_3 2.3\nHybrid_0 3.5\nHybrid_5 68.6\nHybrid_2 5.9\nHybrid_4 19.7\nAngry_0 6.39251975223\nAngry_3 10.3854069411\nAngry_5 52.6676053369\nAngry_1 1.54072423175\nAngry_2 5.78878414601\nAngry_4 23.224959592\nNeutral_4 21.7343576512\nNeutral_1 0.287125865691\nNeutral_3 7.47529735041\nNeutral_2 1.65757374849\nNeutral_5 64.878643491\nNeutral_0 3.96143031736\nNoise_4 56.7853293817\nNoise_0 1.31247474067\nNoise_5 38.7501683955\nNoise_1 0.176141721676\nNoise_3 2.10292334636\nNoise_2 0.872962414118\n[Finished in 0.9s]",
+			"file": "newFileDumpPDF.py",
 			"settings":
 			{
-				"buffer_size": 649,
+				"buffer_size": 10607,
 				"line_ending": "Unix",
-				"name": "6 Clusters"
-			}
-		},
-		{
-			"contents": "12 Clusters\nSilence_7 0.739520958084\nSilence_9 0.482035928144\nSilence_11 0.65369261477\nSilence_5 2.67664670659\nSilence_4 25.4471057884\nSilence_6 67.0978043912\nSilence_0 0.979041916168\nSilence_10 0.158682634731\nSilence_8 0.282435129741\nSilence_3 1.48303393214\nAngry_3 8.64567960726\nAngry_1 4.3160005622\nAngry_9 2.66692768726\nAngry_6 31.0986708028\nAngry_11 2.4595669066\nAngry_4 30.6274784407\nAngry_0 2.89135519883\nAngry_8 2.04557319118\nAngry_7 3.47641779357\nAngry_10 1.48814364164\nAngry_5 9.71475971047\nAngry_2 0.569426457449\nHybrid_6 28.9\nHybrid_4 49.0\nHybrid_3 2.4\nHybrid_9 1.6\nHybrid_0 5.5\nHybrid_8 0.6\nHybrid_5 7.9\nHybrid_7 4.1\nNeutral_5 8.826654099\nNeutral_8 0.527841903043\nNeutral_2 0.0298548594525\nNeutral_3 6.63820303701\nNeutral_9 0.795037902691\nNeutral_1 0.442790500763\nNeutral_0 0.552824129916\nNeutral_4 52.4823067522\nNeutral_7 0.348732716133\nNeutral_11 1.87632299962\nNeutral_6 26.9130874118\nNeutral_10 0.560772112566\nNoise_6 62.3827967129\nNoise_5 2.07732722619\nNoise_0 0.269096052809\nNoise_4 30.5698504648\nNoise_9 0.427387848579\nNoise_7 0.485652701064\nNoise_8 0.423009564866\nNoise_10 0.278526202344\nNoise_1 0.82917957699\nNoise_3 1.71628721541\nNoise_11 0.521689343931\nNoise_2 0.0191970901253\n[Finished in 1.1s]",
-			"settings":
-			{
-				"buffer_size": 1218,
-				"line_ending": "Unix",
-				"name": "12 Clusters"
-			}
-		},
-		{
-			"file": "getFilenames.py",
-			"settings":
-			{
-				"buffer_size": 1607,
-				"line_ending": "Unix"
+				"name": "import numpy as np"
 			}
 		}
 	],
@@ -667,7 +642,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 398.0,
+		"height": 382.0,
 		"last_filter": "di",
 		"selected_items":
 		[
@@ -895,17 +870,39 @@
 	],
 	"file_history":
 	[
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/probabilityMultiply.py",
+		"/home/dipack/Downloads/prob_mult.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/labels_german_men.py",
+		"/home/dipack/Scripts/Programs/first-setup-stuff.sh",
+		"/home/dipack/Scripts/Fonts/fonts/install.sh",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/filenames/men_filenames.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/German_Men/conv.sh",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/kmeans_bic.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/labels.py",
+		"/tmp/.fr-L7Vb5a/conv.sh",
+		"/tmp/.fr-dkNvPf/conv.sh",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/German-Men/conv.sh",
+		"/tmp/.fr-zzUGHq/conv.sh",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/German-Men/Neutral/mylist.txt",
+		"/home/dipack/pavoque-data/pavoque-data/Recordings/wave-combine.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/dumpLabelsFromSheetAndFilter.py",
+		"/home/dipack/pavoque-data/pavoque-data/gradlew",
+		"/home/dipack/pavoque-data/pavoque-data/README.md",
+		"/home/dipack/pavoque-data/pavoque-data/download-all.sh",
+		"/home/dipack/Dropbox/PGP/secret-key-A6E63015.asc",
+		"/home/dipack/Dropbox/PGP/keyList.txt",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Ajinkya_angry.wav_pdfFeatures.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/getFilenamesFilter.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/filenames/women_filenames.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/getFilenames.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/kmeans_run.py",
 		"/home/dipack/.nylas/packages/darkside/styles/darkside.less",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/Results/12-Men.txt",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/Results/13-Men.txt",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/filenames/women_filenames.csv",
 		"/usr/lib/python2.7/dist-packages/numpy/lib/arraysetops.py",
 		"/usr/lib/python2.7/dist-packages/numpy/lib/function_base.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/Results/10_mfccs_men_wo_outliers.txt",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/Results/10_mfccs_women_wo_outliers.txt",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/getFilenames.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/analysis.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/Results/10_mfccs_log_energy_men_wo_outliers.txt",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/Results/10_mfccs_log_energy_women_wo_outliers.txt",
@@ -1000,29 +997,7 @@
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/kmeans-example.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/Markers_44.1.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Women/Isha/new-output.txt",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Women/Isha/output.txt",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/mean-power-MenWomen-NormalAngry.py",
-		"/media/Potato/Otmp/P/Mia_Sollis/exec.sh",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/execDumpingFeatures.sh",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/dumpOutput.txt",
-		"/home/dipack/.local/share/recently-used.xbel",
-		"/home/dipack/imgur-downloader.py",
-		"/etc/apache2/sites-available/artcart.com.conf",
-		"/opt/lampp/htdocs/index.php",
-		"/tmp/.fr-ohe7hn/bkup_tail.sh",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Men/JE/output.txt",
-		"/home/dipack/Dropbox/MIS_Password_For_Reports_COEP.txt",
-		"/home/dipack/College/Fourth_Year/WST/1st_Assignment/WST-UA.html",
-		"/home/dipack/College/Fourth_Year/WST/1st_Assignment/add_employee.html",
-		"/etc/apache2/apache2.conf",
-		"/etc/nginx/nginx.conf",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Men/OldGuy/old_angry.wav-mfcc.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/OldGuy/old_angry.wav-zeroCrossing.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/OldGuy/old_angry.wav-mfcc.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/OldGuy/old_angry.wav-powerSpectrum.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/OldGuy/old_angry.wav-entropy.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/pallavi-csv_files_times.py",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/analysis-powervsentropy.py"
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Women/Isha/output.txt"
 	],
 	"find":
 	{
@@ -1040,6 +1015,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"training_matrix",
+			"localFileName",
 			"scale",
 			"labels",
 			"#",
@@ -1165,9 +1142,7 @@
 			"\\_[a-z]+",
 			"li",
 			"/li",
-			"_ps.wav",
-			"target=\"_blank\" href=\"",
-			"<"
+			"_ps.wav"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1220,66 +1195,66 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "kmeans_bic.py",
+					"file": "dumpLabelsFromSheetAndFilter.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1585,
+						"buffer_size": 4943,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								911,
-								911
+								3491,
+								3491
 							]
 						],
 						"settings":
 						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "getFilenamesAndFilter.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								437,
+								437
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import pandas as pd",
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 23.0,
+						"translation.y": 252.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "dumpLabelsFromSheet.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1349,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								571,
-								571
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 42.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1295,8 +1270,8 @@
 						"selection":
 						[
 							[
-								186,
-								186
+								162,
+								162
 							]
 						],
 						"settings":
@@ -1309,53 +1284,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "newFileDumpPDF.py",
+					"file": "trainCompareLabels.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6921,
+						"buffer_size": 2860,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3169,
-								3169
-							]
-						],
-						"settings":
-						{
-							"auto_name": "import numpy as np",
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": -0.0,
-						"translation.y": 2478.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "compareLabels.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3007,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								64,
-								64
+								2168,
+								2168
 							]
 						],
 						"settings":
@@ -1364,27 +1310,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 812.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "pdfFromClusters.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2440,
+						"buffer_size": 5136,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								62,
-								62
+								4506,
+								4506
 							]
 						],
 						"settings":
@@ -1392,99 +1338,40 @@
 							"auto_name": "import numpy as np",
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 649,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								287,
-								287
-							]
-						],
-						"settings":
-						{
-							"auto_name": "6 Clusters",
-							"default_dir": "/home/dipack/College/Fourth_Year/Final_Year_Project/python_code",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1218,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								500,
-								500
-							]
-						],
-						"settings":
-						{
-							"auto_name": "12 Clusters",
-							"default_dir": "/home/dipack/College/Fourth_Year/Final_Year_Project/python_code",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "getFilenames.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1607,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								477,
-								477
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 84.0,
+						"translation.y": 1878.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "newFileDumpPDF.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7884,
+								7884
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import numpy as np",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3024.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1523,7 +1410,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 232.0
+		"height": 333.0
 	},
 	"output.find_results":
 	{
@@ -1575,7 +1462,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 186.0,
+	"side_bar_width": 221.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
