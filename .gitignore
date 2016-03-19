@@ -1,3 +1,6 @@
 TESS_Corpus/*
 __pycache__/*
 25ms_times/*
+Docs/labelsAndPredictedLabels.csv
+Docs/women_angry_neutral_mfcc.csv
+Docs/men_angry_neutral_mfcc.csv
