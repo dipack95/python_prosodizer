@@ -7,6 +7,12 @@
 			"selector": "source.python",
 			"shell_cmd": "python3 -u \"$file\""
 		},
+                {
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Python 3.5 Builder",
+			"selector": "source.python",
+			"shell_cmd": "/home/dipack/anaconda3/bin/python3.5 -u \"$file\""
+		},
 		{
 			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 			"name": "Anaconda Python Builder",

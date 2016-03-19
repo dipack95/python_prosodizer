@@ -3,7 +3,13 @@ import pandas as pd
 import os
 
 def main():
-	data = np.array(pd.read_csv('Docs/labelsAndPredictedLabels.csv', header=None, sep=' '))
+	data = np.array(pd.read_csv("Docs/labelsAndPredictedLabels.csv", header=None, sep=' '))
+
+	printToFile = "Docs/trainingPDF.csv"
+	if os.path.isfile(printToFile):
+		os.remove(printToFile)
+	printToFileObj = open(printToFile, "a+")
+	
 	# In Milliseconds
 	frameLength = 25
 	blockLength = 1000
@@ -74,7 +80,9 @@ def main():
 		for tempEmotionCluster in list(clustersForEmotions.keys()):
 			if tempEmote in tempEmotionCluster:
 				stdWeight = clustersForEmotions[tempEmotionCluster] / weightOfEmotions[tempEmote]
-				print(tempEmotionCluster, stdWeight)
+				print(tempEmotionCluster, stdWeight, file=printToFileObj)
 
+	printToFileObj.close()
+	
 if __name__ == '__main__':
     main()

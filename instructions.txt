@@ -1,0 +1,7 @@
+1. Using getFilenamesAndFilter.py get all the filenames, and zscore filter them to check for outliers.
+2. Using dumpingFeaturesForClustering_25ms.py dump the features for both sexes in the appropriate files.
+3. Using trainCompareLabels.py, train a KMeans object with the appropriate number of clusters, and then generate a file comparing our labels with the KMeans labels.
+4. Using pdfFromClusters.py, generate the PDFs for the emotions for our training dataset.
+5. Using newFileDumpPDF.py, test a new file against the trained KMeans object to check if it identifies the emotions correctly.
+6. ???
+7. Profit

@@ -4,6 +4,74 @@
 		"selected_items":
 		[
 			[
+				"num",
+				"numOfClusters	statement"
+			],
+			[
+				"Ar",
+				"Arun/"
+			],
+			[
+				"Je",
+				"je_angry.wav_entropy.csv"
+			],
+			[
+				"pr",
+				"printToFileObj	statement"
+			],
+			[
+				"pri",
+				"printToFileObj	statement"
+			],
+			[
+				"prin",
+				"printToFile	statement"
+			],
+			[
+				"Km",
+				"KMeans_Trained_Clusters/"
+			],
+			[
+				"me",
+				"men_angry_neutral_mfcc.csv"
+			],
+			[
+				"flo",
+				"float64"
+			],
+			[
+				"lo",
+				"localFile	param"
+			],
+			[
+				"Al",
+				"Al_Pacino/"
+			],
+			[
+				"pa",
+				"pacino_devils_angry.wav_mfcc.csv"
+			],
+			[
+				"pac",
+				"pacino_devils_neutral.wav_labels.csv"
+			],
+			[
+				"clus",
+				"clustersForEmotionsGlobal	statement"
+			],
+			[
+				"tarin",
+				"trainingProbabilities	param"
+			],
+			[
+				"tain",
+				"trainingProbabilities"
+			],
+			[
+				"block",
+				"blockProbabilities"
+			],
+			[
 				"dump",
 				"dumpFeaturesFile	statement"
 			],
@@ -18,10 +86,6 @@
 			[
 				"bloca",
 				"blockProbabilities"
-			],
-			[
-				"block",
-				"blockProbabilitiesLocal	statement"
 			],
 			[
 				"sn",
@@ -60,10 +124,6 @@
 				"tempEmotionCluster	forstmt"
 			],
 			[
-				"clus",
-				"clustersForEmotions"
-			],
-			[
 				"blocl",
 				"blockProbabilities"
 			],
@@ -80,16 +140,8 @@
 				"trainingMatrix	statement"
 			],
 			[
-				"pri",
-				"printLabelsAndClusters	function"
-			],
-			[
 				"data",
 				"dataLabels	statement"
-			],
-			[
-				"prin",
-				"printToFileNameWomen	statement"
 			],
 			[
 				"filter",
@@ -118,10 +170,6 @@
 			[
 				"fil",
 				"fileLocation"
-			],
-			[
-				"pa",
-				"path	forstmt"
 			],
 			[
 				"file",
@@ -162,10 +210,6 @@
 			[
 				"du",
 				"dumpFeaturesFileObj	statement"
-			],
-			[
-				"lo",
-				"localName	statement"
 			],
 			[
 				"Ajinkya_",
@@ -212,10 +256,6 @@
 				"women_filenames.csv"
 			],
 			[
-				"num",
-				"numOfClusters"
-			],
-			[
 				"dup",
 				"dumpFile	statement"
 			],
@@ -230,10 +270,6 @@
 			[
 				"li",
 				"list	class"
-			],
-			[
-				"pr",
-				"print	function"
 			],
 			[
 				"we",
@@ -342,10 +378,6 @@
 			[
 				"sh",
 				"shape"
-			],
-			[
-				"me",
-				"filenames/"
 			],
 			[
 				"targ",
@@ -482,96 +514,61 @@
 			[
 				"sca",
 				"scaledMenData	statement"
-			],
-			[
-				"vs",
-				"vstack	function"
-			],
-			[
-				"loac",
-				"localFileName	statement"
-			],
-			[
-				"loca",
-				"localFileName"
-			],
-			[
-				"Tush",
-				"Tushar_neutral.wav_mfcc.csv"
-			],
-			[
-				"toby",
-				"toby_neutral.wav_mfcc.csv"
-			],
-			[
-				"To",
-				"toby_angry.wav_powerSpectrum.csv"
-			],
-			[
-				"sim",
-				"simmons_neutral.wav_entropy.csv"
-			],
-			[
-				"simm",
-				"simmons_angry.wav_mfcc.csv"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "dumpLabelsFromSheetAndFilter.py",
-			"settings":
-			{
-				"buffer_size": 4943,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "getFilenamesAndFilter.py",
 			"settings":
 			{
 				"buffer_size": 2050,
-				"line_ending": "Unix",
-				"name": "import pandas as pd"
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "dumpingFeaturesForClustering_25ms.py",
 			"settings":
 			{
-				"buffer_size": 2383,
+				"buffer_size": 2188,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dumpKmObj.py",
+			"settings":
+			{
+				"buffer_size": 1064,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "trainCompareLabels.py",
+			"file": "compareLabels.py",
 			"settings":
 			{
-				"buffer_size": 2860,
-				"line_ending": "Unix"
+				"buffer_size": 1739,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "pdfFromClusters.py",
 			"settings":
 			{
-				"buffer_size": 5136,
-				"line_ending": "Unix",
-				"name": "import numpy as np"
+				"buffer_size": 2856,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "newFileDumpPDF.py",
+			"file": "testingNewFile.py",
 			"settings":
 			{
-				"buffer_size": 10607,
-				"line_ending": "Unix",
-				"name": "import numpy as np"
+				"buffer_size": 9743,
+				"line_ending": "Unix"
 			}
 		}
 	],
-	"build_system": "Python3 Builder",
+	"build_system": "Python 3.5 Builder",
 	"build_system_choices":
 	[
 		[
@@ -591,6 +588,34 @@
 			],
 			[
 				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Python 3.5 Builder",
+					""
+				],
+				[
+					"Python3 Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Python 3.5 Builder",
 				""
 			]
 		],
@@ -642,7 +667,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 382.0,
+		"height": 398.0,
 		"last_filter": "di",
 		"selected_items":
 		[
@@ -864,12 +889,30 @@
 	},
 	"expanded_folders":
 	[
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/filenames"
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code"
 	],
 	"file_history":
 	[
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/dumpLabelsFromSheetAndFilter.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/kirit-compareLabels.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/kirit-dumpKmObj.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/kirit-dumpingFeaturesForClustering_25ms.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/kirit-pdfFromClusters.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/kirit-testingNewFile.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/newFileDumpPDF.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/kirit-newFileDumpPDF.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/dumpingFeaturesForClustering_25ms.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/trainCompareLabels.py",
+		"/home/dipack/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/dipack/.zshrc",
+		"/home/dipack/.bashrc",
+		"/home/dipack/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/dipack/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/getFilenamesAndFilter.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/pdfFromClusters.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Isha_angry.wav_lpl.csv",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/kmeans_run.py",
+		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/gmm_plot.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/probabilityMultiply.py",
 		"/home/dipack/Downloads/prob_mult.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/labels_german_men.py",
@@ -885,7 +928,6 @@
 		"/tmp/.fr-zzUGHq/conv.sh",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/German-Men/Neutral/mylist.txt",
 		"/home/dipack/pavoque-data/pavoque-data/Recordings/wave-combine.py",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/dumpLabelsFromSheetAndFilter.py",
 		"/home/dipack/pavoque-data/pavoque-data/gradlew",
 		"/home/dipack/pavoque-data/pavoque-data/README.md",
 		"/home/dipack/pavoque-data/pavoque-data/download-all.sh",
@@ -895,7 +937,6 @@
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/getFilenamesFilter.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/filenames/women_filenames.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/getFilenames.py",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/kmeans_run.py",
 		"/home/dipack/.nylas/packages/darkside/styles/darkside.less",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/Results/12-Men.txt",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/Results/13-Men.txt",
@@ -910,7 +951,6 @@
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/Results/13_mfccs_log_energy_men_wo_outliers.txt",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/csv_files_times.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/compareLabels.py",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/dumpingFeaturesForClustering_25ms.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/fileValuesFromSheet.txt",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/filesValuesFromCSV.txt",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/csv/Men/Ajinkya/Ajinkya_angry.wav_labels.csv",
@@ -931,8 +971,6 @@
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/printingSheet.py",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/25ms_times/Ajinkya_angry.wav_times.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/25ms_times/angry_samuel.wav_times.csv",
-		"/home/dipack/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
-		"/home/dipack/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/25ms_times/tyrion_neutral.wav_times.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/25ms_times/bale_angry.wav_times.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/print_filenames.py",
@@ -982,22 +1020,7 @@
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Men/JK/jk_angry.wav_powerOfFrames.csv",
 		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Men/JK/jk_angry.wav_entropy.csv",
 		"/home/dipack/College/Fourth_Year/WST/1st_Assignment/Servlet/servlet_workspace/WST-Servlets/WebContent/style.css",
-		"/home/dipack/College/Fourth_Year/WST/1st_Assignment/Servlet/servlet_workspace/WST-Servlets/WebContent/index.html",
-		"/var/www/vh.com/public_html/index.html",
-		"/home/dipack/.zshrc",
-		"/etc/init.d/tomcat6",
-		"/etc/apache2/sites-enabled/vh.com.conf",
-		"/home/dipack/.config/jd-gui.cfg",
-		"/home/dipack/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/kirit-csv_files_times.py",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/mfcc.py",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/test-mfcc.py",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/walk.py",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/Men_angry-neutral_features",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/kmeans-example.py",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/python_code/Docs/Markers_44.1.csv",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Women/Isha/new-output.txt",
-		"/home/dipack/College/Fourth_Year/Final_Year_Project/sounds/Women/Isha/output.txt"
+		"/home/dipack/College/Fourth_Year/WST/1st_Assignment/Servlet/servlet_workspace/WST-Servlets/WebContent/index.html"
 	],
 	"find":
 	{
@@ -1195,39 +1218,11 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "dumpLabelsFromSheetAndFilter.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4943,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3491,
-								3491
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "getFilenamesAndFilter.py",
 					"semi_transient": false,
 					"settings":
@@ -1239,39 +1234,8 @@
 						"selection":
 						[
 							[
-								437,
-								437
-							]
-						],
-						"settings":
-						{
-							"auto_name": "import pandas as pd",
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 252.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "dumpingFeaturesForClustering_25ms.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2383,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								162,
-								162
+								1042,
+								1042
 							]
 						],
 						"settings":
@@ -1284,24 +1248,54 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "trainCompareLabels.py",
+					"buffer": 1,
+					"file": "dumpingFeaturesForClustering_25ms.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2860,
+						"buffer_size": 2188,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2168,
-								2168
+								1743,
+								1743
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 546.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "dumpKmObj.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								606,
+								606
 							]
 						],
 						"settings":
@@ -1310,10 +1304,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 812.0,
+						"translation.y": 42.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "compareLabels.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								862,
+								862
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 238.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1322,56 +1345,56 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5136,
+						"buffer_size": 2856,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4506,
-								4506
+								291,
+								291
 							]
 						],
 						"settings":
 						{
-							"auto_name": "import numpy as np",
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 1878.0,
+						"translation.x": -0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "newFileDumpPDF.py",
+					"file": "testingNewFile.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10607,
+						"buffer_size": 9743,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7884,
-								7884
+								8021,
+								8021
 							]
 						],
 						"settings":
 						{
-							"auto_name": "import numpy as np",
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3024.0,
+						"translation.y": 3416.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1410,7 +1433,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 333.0
+		"height": 287.0
 	},
 	"output.find_results":
 	{
@@ -1420,7 +1443,7 @@
 	{
 		"height": 104.0
 	},
-	"pinned_build_system": "Python3 Builder",
+	"pinned_build_system": "",
 	"project": "python-prosodizer.sublime-project",
 	"replace":
 	{

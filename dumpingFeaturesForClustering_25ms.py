@@ -18,14 +18,13 @@ def print_features(localFile, dumpFile):
     if mfcc.shape[0] != len(labels):
         print("The number of data frames in the MFCC CSV, and the number of labels for frames, are not equal. MFCC Shape:", mfcc.shape, "Number of labels:", len(labels))
         return
-
+        
     avgOfMfcc = np.mean(mfcc, axis = 0)
-
+    
     j = 0
     for tempMfcc in mfcc:
         for i in range(len(tempMfcc)):
             tempMfcc[i] = (tempMfcc[i] - avgOfMfcc[i])
-        # print(labels[j], tempMfcc[0], tempMfcc[1], tempMfcc[2], tempMfcc[3], tempMfcc[4], tempMfcc[5], tempMfcc[6], tempMfcc[7], tempMfcc[8], tempMfcc[9], tempMfcc[10], np.log10(energy[j]), file=dumpFile)
         print(labels[j], tempMfcc[0], tempMfcc[1], tempMfcc[2], tempMfcc[3], tempMfcc[4], tempMfcc[5], tempMfcc[6], tempMfcc[7], tempMfcc[8], tempMfcc[9], file=dumpFile)
         j += 1
 

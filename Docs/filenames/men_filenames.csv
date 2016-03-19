@@ -1,6 +1,8 @@
 ../csv/Men/Ajinkya/Ajinkya_angry.wav
 ../csv/Men/Ajinkya/Ajinkya_neutral.wav
 ../csv/Men/Ajinkya/Ajinkya_sad.wav
+../csv/Men/Al_Pacino/pacino_devils_angry.wav
+../csv/Men/Al_Pacino/pacino_devils_neutral.wav
 ../csv/Men/angry/angry_fred.wav
 ../csv/Men/angry/angry_jap.wav
 ../csv/Men/angry/angry_niko.wav
@@ -82,6 +84,9 @@
 ../csv/Men/RandomMan/RandomMan_angry.wav
 ../csv/Men/RandomMan/RandomMan_neutral.wav
 ../csv/Men/RandomMan/RandomMan_sad.wav
+../csv/Men/RAVDESS_Men/RAVDESS_angry_male.wav
+../csv/Men/RAVDESS_Men/RAVDESS_neutral_male.wav
+../csv/Men/RAVDESS_Men/RAVDESS_sad_male.wav
 ../csv/Men/Rishi/rishi_angry.wav
 ../csv/Men/Rishi/rishi_neutral.wav
 ../csv/Men/Robert/robert_angry.wav
